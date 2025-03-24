@@ -1,14 +1,13 @@
-Lindsey Kuper:
-  name        : "Lindsey Kuper"
-  avatar      : "https://users.soe.ucsc.edu/~lkuper/lindsey_kuper.jpg"
+Owen Arden:
+  name        : "Owen Arden"
+  avatar      : "assets/images/owen-arden-350.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:lkuper@ucsc.edu"
+      url: "mailto:owenarden@ucsc.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://decomposition.al"
-    - label: "Mastodon"
-      icon: "fab fa-mastodon"
-      url: "https://recurse.social/@lindsey"
-
+      url: "https://owenarden.github.io/home/"
+#    - label: "Mastodon"
+#      icon: "fab fa-mastodon"
+#      url: "https://recurse.social/@lindsey"
