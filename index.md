@@ -4,7 +4,7 @@ layout: single
 ---
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/proofs.png" style="border: 15px solid white;" alt="theories and proofs" />
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/proofs.png" style="border: 15px solid white;max-width:70%; max-height:70%;" alt="theories and proofs" />
   <figcaption>
   Original "Theories and Proofs" comic by <a href="http://sciencecartoonsplus.com/">S. Harris</a></figcaption>
 </figure>

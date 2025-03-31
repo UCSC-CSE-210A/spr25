@@ -44,41 +44,46 @@ holidays:
 <style type="text/css">
 span.discussion { color: #dc267f; font-weight: bold }
 span.lecture { color: #fe6100; font-weight: bold }
+span.noclass { background-color:rgb(234, 174, 184); font-weight: bold }
+tr:nth-child(odd)   { background-color:#eee; }
+tr:nth-child(even)    { background-color:#fff; }
+tbody>tr>:nth-child(3) {min-width:5em;}
 </style>
 
 ## Schedule of topics (subject to change!)
-
+{% assign lec = 0 %}
 
 | Date             | Topic                                          | Notes
 |------------------|------------------------------------------------|------------------------------------------------------------------------------------------------------------
-| {{page.days[0] | date: '%a %-m/%-d/%y'}} | [Course overview](course-overview.html)        | 
-| {{page.days[1] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[2] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[3] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[4] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[5] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[6] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[7] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[8] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[9] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[10] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[11] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[12] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[13] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[14] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[15] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[16] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[17] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[18] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[19] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[20] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[21] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[22] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[23] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[24] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[25] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[26] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[27] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[28] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[29] | date: '%a %-m/%-d/%y'}} |                                                | 
-| {{page.days[30] | date: '%a %-m/%-d/%y'}} |                                                | 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} | Course overview and basics of Coq    | [Course overview](course-overview.html); [Preface](); [Basics]()
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} | Induction and datastructures         | [Induction](); [Lists]()
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} | continued                            |
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} | Polymorphism, functions as data      | [Poly]()                                              
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} | <span class="noclass">No class; Prof. Arden out of town</span>  | video links coming soon
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} | <span class="noclass">No class; Prof. Arden out of town</span>  | video links coming soon
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} | Logic in Coq                         | [Logic]()                                                        
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} | continued                            |
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} | Inductively defined propositions     | [IndProd](); [ProofObjects]()                                    
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} | continued                            |
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} | Total and partial maps; IMP          | [Maps](); [Imp](); [ImpParser](); [ImpCEvalFun]()
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} | IMP: modeling an imperative language |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} | Program equivalence                  | [Equiv]()
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} | Hoare Logic                          | [Hoare](); [Hoare2]()
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 
+| {{page.days[lec] | date: '%a %-m/%-d/%y'}}  {% assign lec = lec | plus:1 %} |                                      |                                                                 

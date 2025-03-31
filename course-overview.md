@@ -25,14 +25,6 @@ Hi, I'm [Owen Arden](https://owenarden.github.io/home/)!
   - New experiment: #general channel on Ed <https://edstem.org/us/courses/77254/discussion/chat/channels/18283> 
   - Webpage (here): <https://ucsc-cse-210a.github.io/spr24/>
   
-## What's this course about?
-
-
-### In this course, you will:
-
-  
-## What will this course be like?
-
 ## Grading
 Grading is primarily (85%) based on completion of ~9 homework assignments.
 **Class attendance and participation in discussion (15%) is highly encouraged.** 
