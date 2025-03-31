@@ -2,6 +2,8 @@
 title: "Materials"
 layout: single
 ---
+## Slides
+The slides version of [LF](slides/lf/index.html) and [PLF](slides/plf/index.html) I use in lecture are.
 
 ## Assignments
 
@@ -23,3 +25,5 @@ workspace.
 You can even run the devcontainer in the web interface as a GitHub codespace.
 If you click on "Code" and select the "Codespaces" tab, you can create a new
 codespace or select one you previously started.
+
+
