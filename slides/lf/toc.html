@@ -1,0 +1,800 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="common/css/sf.css" rel="stylesheet" type="text/css" />
+<title>Table of contents</title>
+<link href="common/jquery-ui/jquery-ui.css" rel="stylesheet">
+<script src="common/jquery-ui/external/jquery/jquery.js"></script>
+<script src="common/jquery-ui/jquery-ui.js"></script>
+<script src="common/toggleproofs.js"></script>
+<link href="common/css/lf.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="common/slides.js"></script>
+<link href="common/css/slides.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body><script>
+$( function() {
+    var icons = {
+      header: "ui-icon-circle-arrow-e",
+      activeHeader: "ui-icon-circle-arrow-s"
+    };
+
+    $("#accordion").accordion({
+      collapsible : true,
+      active : false,
+      icons : icons,
+      heightStyle : 'content'
+    });
+
+    // Enable navigation links in section headers
+    $('#accordion').each(function() {
+      this.addEventListener('click', ev => {
+        if ($(ev.target).closest('a').length > 0) ev.stopPropagation();
+      }, {capture: true});
+    });
+  } );
+</script>
+
+
+<div id="page">
+
+<div id="header">
+<div id='logoinheader'><a href='https://softwarefoundations.cis.upenn.edu'>
+<img src='common/media/image/sf_logo_sm.png' alt='Software Foundations Logo'></a></div>
+<div class='booktitleinheader'><a href='index.html'>Volume 1: Logical Foundations</a></div>
+<ul id='menu'>
+   <li class='section_name'><a href='toc.html'>Table of Contents</a></li>
+   <li class='section_name'><a href='coqindex.html'>Index</a></li>
+   <li class='section_name'><a href='deps.html'>Roadmap</a></li>
+</ul>
+</div>
+</div>
+
+<div id="main">
+
+<div id="toc">
+<div id="accordion">
+<h2><a href="Preface.html">Preface</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="Preface.html#lab1">Welcome</a>
+
+</li>
+<li><a href="Preface.html#lab2">Overview</a>
+<div>
+<ul class="doclist">
+<li><a href="Preface.html#lab3">Logic</a>
+
+</li>
+<li><a href="Preface.html#lab4">Proof Assistants</a>
+
+</li>
+<li><a href="Preface.html#lab5">Functional Programming</a>
+
+</li>
+<li><a href="Preface.html#lab6">Further Reading</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="Preface.html#lab7">Practicalities</a>
+<div>
+<ul class="doclist">
+<li><a href="Preface.html#lab8">System Requirements</a>
+
+</li>
+<li><a href="Preface.html#lab10">Exercises</a>
+
+</li>
+<li><a href="Preface.html#lab11">Downloading the Coq Files</a>
+
+</li>
+<li><a href="Preface.html#lab12">Chapter Dependencies</a>
+
+</li>
+<li><a href="Preface.html#lab13">Recommended Citation Format</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="Preface.html#lab14">Resources</a>
+<div>
+<ul class="doclist">
+<li><a href="Preface.html#lab15">Sample Exams</a>
+
+</li>
+<li><a href="Preface.html#lab16">Lecture Videos</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="Preface.html#lab17">Note for Instructors and Contributors</a>
+
+</li>
+<li><a href="Preface.html#lab18">Translations</a>
+
+</li>
+<li><a href="Preface.html#lab19">Thanks</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="Basics.html">Functional Programming in Coq &nbsp;&nbsp; (<i>Basics</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="Basics.html#lab20">Data and Functions</a>
+<div>
+<ul class="doclist">
+<li><a href="Basics.html#lab21">Enumerated Types</a>
+
+</li>
+<li><a href="Basics.html#lab22">Days of the Week</a>
+
+</li>
+<li><a href="Basics.html#lab25">Booleans</a>
+
+</li>
+<li><a href="Basics.html#lab32">Types</a>
+
+</li>
+<li><a href="Basics.html#lab33">New Types from Old</a>
+
+</li>
+<li><a href="Basics.html#lab35">Modules</a>
+
+</li>
+<li><a href="Basics.html#lab36">Tuples</a>
+
+</li>
+<li><a href="Basics.html#lab38">Numbers</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="Basics.html#lab50">Proof by Simplification</a>
+
+</li>
+<li><a href="Basics.html#lab52">Proof by Rewriting</a>
+
+</li>
+<li><a href="Basics.html#lab55">Proof by Case Analysis</a>
+
+</li>
+<li><a href="Basics.html#lab61">Optional: Testing Your Solutions</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="Induction.html">Proof by Induction &nbsp;&nbsp; (<i>Induction</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="Induction.html#lab62">Review</a>
+
+</li>
+<li><a href="Induction.html#lab63">Separate Compilation</a>
+
+</li>
+<li><a href="Induction.html#lab64">Proof by Induction</a>
+
+</li>
+<li><a href="Induction.html#lab72">Proofs Within Proofs</a>
+
+</li>
+<li><a href="Induction.html#lab75">More Exercises</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="Lists.html">Working with Structured Data &nbsp;&nbsp; (<i>Lists</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="Lists.html#lab79">Pairs of Numbers</a>
+
+</li>
+<li><a href="Lists.html#lab85">Lists of Numbers</a>
+
+</li>
+<li><a href="Lists.html#lab91">Reasoning About Lists</a>
+<div>
+<ul class="doclist">
+<li><a href="Lists.html#lab93">Induction on Lists</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="Lists.html#lab100">Options</a>
+
+</li>
+<li><a href="Lists.html#lab103">Partial Maps</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="Poly.html">Polymorphism and Higher-Order Functions &nbsp;&nbsp; (<i>Poly</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><div>
+<ul class="doclist">
+<li><a href="Poly.html#lab109">Polymorphic Lists</a>
+
+</li>
+<li><a href="Poly.html#lab125">Polymorphic Pairs</a>
+
+</li>
+<li><a href="Poly.html#lab128">Polymorphic Options</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="Poly.html#lab130">Functions as Data</a>
+<div>
+<ul class="doclist">
+<li><a href="Poly.html#lab131">Higher-Order Functions</a>
+
+</li>
+<li><a href="Poly.html#lab132">Filter</a>
+
+</li>
+<li><a href="Poly.html#lab135">Anonymous Functions</a>
+
+</li>
+<li><a href="Poly.html#lab136">Map</a>
+
+</li>
+<li><a href="Poly.html#lab138">Fold</a>
+
+</li>
+<li><a href="Poly.html#lab140">Functions That Construct Functions</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+</ul>
+</div>
+<h2><a href="Tactics.html">More Basic Tactics &nbsp;&nbsp; (<i>Tactics</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="Tactics.html#lab142">The <span class="inlinecode"><span class="id" title="tactic">apply</span></span> Tactic</a>
+
+</li>
+<li><a href="Tactics.html#lab146">The <span class="inlinecode"><span class="id" title="tactic">apply</span></span> <span class="inlinecode"><span class="id" title="keyword">with</span></span> Tactic</a>
+
+</li>
+<li><a href="Tactics.html#lab150">The <span class="inlinecode"><span class="id" title="tactic">injection</span></span> and <span class="inlinecode"><span class="id" title="tactic">discriminate</span></span> Tactics</a>
+
+</li>
+<li><a href="Tactics.html#lab158">Using Tactics on Hypotheses</a>
+
+</li>
+<li><a href="Tactics.html#lab160">Specializing Hypotheses</a>
+
+</li>
+<li><a href="Tactics.html#lab161">Varying the Induction Hypothesis</a>
+
+</li>
+<li><a href="Tactics.html#lab169">Unfolding Definitions</a>
+
+</li>
+<li><a href="Tactics.html#lab175">Using <span class="inlinecode"><span class="id" title="tactic">destruct</span></span> on Compound Expressions</a>
+
+</li>
+<li><a href="Tactics.html#lab178">Micro Sermon</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="Logic.html">Logic in Coq &nbsp;&nbsp; (<i>Logic</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="Logic.html#lab186">Logical Connectives</a>
+<div>
+<ul class="doclist">
+<li><a href="Logic.html#lab187">Conjunction</a>
+
+</li>
+<li><a href="Logic.html#lab195">Disjunction</a>
+
+</li>
+<li><a href="Logic.html#lab201">Falsehood and Negation</a>
+
+</li>
+<li><a href="Logic.html#lab209">Truth</a>
+
+</li>
+<li><a href="Logic.html#lab210">Logical Equivalence</a>
+
+</li>
+<li><a href="Logic.html#lab214">Setoids and Logical Equivalence</a>
+
+</li>
+<li><a href="Logic.html#lab216">Existential Quantification</a>
+
+</li>
+<li><a href="Logic.html#lab218">Recap -- Logical connectives of Coq:</a>
+
+</li>
+<li><a href="Logic.html#lab219">More logical connectives in Coq:</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="Logic.html#lab220">Programming with Propositions</a>
+
+</li>
+<li><a href="Logic.html#lab223">Applying Theorems to Arguments</a>
+
+</li>
+<li><a href="Logic.html#lab234">Working with Decidable Properties</a>
+
+</li>
+<li><a href="Logic.html#lab245">The Logic of Coq</a>
+<div>
+<ul class="doclist">
+<li><a href="Logic.html#lab246">Functional Extensionality</a>
+
+</li>
+<li><a href="Logic.html#lab252">Classical vs. Constructive Logic</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+</ul>
+</div>
+<h2><a href="IndProp.html">Inductively Defined Propositions &nbsp;&nbsp; (<i>IndProp</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="IndProp.html#lab253">Inductively Defined Propositions</a>
+<div>
+<ul class="doclist">
+<li><a href="IndProp.html#lab254">Example: The Collatz Conjecture</a>
+
+</li>
+<li><a href="IndProp.html#lab263">Example: Binary relation for comparing numbers</a>
+
+</li>
+<li><a href="IndProp.html#lab264">Example: Transitive Closure</a>
+
+</li>
+<li><a href="IndProp.html#lab266">Example: Reflexive and Transitive Closure</a>
+
+</li>
+<li><a href="IndProp.html#lab268">Example: Permutations</a>
+
+</li>
+<li><a href="IndProp.html#lab270">Example: Evenness (yet again)</a>
+
+</li>
+<li><a href="IndProp.html#lab275">Constructing Evidence for Permutations</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="IndProp.html#lab277">Using Evidence in Proofs</a>
+<div>
+<ul class="doclist">
+<li><a href="IndProp.html#lab279">Destructing and Inverting Evidence</a>
+
+</li>
+<li><a href="IndProp.html#lab285">Induction on Evidence</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="IndProp.html#lab286">Case Study: Regular Expressions</a>
+<div>
+<ul class="doclist">
+<li><a href="IndProp.html#lab294">The <span class="inlinecode"><span class="id" title="var">remember</span></span> Tactic</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="IndProp.html#lab300">Case Study: Improving Reflection</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="Maps.html">Total and Partial Maps &nbsp;&nbsp; (<i>Maps</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="Maps.html#lab306">The Coq Standard Library</a>
+
+</li>
+<li><a href="Maps.html#lab307">Identifiers</a>
+
+</li>
+<li><a href="Maps.html#lab309">Total Maps</a>
+
+</li>
+<li><a href="Maps.html#lab325">Partial maps</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="ProofObjects.html">The Curry-Howard Correspondence &nbsp;&nbsp; (<i>ProofObjects</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="ProofObjects.html#lab334">Proof Scripts</a>
+
+</li>
+<li><a href="ProofObjects.html#lab336">Quantifiers, Implications, Functions</a>
+
+</li>
+<li><a href="ProofObjects.html#lab341">Programming with Tactics</a>
+
+</li>
+<li><a href="ProofObjects.html#lab342">Logical Connectives as Inductive Types</a>
+<div>
+<ul class="doclist">
+<li><a href="ProofObjects.html#lab343">Conjunction</a>
+
+</li>
+<li><a href="ProofObjects.html#lab346">Disjunction</a>
+
+</li>
+<li><a href="ProofObjects.html#lab349">Existential Quantification</a>
+
+</li>
+<li><a href="ProofObjects.html#lab352"><span class="inlinecode"><span class="id" title="var">True</span></span> and <span class="inlinecode"><span class="id" title="var">False</span></span></a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="ProofObjects.html#lab355">Equality</a>
+
+</li>
+<li><a href="ProofObjects.html#lab360">Coq's Trusted Computing Base</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="IndPrinciples.html">Induction Principles &nbsp;&nbsp; (<i>IndPrinciples</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="IndPrinciples.html#lab361">Basics</a>
+
+</li>
+<li><a href="IndPrinciples.html#lab370">Induction Principles for Propositions</a>
+
+</li>
+<li><a href="IndPrinciples.html#lab375">Explicit Proof Objects for Induction (Optional)</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="Rel.html">Properties of Relations &nbsp;&nbsp; (<i>Rel</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="Rel.html#lab377">Relations</a>
+
+</li>
+<li><a href="Rel.html#lab378">Basic Properties</a>
+
+</li>
+<li><a href="Rel.html#lab385">Reflexive, Transitive Closure</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="Imp.html">Simple Imperative Programs &nbsp;&nbsp; (<i>Imp</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="Imp.html#lab388">Arithmetic and Boolean Expressions</a>
+<div>
+<ul class="doclist">
+<li><a href="Imp.html#lab389">Syntax</a>
+
+</li>
+<li><a href="Imp.html#lab390">Evaluation</a>
+
+</li>
+<li><a href="Imp.html#lab392">Optimization</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="Imp.html#lab394">Coq Automation</a>
+<div>
+<ul class="doclist">
+<li><a href="Imp.html#lab395">Tacticals</a>
+
+</li>
+<li><a href="Imp.html#lab401">Defining New Tactics</a>
+
+</li>
+<li><a href="Imp.html#lab402">The <span class="inlinecode"><span class="id" title="var">lia</span></span> Tactic</a>
+
+</li>
+<li><a href="Imp.html#lab404">A Few More Handy Tactics</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="Imp.html#lab405">Evaluation as a Relation</a>
+<div>
+<ul class="doclist">
+<li><a href="Imp.html#lab408">Inference Rule Notation</a>
+
+</li>
+<li><a href="Imp.html#lab410">Equivalence of the Definitions</a>
+
+</li>
+<li><a href="Imp.html#lab411">Computational vs. Relational Definitions</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="Imp.html#lab417">Expressions With Variables</a>
+<div>
+<ul class="doclist">
+<li><a href="Imp.html#lab418">States</a>
+
+</li>
+<li><a href="Imp.html#lab419">Syntax</a>
+
+</li>
+<li><a href="Imp.html#lab420">Notations</a>
+
+</li>
+<li><a href="Imp.html#lab423">Evaluation</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="Imp.html#lab425">Commands</a>
+<div>
+<ul class="doclist">
+<li><a href="Imp.html#lab426">Syntax</a>
+
+</li>
+<li><a href="Imp.html#lab429">More Examples</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="Imp.html#lab433">Evaluating Commands</a>
+<div>
+<ul class="doclist">
+<li><a href="Imp.html#lab434">Evaluation as a Function (Failed Attempt)</a>
+
+</li>
+<li><a href="Imp.html#lab436">Evaluation as a Relation</a>
+
+</li>
+<li><a href="Imp.html#lab440">Determinism of Evaluation</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="Imp.html#lab441">Additional Exercises</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="ImpParser.html">Lexing and Parsing in Coq &nbsp;&nbsp; (<i>ImpParser</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="ImpParser.html#lab445">Internals</a>
+<div>
+<ul class="doclist">
+<li><a href="ImpParser.html#lab446">Lexical Analysis</a>
+
+</li>
+<li><a href="ImpParser.html#lab447">Parsing</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="ImpParser.html#lab451">Examples</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="ImpCEvalFun.html">An Evaluation Function for Imp &nbsp;&nbsp; (<i>ImpCEvalFun</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="ImpCEvalFun.html#lab452">A Broken Evaluator</a>
+
+</li>
+<li><a href="ImpCEvalFun.html#lab454">A Step-Indexed Evaluator</a>
+
+</li>
+<li><a href="ImpCEvalFun.html#lab455">Relational vs. Step-Indexed Evaluation</a>
+
+</li>
+<li><a href="ImpCEvalFun.html#lab456">Determinism of Evaluation Again</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="Extraction.html">Extracting OCaml from Coq &nbsp;&nbsp; (<i>Extraction</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="Extraction.html#lab457">Basic Extraction</a>
+
+</li>
+<li><a href="Extraction.html#lab458">Controlling Extraction of Specific Types</a>
+
+</li>
+<li><a href="Extraction.html#lab459">A Complete Example</a>
+
+</li>
+<li><a href="Extraction.html#lab460">Discussion</a>
+
+</li>
+<li><a href="Extraction.html#lab461">Going Further</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="Auto.html">More Automation &nbsp;&nbsp; (<i>Auto</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="Auto.html#lab462">The <span class="inlinecode"><span class="id" title="tactic">auto</span></span> Tactic</a>
+
+</li>
+<li><a href="Auto.html#lab472">Searching For Hypotheses</a>
+
+</li>
+<li><a href="Auto.html#lab483">The <span class="inlinecode"><span class="id" title="tactic">eapply</span></span> and <span class="inlinecode"><span class="id" title="tactic">eauto</span></span> tactics</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="AltAuto.html">A Streamlined Treatment of Automation &nbsp;&nbsp; (<i>AltAuto</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="AltAuto.html#lab488">Tacticals</a>
+<div>
+<ul class="doclist">
+<li><a href="AltAuto.html#lab489">The <span class="inlinecode"><span class="id" title="tactic">try</span></span> Tactical</a>
+
+</li>
+<li><a href="AltAuto.html#lab490">The Sequence Tactical <span class="inlinecode">;</span> (Simple Form)</a>
+
+</li>
+<li><a href="AltAuto.html#lab494">The <span class="inlinecode"><span class="id" title="tactic">repeat</span></span> Tactical</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="AltAuto.html#lab495">Tactics that Make Mentioning Names Unnecessary</a>
+<div>
+<ul class="doclist">
+<li><a href="AltAuto.html#lab496">The <span class="inlinecode"><span class="id" title="tactic">assumption</span></span> tactic</a>
+
+</li>
+<li><a href="AltAuto.html#lab497">The <span class="inlinecode"><span class="id" title="var">contradiction</span></span> tactic</a>
+
+</li>
+<li><a href="AltAuto.html#lab498">The <span class="inlinecode"><span class="id" title="tactic">subst</span></span> tactic</a>
+
+</li>
+<li><a href="AltAuto.html#lab499">The <span class="inlinecode"><span class="id" title="tactic">constructor</span></span> tactic</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="AltAuto.html#lab500">Automatic Solvers</a>
+<div>
+<ul class="doclist">
+<li><a href="AltAuto.html#lab501">Linear Integer Arithmetic: The <span class="inlinecode"><span class="id" title="var">lia</span></span> Tactic</a>
+
+</li>
+<li><a href="AltAuto.html#lab502">Equalities: The <span class="inlinecode"><span class="id" title="tactic">congruence</span></span> Tactic</a>
+
+</li>
+<li><a href="AltAuto.html#lab504">Propositions: The <span class="inlinecode"><span class="id" title="tactic">intuition</span></span> Tactic</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="AltAuto.html#lab505">Search Tactics</a>
+<div>
+<ul class="doclist">
+<li><a href="AltAuto.html#lab506">The <span class="inlinecode"><span class="id" title="tactic">auto</span></span> Tactic</a>
+
+</li>
+<li><a href="AltAuto.html#lab513">The <span class="inlinecode"><span class="id" title="tactic">eauto</span></span> variant</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="AltAuto.html#lab516">Ltac: The Tactic Language</a>
+<div>
+<ul class="doclist">
+<li><a href="AltAuto.html#lab517">Ltac Functions</a>
+
+</li>
+<li><a href="AltAuto.html#lab520">Ltac Pattern Matching</a>
+
+</li>
+</ul>
+</div>
+
+</li>
+<li><a href="AltAuto.html#lab532">Review</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="Postscript.html">Postscript</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="Postscript.html#lab533">Looking Back</a>
+
+</li>
+<li><a href="Postscript.html#lab536">Looking Forward</a>
+
+</li>
+<li><a href="Postscript.html#lab537">Resources</a>
+
+</li>
+</ul>
+</div>
+<h2><a href="Bib.html">Bibliography &nbsp;&nbsp; (<i>Bib</i>)</a></h2>
+<div>
+<ul class="doclist">
+<li><a href="Bib.html#lab538">Resources cited in this volume</a>
+
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</body>
+</html>

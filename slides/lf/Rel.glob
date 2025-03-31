@@ -1,0 +1,362 @@
+DIGEST b54784bbd39486ba70ddff1ad37fb803
+FLF.Rel
+R721:727 LF.IndProp <> <> lib
+def 1004:1011 <> relation
+binder 1014:1014 <> X:1
+R1027:1030 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1026:1026 LF.Rel <> X:1 var
+R1032:1035 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1031:1031 LF.Rel <> X:1 var
+R1322:1325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1319:1321 Coq.Init.Datatypes <> nat ind
+R1329:1332 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1326:1328 Coq.Init.Datatypes <> nat ind
+R1314:1315 Coq.Init.Peano <> le ind
+R1350:1357 LF.Rel <> relation def
+R1359:1361 Coq.Init.Datatypes <> nat ind
+R1345:1346 Coq.Init.Peano <> le ind
+def 2027:2042 <> partial_function
+binder 2045:2045 <> X:2
+R2058:2065 LF.Rel <> relation def
+R2067:2067 LF.Rel <> X:2 var
+binder 2055:2055 <> R:3
+R2092:2092 LF.Rel <> X:2 var
+binder 2082:2082 <> x:4
+binder 2084:2085 <> y1:5
+binder 2087:2088 <> y2:6
+R2101:2104 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2095:2095 LF.Rel <> R:3 var
+R2097:2097 LF.Rel <> x:4 var
+R2099:2100 LF.Rel <> y1:5 var
+R2111:2114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2105:2105 LF.Rel <> R:3 var
+R2107:2107 LF.Rel <> x:4 var
+R2109:2110 LF.Rel <> y2:6 var
+R2117:2119 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2115:2116 LF.Rel <> y1:5 var
+R2120:2121 LF.Rel <> y2:6 var
+ind 2202:2209 <> next_nat
+constr 2239:2240 <> nn
+R2216:2219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2213:2215 Coq.Init.Datatypes <> nat ind
+R2223:2226 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2220:2222 Coq.Init.Datatypes <> nat ind
+binder 2242:2242 <> n:9
+R2246:2253 LF.Rel <> next_nat:7 ind
+R2258:2258 Coq.Init.Datatypes <> S constr
+R2260:2260 LF.Rel <> n:9 var
+R2255:2255 LF.Rel <> n:9 var
+scheme 2202:2209 <> next_nat_ind
+scheme 2202:2209 <> next_nat_sind
+R2282:2289 LF.Rel <> relation def
+R2291:2293 Coq.Init.Datatypes <> nat ind
+R2271:2278 LF.Rel <> next_nat ind
+prf 2305:2329 <> next_nat_partial_function
+R2335:2350 LF.Rel <> partial_function def
+R2352:2359 LF.Rel <> next_nat ind
+R2378:2393 LF.Rel <> partial_function def
+prf 2755:2779 <> le_not_a_partial_function
+R2785:2787 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2807:2807 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2788:2803 LF.Rel <> partial_function def
+R2805:2806 Coq.Init.Peano <> le ind
+R2826:2828 Coq.Init.Logic <> not def
+R2838:2853 LF.Rel <> partial_function def
+R2878:2880 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2878:2880 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2939:2942 Coq.Init.Peano <> le_n constr
+R2939:2942 Coq.Init.Peano <> le_n constr
+R2957:2960 Coq.Init.Peano <> le_S constr
+R2957:2960 Coq.Init.Peano <> le_S constr
+R2969:2972 Coq.Init.Peano <> le_n constr
+R2969:2972 Coq.Init.Peano <> le_n constr
+def 3233:3241 <> reflexive
+binder 3244:3244 <> X:10
+R3257:3264 LF.Rel <> relation def
+R3266:3266 LF.Rel <> X:10 var
+binder 3254:3254 <> R:11
+R3285:3285 LF.Rel <> X:10 var
+binder 3281:3281 <> a:12
+R3288:3288 LF.Rel <> R:11 var
+R3290:3290 LF.Rel <> a:12 var
+R3292:3292 LF.Rel <> a:12 var
+prf 3304:3315 <> le_reflexive
+R3321:3329 LF.Rel <> reflexive def
+R3331:3332 Coq.Init.Peano <> le ind
+R3351:3359 LF.Rel <> reflexive def
+R3378:3381 Coq.Init.Peano <> le_n constr
+R3378:3381 Coq.Init.Peano <> le_n constr
+def 3600:3609 <> transitive
+binder 3612:3612 <> X:13
+R3625:3632 LF.Rel <> relation def
+R3634:3634 LF.Rel <> X:13 var
+binder 3622:3622 <> R:14
+R3657:3657 LF.Rel <> X:13 var
+binder 3649:3649 <> a:15
+binder 3651:3651 <> b:16
+binder 3653:3653 <> c:17
+R3660:3660 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3666:3670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3661:3661 LF.Rel <> R:14 var
+R3663:3663 LF.Rel <> a:15 var
+R3665:3665 LF.Rel <> b:16 var
+R3671:3671 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3677:3682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3688:3688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3672:3672 LF.Rel <> R:14 var
+R3674:3674 LF.Rel <> b:16 var
+R3676:3676 LF.Rel <> c:17 var
+R3683:3683 LF.Rel <> R:14 var
+R3685:3685 LF.Rel <> a:15 var
+R3687:3687 LF.Rel <> c:17 var
+prf 3700:3707 <> le_trans
+R3713:3722 LF.Rel <> transitive def
+R3724:3725 Coq.Init.Peano <> le ind
+R3823:3826 Coq.Init.Peano <> le_S constr
+R3823:3826 Coq.Init.Peano <> le_S constr
+def 4256:4264 <> symmetric
+binder 4267:4267 <> X:18
+R4280:4287 LF.Rel <> relation def
+R4289:4289 LF.Rel <> X:18 var
+binder 4277:4277 <> R:19
+R4310:4310 LF.Rel <> X:18 var
+binder 4304:4304 <> a:20
+binder 4306:4306 <> b:21
+R4313:4313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4319:4324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4330:4330 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4314:4314 LF.Rel <> R:19 var
+R4316:4316 LF.Rel <> a:20 var
+R4318:4318 LF.Rel <> b:21 var
+R4325:4325 LF.Rel <> R:19 var
+R4327:4327 LF.Rel <> b:21 var
+R4329:4329 LF.Rel <> a:20 var
+def 4499:4511 <> antisymmetric
+binder 4514:4514 <> X:22
+R4527:4534 LF.Rel <> relation def
+R4536:4536 LF.Rel <> X:22 var
+binder 4524:4524 <> R:23
+R4557:4557 LF.Rel <> X:22 var
+binder 4551:4551 <> a:24
+binder 4553:4553 <> b:25
+R4560:4560 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4566:4570 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4561:4561 LF.Rel <> R:23 var
+R4563:4563 LF.Rel <> a:24 var
+R4565:4565 LF.Rel <> b:25 var
+R4571:4571 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4577:4581 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4572:4572 LF.Rel <> R:23 var
+R4574:4574 LF.Rel <> b:25 var
+R4576:4576 LF.Rel <> a:24 var
+R4583:4585 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4582:4582 LF.Rel <> a:24 var
+R4586:4586 LF.Rel <> b:25 var
+def 4797:4807 <> equivalence
+binder 4810:4810 <> X:26
+R4822:4829 LF.Rel <> relation def
+R4831:4831 LF.Rel <> X:26 var
+binder 4819:4819 <> R:27
+R4839:4839 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4851:4855 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4840:4848 LF.Rel <> reflexive def
+R4850:4850 LF.Rel <> R:27 var
+R4856:4856 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4868:4873 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4886:4886 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4857:4865 LF.Rel <> symmetric def
+R4867:4867 LF.Rel <> R:27 var
+R4874:4883 LF.Rel <> transitive def
+R4885:4885 LF.Rel <> R:27 var
+def 5182:5186 <> order
+binder 5189:5189 <> X:28
+R5201:5208 LF.Rel <> relation def
+R5210:5210 LF.Rel <> X:28 var
+binder 5198:5198 <> R:29
+R5218:5218 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5230:5234 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5219:5227 LF.Rel <> reflexive def
+R5229:5229 LF.Rel <> R:29 var
+R5235:5235 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5251:5256 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5269:5269 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5236:5248 LF.Rel <> antisymmetric def
+R5250:5250 LF.Rel <> R:29 var
+R5257:5266 LF.Rel <> transitive def
+R5268:5268 LF.Rel <> R:29 var
+def 5377:5384 <> preorder
+binder 5387:5387 <> X:30
+R5399:5406 LF.Rel <> relation def
+R5408:5408 LF.Rel <> X:30 var
+binder 5396:5396 <> R:31
+R5416:5416 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5428:5433 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5446:5446 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5417:5425 LF.Rel <> reflexive def
+R5427:5427 LF.Rel <> R:31 var
+R5434:5443 LF.Rel <> transitive def
+R5445:5445 LF.Rel <> R:31 var
+ind 5820:5834 <> clos_refl_trans
+constr 5882:5888 <> rt_step
+constr 5934:5940 <> rt_refl
+constr 5972:5979 <> rt_trans
+binder 5837:5837 <> A:32
+R5850:5857 LF.Rel <> relation def
+R5859:5859 LF.Rel <> A:32 var
+binder 5847:5847 <> R:33
+R5864:5871 LF.Rel <> relation def
+binder 5890:5890 <> x:36
+binder 5892:5892 <> y:37
+R5899:5899 LF.Rel <> R:33 var
+R5901:5901 LF.Rel <> x:36 var
+R5903:5903 LF.Rel <> y:37 var
+binder 5895:5895 <> H:38
+R5908:5922 LF.Rel <> clos_refl_trans:34 ind
+R5928:5928 LF.Rel <> y:37 var
+R5926:5926 LF.Rel <> x:36 var
+R5924:5924 LF.Rel <> R:33 var
+binder 5942:5942 <> x:39
+R5946:5960 LF.Rel <> clos_refl_trans:34 ind
+R5966:5966 LF.Rel <> x:39 var
+R5964:5964 LF.Rel <> x:39 var
+R5962:5962 LF.Rel <> R:33 var
+binder 5981:5981 <> x:40
+binder 5983:5983 <> y:41
+binder 5985:5985 <> z:42
+R6002:6016 LF.Rel <> clos_refl_trans:34 ind
+R6022:6022 LF.Rel <> y:41 var
+R6020:6020 LF.Rel <> x:40 var
+R6018:6018 LF.Rel <> R:33 var
+binder 5996:5998 <> Hxy:43
+R6040:6054 LF.Rel <> clos_refl_trans:34 ind
+R6060:6060 LF.Rel <> z:42 var
+R6058:6058 LF.Rel <> y:41 var
+R6056:6056 LF.Rel <> R:33 var
+binder 6034:6036 <> Hyz:44
+R6073:6087 LF.Rel <> clos_refl_trans:34 ind
+R6093:6093 LF.Rel <> z:42 var
+R6091:6091 LF.Rel <> x:40 var
+R6089:6089 LF.Rel <> R:33 var
+scheme 5820:5834 <> clos_refl_trans_ind
+scheme 5820:5834 <> clos_refl_trans_sind
+prf 6228:6249 <> next_nat_closure_is_le
+binder 6260:6260 <> n:45
+binder 6262:6262 <> m:46
+R6267:6267 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6274:6280 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6311:6311 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6269:6272 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R6268:6268 LF.Rel <> n:45 var
+R6273:6273 LF.Rel <> m:46 var
+R6282:6296 LF.Rel <> clos_refl_trans ind
+R6298:6305 LF.Rel <> next_nat ind
+R6308:6308 LF.Rel <> n:45 var
+R6310:6310 LF.Rel <> m:46 var
+R6404:6410 LF.Rel <> rt_refl constr
+R6404:6410 LF.Rel <> rt_refl constr
+R6442:6449 LF.Rel <> rt_trans constr
+R6442:6449 LF.Rel <> rt_trans constr
+R6477:6483 LF.Rel <> rt_step constr
+R6477:6483 LF.Rel <> rt_step constr
+R6498:6499 LF.Rel <> nn constr
+R6498:6499 LF.Rel <> nn constr
+R6580:6583 Coq.Init.Peano <> le_S constr
+R6580:6583 Coq.Init.Peano <> le_S constr
+R6592:6595 Coq.Init.Peano <> le_n constr
+R6592:6595 Coq.Init.Peano <> le_n constr
+R6624:6627 Coq.Init.Peano <> le_n constr
+R6624:6627 Coq.Init.Peano <> le_n constr
+R6663:6670 LF.Rel <> le_trans thm
+R6663:6670 LF.Rel <> le_trans thm
+ind 7238:7255 <> clos_refl_trans_1n
+constr 7370:7378 <> rt1n_refl
+constr 7411:7420 <> rt1n_trans
+binder 7258:7258 <> A:47
+R7302:7309 LF.Rel <> relation def
+R7311:7311 LF.Rel <> A:47 var
+binder 7298:7298 <> R:48
+R7319:7319 LF.Rel <> A:47 var
+binder 7315:7315 <> x:49
+R7354:7357 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7382:7399 LF.Rel <> clos_refl_trans_1n:50 ind
+R7405:7405 LF.Rel <> x:49 var
+R7403:7403 LF.Rel <> x:49 var
+R7401:7401 LF.Rel <> R:48 var
+R7429:7429 LF.Rel <> A:47 var
+binder 7423:7423 <> y:52
+binder 7425:7425 <> z:53
+R7445:7445 LF.Rel <> R:48 var
+R7447:7447 LF.Rel <> x:49 var
+R7449:7449 LF.Rel <> y:52 var
+binder 7439:7441 <> Hxy:54
+R7461:7478 LF.Rel <> clos_refl_trans_1n:50 ind
+R7484:7484 LF.Rel <> z:53 var
+R7482:7482 LF.Rel <> y:52 var
+R7480:7480 LF.Rel <> R:48 var
+binder 7453:7457 <> Hrest:55
+R7495:7512 LF.Rel <> clos_refl_trans_1n:50 ind
+R7518:7518 LF.Rel <> z:53 var
+R7516:7516 LF.Rel <> x:49 var
+R7514:7514 LF.Rel <> R:48 var
+scheme 7238:7255 <> clos_refl_trans_1n_ind
+scheme 7238:7255 <> clos_refl_trans_1n_sind
+prf 8031:8035 <> rsc_R
+binder 8047:8047 <> X:56
+R8058:8065 LF.Rel <> relation def
+R8067:8067 LF.Rel <> X:56 var
+binder 8056:8056 <> R:57
+R8077:8077 LF.Rel <> X:56 var
+binder 8071:8071 <> x:58
+binder 8073:8073 <> y:59
+R8088:8091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8083:8083 LF.Rel <> R:57 var
+R8085:8085 LF.Rel <> x:58 var
+R8087:8087 LF.Rel <> y:59 var
+R8092:8109 LF.Rel <> clos_refl_trans_1n ind
+R8115:8115 LF.Rel <> y:59 var
+R8113:8113 LF.Rel <> x:58 var
+R8111:8111 LF.Rel <> R:57 var
+R8153:8162 LF.Rel <> rt1n_trans constr
+R8153:8162 LF.Rel <> rt1n_trans constr
+R8187:8195 LF.Rel <> rt1n_refl constr
+R8187:8195 LF.Rel <> rt1n_refl constr
+prf 8274:8282 <> rsc_trans
+binder 8296:8296 <> X:60
+R8308:8315 LF.Rel <> relation def
+R8317:8317 LF.Rel <> X:60 var
+binder 8305:8305 <> R:61
+R8329:8329 LF.Rel <> X:60 var
+binder 8321:8321 <> x:62
+binder 8323:8323 <> y:63
+binder 8325:8325 <> z:64
+R8363:8373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8339:8356 LF.Rel <> clos_refl_trans_1n ind
+R8362:8362 LF.Rel <> y:63 var
+R8360:8360 LF.Rel <> x:62 var
+R8358:8358 LF.Rel <> R:61 var
+R8398:8407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8374:8391 LF.Rel <> clos_refl_trans_1n ind
+R8397:8397 LF.Rel <> z:64 var
+R8395:8395 LF.Rel <> y:63 var
+R8393:8393 LF.Rel <> R:61 var
+R8408:8425 LF.Rel <> clos_refl_trans_1n ind
+R8431:8431 LF.Rel <> z:64 var
+R8429:8429 LF.Rel <> x:62 var
+R8427:8427 LF.Rel <> R:61 var
+prf 8703:8718 <> rtc_rsc_coincide
+binder 8732:8732 <> X:65
+R8744:8751 LF.Rel <> relation def
+R8753:8753 LF.Rel <> X:65 var
+binder 8741:8741 <> R:66
+R8763:8763 LF.Rel <> X:65 var
+binder 8757:8757 <> x:67
+binder 8759:8759 <> y:68
+R8792:8796 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8771:8785 LF.Rel <> clos_refl_trans ind
+R8791:8791 LF.Rel <> y:68 var
+R8789:8789 LF.Rel <> x:67 var
+R8787:8787 LF.Rel <> R:66 var
+R8797:8814 LF.Rel <> clos_refl_trans_1n ind
+R8820:8820 LF.Rel <> y:68 var
+R8818:8818 LF.Rel <> x:67 var
+R8816:8816 LF.Rel <> R:66 var

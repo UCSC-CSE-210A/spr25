@@ -1,0 +1,24 @@
+{
+  "image": "ghcr.io/ucsc-cse-210a/ucsc-cse210a:8.19",
+  "customizations": {
+    "vscode": {
+      "extensions": ["coq-community.vscoq1"],
+      "settings": {
+        "files.exclude": {
+          "**/*.aux": true,
+          "**/*.glob": true,
+          "**/*.vo": true,
+          "**/*.vos": true,
+          "**/*.vok": true,
+          "**/.*.cache": true
+        },
+        "coq.loadCoqProject": true,
+        "coq.coqProjectRoot": ".",
+        "[coq]": {
+          "editor.tabSize": 2,
+          "editor.insertSpaces": true
+        }
+      }
+    }
+  }
+}
