@@ -11,7 +11,7 @@ create your personal copy of the SF Volume containing the exercises, click the G
 ### Devcontainers and Codespaces
 
 One of the easiest ways to get started is to clone your repository and open it
-in VSCode as a
+in [VSCode](https://code.visualstudio.com/) as a
 [devcontainer](https://code.visualstudio.com/docs/devcontainers/containers).
 VSCode may ask if you want to re-open the project in the devcontainer that is
 pre-configured for the course.  If you say yes, VSCode will download the
