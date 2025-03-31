@@ -3,7 +3,7 @@ title: "Materials"
 layout: single
 ---
 ## Slides
-The slides version of [LF](slides/lf/index.html) and [PLF](slides/plf/index.html) I use in lecture are.
+The slides version of [LF](slides/lf/index.html) and [PLF](slides/plf/index.html) I use in lecture are here.
 
 ## Assignments
 
