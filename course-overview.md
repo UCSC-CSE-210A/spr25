@@ -2,13 +2,14 @@
 title: "Course overview"
 layout: single
 classes: wide
+
 ---
 
-Welcome!  This is an overview of the spring 2025 edition of CSE 210A ("Programming Languages"), a graduate course in the Computer Science and Engineering Department at the UC Santa Cruz Baskin School of Engineering.
+Welcome!  This is an overview of the Spring 2025 edition of CSE 210A ("Programming Languages"), a graduate course in the Computer Science and Engineering Department at the UC Santa Cruz Baskin School of Engineering.
 
 ### Instructor
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/owen-arden-350.jpg" alt="Lindsey Kuper" width="140" style="float: right; margin: 0px 15px 0px 15px; padding: 0px 15px 0px 15px;" />
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/owen-arden-350.jpg" alt="Owen Arden" width="140" style="float: right; margin: 0px 15px 0px 15px; padding: 0px 15px 0px 15px;" />
 
 
 Hi, I'm [Owen Arden](https://owenarden.github.io/home/)! 
@@ -19,11 +20,12 @@ Hi, I'm [Owen Arden](https://owenarden.github.io/home/)!
   
 ## A few essential details about the course
 
-  - Class meets in person Mondays, Wednesdays, and Fridays, 2:40-3:45pm Pacific time, in [Phys Sciences 110](https://its.ucsc.edu/classrooms/media-info/psb110.html)
-  - Canvas (for reading responses and grades): <https://canvas.ucsc.edu/courses/82496>
-  - Ed Discussion (for announcements, live chat during lectures, Q&A, communicating with Owen, TAs, and your fellow students, etc.): <https://edstem.org/us/courses/77254/discussion> 
-  - New experiment: #general channel on Ed <https://edstem.org/us/courses/77254/discussion/chat/channels/18283> 
-  - Webpage (here): <https://ucsc-cse-210a.github.io/spr24/>
+  - Class meets in person {{ site.meeting-time }}, in [Phys Sciences 110](https://its.ucsc.edu/classrooms/media-info/psb110.html)
+  - Canvas (for reading responses and grades): <{{ site.canvas-url }}> 
+  - Ed Discussion (for announcements, live chat during lectures, Q&A, communicating with Owen, TAs, and your fellow students, etc.): <{{ site.ed-url }}> 
+  - New experiment: #general channel on Ed <{{ site.chat-url }}>
+  - Webpage (here): <https://ucsc-cse-210a.github.io/spr25/>
+  - Textbook: [Software Foundations](https://softwarefoundations.cis.upenn.edu/), [Volume 1](https://softwarefoundations.cis.upenn.edu/lf-current/index.html) and [Volume 2](https://softwarefoundations.cis.upenn.edu/plf-current/index.html) (available free online)
   
 ## Grading
 Grading is primarily (85%) based on completion of ~9 homework assignments.
