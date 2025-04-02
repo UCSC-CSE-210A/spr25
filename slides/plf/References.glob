@@ -1,0 +1,2496 @@
+DIGEST 380d057b17b6711b59d4846d3c6fcbe6
+FPLF.References
+R509:522 Coq.Strings.String <> <> lib
+R549:556 Coq.Init.Nat <> <> lib
+R583:587 Coq.Arith.Arith <> <> lib
+R614:621 Coq.Arith.PeanoNat <> <> lib
+R648:650 Coq.micromega.Lia <> <> lib
+R677:680 PLF.Maps <> <> lib
+R707:715 PLF.Smallstep <> <> lib
+R742:745 Coq.Lists.List <> <> lib
+R755:763 Coq.Init.Datatypes <> <> mod
+R772:777 Coq.Init.Datatypes <> length def
+R788:790 Coq.Arith.PeanoNat Nat <> mod
+mod 1455:1461 <> STLCRef
+ind 2428:2429 STLCRef ty
+constr 2445:2450 STLCRef Ty_Nat
+constr 2463:2469 STLCRef Ty_Unit
+constr 2481:2488 STLCRef Ty_Arrow
+constr 2511:2516 STLCRef Ty_Ref
+R2456:2457 PLF.References <> ty:1 ind
+R2474:2475 PLF.References <> ty:1 ind
+R2494:2497 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2492:2493 PLF.References <> ty:1 ind
+R2500:2503 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2498:2499 PLF.References <> ty:1 ind
+R2504:2505 PLF.References <> ty:1 ind
+R2524:2527 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2522:2523 PLF.References <> ty:1 ind
+R2528:2529 PLF.References <> ty:1 ind
+scheme 2428:2429 STLCRef ty_rect
+scheme 2428:2429 STLCRef ty_ind
+scheme 2428:2429 STLCRef ty_rec
+scheme 2428:2429 STLCRef ty_sind
+ind 3027:3028 STLCRef tm
+constr 3072:3077 STLCRef tm_var
+constr 3101:3106 STLCRef tm_app
+constr 3132:3137 STLCRef tm_abs
+constr 3173:3180 STLCRef tm_const
+constr 3199:3205 STLCRef tm_succ
+constr 3225:3231 STLCRef tm_pred
+constr 3251:3257 STLCRef tm_mult
+constr 3283:3288 STLCRef tm_if0
+constr 3337:3343 STLCRef tm_unit
+constr 3356:3361 STLCRef tm_ref
+constr 3381:3388 STLCRef tm_deref
+constr 3406:3414 STLCRef tm_assign
+constr 3437:3442 STLCRef tm_loc
+R3090:3093 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3084:3089 Coq.Strings.String <> string ind
+R3094:3095 PLF.References <> tm:3 ind
+R3115:3118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3113:3114 PLF.References <> tm:3 ind
+R3121:3124 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3119:3120 PLF.References <> tm:3 ind
+R3125:3126 PLF.References <> tm:3 ind
+R3150:3153 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3144:3149 Coq.Strings.String <> string ind
+R3156:3159 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3154:3155 PLF.References STLCRef ty ind
+R3162:3165 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3160:3161 PLF.References <> tm:3 ind
+R3166:3167 PLF.References <> tm:3 ind
+R3188:3191 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3185:3187 Coq.Init.Datatypes <> nat ind
+R3192:3193 PLF.References <> tm:3 ind
+R3214:3217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3212:3213 PLF.References <> tm:3 ind
+R3218:3219 PLF.References <> tm:3 ind
+R3240:3243 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3238:3239 PLF.References <> tm:3 ind
+R3244:3245 PLF.References <> tm:3 ind
+R3266:3269 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3264:3265 PLF.References <> tm:3 ind
+R3272:3275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3270:3271 PLF.References <> tm:3 ind
+R3276:3277 PLF.References <> tm:3 ind
+R3295:3298 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3293:3294 PLF.References <> tm:3 ind
+R3301:3304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3299:3300 PLF.References <> tm:3 ind
+R3307:3310 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3305:3306 PLF.References <> tm:3 ind
+R3311:3312 PLF.References <> tm:3 ind
+R3349:3350 PLF.References <> tm:3 ind
+R3370:3373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3368:3369 PLF.References <> tm:3 ind
+R3374:3375 PLF.References <> tm:3 ind
+R3395:3398 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3393:3394 PLF.References <> tm:3 ind
+R3399:3400 PLF.References <> tm:3 ind
+R3420:3423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3418:3419 PLF.References <> tm:3 ind
+R3426:3429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3424:3425 PLF.References <> tm:3 ind
+R3430:3431 PLF.References <> tm:3 ind
+R3452:3455 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3449:3451 Coq.Init.Datatypes <> nat ind
+R3456:3457 PLF.References <> tm:3 ind
+scheme 3027:3028 STLCRef tm_rect
+scheme 3027:3028 STLCRef tm_ind
+scheme 3027:3028 STLCRef tm_rec
+scheme 3027:3028 STLCRef tm_sind
+not 3498:3498 STLCRef :::'<{'_x_'}>'
+not 3551:3551 STLCRef :stlc::'('_x_')'
+not 3606:3606 STLCRef :stlc::x
+R3687:3694 PLF.References STLCRef Ty_Arrow constr
+not 3674:3674 STLCRef :stlc::x_'->'_x
+R3771:3776 PLF.References STLCRef tm_app constr
+not 3761:3761 STLCRef :stlc::x_x
+R3861:3866 PLF.References STLCRef tm_abs constr
+not 3841:3841 STLCRef :stlc::'\'_x_':'_x_','_x
+R4057:4087 PLF.References STLCRef tm_var constr
+not 4100:4100 STLCRef :stlc::'{'_x_'}'
+R4177:4183 PLF.References STLCRef Ty_Unit constr
+not 4162:4162 STLCRef :stlc::'Unit'
+R4236:4242 PLF.References STLCRef tm_unit constr
+not 4224:4224 STLCRef :stlc::'unit'
+R4294:4299 PLF.References STLCRef Ty_Nat constr
+not 4283:4283 STLCRef :stlc::'Nat'
+R4354:4360 PLF.References STLCRef tm_succ constr
+not 4339:4339 STLCRef :stlc::'succ'_x
+R4481:4487 PLF.References STLCRef tm_pred constr
+not 4466:4466 STLCRef :stlc::'pred'_x
+R4605:4611 PLF.References STLCRef tm_mult constr
+not 4593:4593 STLCRef :stlc::x_'*'_x
+R4748:4753 PLF.References STLCRef tm_if0 constr
+not 4714:4714 STLCRef :stlc::'if0'_x_'then'_x_'else'_x
+R4973:5002 PLF.References STLCRef tm_const constr
+R5031:5036 PLF.References STLCRef Ty_Ref constr
+not 5015:5015 STLCRef :stlc::'Ref'_x
+R5093:5098 PLF.References STLCRef tm_loc constr
+not 5079:5079 STLCRef :stlc::'loc'_x
+R5155:5160 PLF.References STLCRef tm_ref constr
+not 5141:5141 STLCRef :stlc::'ref'_x
+R5216:5223 PLF.References STLCRef tm_deref constr
+not 5203:5203 STLCRef :stlc::'!'_x
+R5285:5293 PLF.References STLCRef tm_assign constr
+not 5266:5266 STLCRef :stlc::x_':='_x
+ind 6498:6502 STLCRef value
+constr 6524:6528 STLCRef v_abs
+constr 6578:6582 STLCRef v_nat
+constr 6627:6632 STLCRef v_unit
+constr 6663:6667 STLCRef v_loc
+R6508:6511 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6506:6507 PLF.References STLCRef tm ind
+binder 6539:6539 <> x:7
+binder 6541:6542 <> T2:8
+binder 6544:6545 <> t1:9
+R6554:6558 PLF.References <> value:5 ind
+R6560:6561 PLF.References STLCRef :::'<{'_x_'}>' not
+R6571:6572 PLF.References STLCRef :::'<{'_x_'}>' not
+R6562:6562 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R6564:6564 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R6567:6568 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R6563:6563 PLF.References <> x:7 var
+R6565:6566 PLF.References <> T2:8 var
+R6569:6570 PLF.References <> t1:9 var
+R6597:6599 Coq.Init.Datatypes <> nat ind
+binder 6593:6593 <> n:10
+R6609:6613 PLF.References <> value:5 ind
+R6615:6617 PLF.References STLCRef :::'<{'_x_'}>' not
+R6619:6621 PLF.References STLCRef :::'<{'_x_'}>' not
+R6618:6618 PLF.References <> n:10 var
+R6642:6646 PLF.References <> value:5 ind
+R6648:6650 PLF.References STLCRef :::'<{'_x_'}>' not
+R6655:6657 PLF.References STLCRef :::'<{'_x_'}>' not
+R6651:6654 PLF.References STLCRef :stlc::'unit' not
+binder 6678:6678 <> l:11
+R6687:6691 PLF.References <> value:5 ind
+R6693:6695 PLF.References STLCRef :::'<{'_x_'}>' not
+R6701:6703 PLF.References STLCRef :::'<{'_x_'}>' not
+R6696:6699 PLF.References STLCRef :stlc::'loc'_x not
+R6700:6700 PLF.References <> l:11 var
+scheme 6498:6502 STLCRef value_ind
+scheme 6498:6502 STLCRef value_sind
+R6725:6729 PLF.References <> value ind
+def 6969:6973 STLCRef subst
+R6980:6985 Coq.Strings.String <> string ind
+binder 6976:6976 <> x:12
+R6993:6994 PLF.References STLCRef tm ind
+binder 6989:6989 <> s:13
+R7002:7003 PLF.References STLCRef tm ind
+binder 6998:6998 <> t:14
+R7008:7009 PLF.References STLCRef tm ind
+R7795:7799 PLF.References <> subst:15 def
+R7022:7022 PLF.References <> t:14 var
+R7051:7056 PLF.References STLCRef tm_var constr
+R7072:7081 Coq.Strings.String <> eqb def
+R7083:7083 PLF.References <> x:12 var
+R7099:7099 PLF.References <> t:14 var
+R7092:7092 PLF.References <> s:13 var
+R7105:7106 PLF.References STLCRef :::'<{'_x_'}>' not
+R7115:7116 PLF.References STLCRef :::'<{'_x_'}>' not
+R7107:7107 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R7109:7109 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R7111:7112 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R7130:7139 Coq.Strings.String <> eqb def
+R7141:7141 PLF.References <> x:12 var
+R7157:7158 PLF.References STLCRef :::'<{'_x_'}>' not
+R7174:7175 PLF.References STLCRef :::'<{'_x_'}>' not
+R7159:7159 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R7161:7161 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R7163:7164 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R7165:7165 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7167:7168 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7170:7171 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7166:7166 PLF.References <> x:12 var
+R7169:7169 PLF.References <> s:13 var
+R7150:7150 PLF.References <> t:14 var
+R7181:7182 PLF.References STLCRef :::'<{'_x_'}>' not
+R7188:7189 PLF.References STLCRef :::'<{'_x_'}>' not
+R7185:7185 PLF.References STLCRef :stlc::x_x not
+R7200:7201 PLF.References STLCRef :::'<{'_x_'}>' not
+R7225:7226 PLF.References STLCRef :::'<{'_x_'}>' not
+R7213:7213 PLF.References STLCRef :stlc::x_x not
+R7202:7202 PLF.References STLCRef :stlc::'('_x_')' not
+R7212:7212 PLF.References STLCRef :stlc::'('_x_')' not
+R7203:7203 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7205:7206 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7208:7209 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7204:7204 PLF.References <> x:12 var
+R7207:7207 PLF.References <> s:13 var
+R7214:7214 PLF.References STLCRef :stlc::'('_x_')' not
+R7224:7224 PLF.References STLCRef :stlc::'('_x_')' not
+R7215:7215 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7217:7218 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7220:7221 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7216:7216 PLF.References <> x:12 var
+R7219:7219 PLF.References <> s:13 var
+R7248:7255 PLF.References STLCRef tm_const constr
+R7268:7268 PLF.References <> t:14 var
+R7274:7275 PLF.References STLCRef :::'<{'_x_'}>' not
+R7283:7284 PLF.References STLCRef :::'<{'_x_'}>' not
+R7276:7280 PLF.References STLCRef :stlc::'succ'_x not
+R7295:7296 PLF.References STLCRef :::'<{'_x_'}>' not
+R7313:7314 PLF.References STLCRef :::'<{'_x_'}>' not
+R7297:7301 PLF.References STLCRef :stlc::'succ'_x not
+R7302:7302 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7304:7307 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7309:7310 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7303:7303 PLF.References <> x:12 var
+R7308:7308 PLF.References <> s:13 var
+R7320:7321 PLF.References STLCRef :::'<{'_x_'}>' not
+R7329:7330 PLF.References STLCRef :::'<{'_x_'}>' not
+R7322:7326 PLF.References STLCRef :stlc::'pred'_x not
+R7341:7342 PLF.References STLCRef :::'<{'_x_'}>' not
+R7359:7360 PLF.References STLCRef :::'<{'_x_'}>' not
+R7343:7347 PLF.References STLCRef :stlc::'pred'_x not
+R7348:7348 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7350:7353 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7355:7356 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7349:7349 PLF.References <> x:12 var
+R7354:7354 PLF.References <> s:13 var
+R7366:7367 PLF.References STLCRef :::'<{'_x_'}>' not
+R7375:7376 PLF.References STLCRef :::'<{'_x_'}>' not
+R7370:7372 PLF.References STLCRef :stlc::x_'*'_x not
+R7387:7389 PLF.References STLCRef :::'<{'_x_'}>' not
+R7419:7420 PLF.References STLCRef :::'<{'_x_'}>' not
+R7403:7405 PLF.References STLCRef :stlc::x_'*'_x not
+R7390:7390 PLF.References STLCRef :stlc::'('_x_')' not
+R7402:7402 PLF.References STLCRef :stlc::'('_x_')' not
+R7391:7391 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7393:7396 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7398:7399 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7392:7392 PLF.References <> x:12 var
+R7397:7397 PLF.References <> s:13 var
+R7406:7406 PLF.References STLCRef :stlc::'('_x_')' not
+R7418:7418 PLF.References STLCRef :stlc::'('_x_')' not
+R7407:7407 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7409:7412 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7414:7415 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7408:7408 PLF.References <> x:12 var
+R7413:7413 PLF.References <> s:13 var
+R7426:7427 PLF.References STLCRef :::'<{'_x_'}>' not
+R7450:7451 PLF.References STLCRef :::'<{'_x_'}>' not
+R7428:7431 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R7434:7439 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R7442:7447 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R7462:7463 PLF.References STLCRef :::'<{'_x_'}>' not
+R7513:7514 PLF.References STLCRef :::'<{'_x_'}>' not
+R7464:7467 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R7479:7484 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R7496:7501 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R7468:7468 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7470:7473 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7475:7476 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7469:7469 PLF.References <> x:12 var
+R7474:7474 PLF.References <> s:13 var
+R7485:7485 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7487:7490 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7492:7493 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7486:7486 PLF.References <> x:12 var
+R7491:7491 PLF.References <> s:13 var
+R7502:7502 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7504:7507 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7509:7510 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7503:7503 PLF.References <> x:12 var
+R7508:7508 PLF.References <> s:13 var
+R7533:7535 PLF.References STLCRef :::'<{'_x_'}>' not
+R7540:7542 PLF.References STLCRef :::'<{'_x_'}>' not
+R7536:7539 PLF.References STLCRef :stlc::'unit' not
+R7551:7553 PLF.References STLCRef :::'<{'_x_'}>' not
+R7558:7560 PLF.References STLCRef :::'<{'_x_'}>' not
+R7554:7557 PLF.References STLCRef :stlc::'unit' not
+R7585:7587 PLF.References STLCRef :::'<{'_x_'}>' not
+R7594:7596 PLF.References STLCRef :::'<{'_x_'}>' not
+R7588:7591 PLF.References STLCRef :stlc::'ref'_x not
+R7607:7609 PLF.References STLCRef :::'<{'_x_'}>' not
+R7625:7627 PLF.References STLCRef :::'<{'_x_'}>' not
+R7610:7613 PLF.References STLCRef :stlc::'ref'_x not
+R7614:7614 PLF.References STLCRef :stlc::'('_x_')' not
+R7624:7624 PLF.References STLCRef :stlc::'('_x_')' not
+R7615:7615 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7617:7618 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7620:7621 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7616:7616 PLF.References <> x:12 var
+R7619:7619 PLF.References <> s:13 var
+R7633:7635 PLF.References STLCRef :::'<{'_x_'}>' not
+R7639:7641 PLF.References STLCRef :::'<{'_x_'}>' not
+R7636:7636 PLF.References STLCRef :stlc::'!'_x not
+R7652:7654 PLF.References STLCRef :::'<{'_x_'}>' not
+R7667:7669 PLF.References STLCRef :::'<{'_x_'}>' not
+R7655:7655 PLF.References STLCRef :stlc::'!'_x not
+R7656:7656 PLF.References STLCRef :stlc::'('_x_')' not
+R7666:7666 PLF.References STLCRef :stlc::'('_x_')' not
+R7657:7657 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7659:7660 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7662:7663 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7658:7658 PLF.References <> x:12 var
+R7661:7661 PLF.References <> s:13 var
+R7675:7677 PLF.References STLCRef :::'<{'_x_'}>' not
+R7686:7688 PLF.References STLCRef :::'<{'_x_'}>' not
+R7680:7683 PLF.References STLCRef :stlc::x_':='_x not
+R7697:7699 PLF.References STLCRef :::'<{'_x_'}>' not
+R7726:7728 PLF.References STLCRef :::'<{'_x_'}>' not
+R7711:7714 PLF.References STLCRef :stlc::x_':='_x not
+R7700:7700 PLF.References STLCRef :stlc::'('_x_')' not
+R7710:7710 PLF.References STLCRef :stlc::'('_x_')' not
+R7701:7701 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7703:7704 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7706:7707 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7702:7702 PLF.References <> x:12 var
+R7705:7705 PLF.References <> s:13 var
+R7715:7715 PLF.References STLCRef :stlc::'('_x_')' not
+R7725:7725 PLF.References STLCRef :stlc::'('_x_')' not
+R7716:7716 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7718:7719 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7721:7722 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R7717:7717 PLF.References <> x:12 var
+R7720:7720 PLF.References <> s:13 var
+R7734:7736 PLF.References STLCRef :::'<{'_x_'}>' not
+R7742:7744 PLF.References STLCRef :::'<{'_x_'}>' not
+R7737:7740 PLF.References STLCRef :stlc::'loc'_x not
+R7755:7755 PLF.References <> t:14 var
+R7795:7799 PLF.References STLCRef subst def
+not 7770:7770 STLCRef :stlc::'['_x_':='_x_']'_x
+def 8167:8167 STLCRef x
+R8171:8176 Coq.Strings.String <> string ind
+def 8197:8197 STLCRef y
+R8201:8206 Coq.Strings.String <> string ind
+def 8227:8227 STLCRef z
+R8231:8236 Coq.Strings.String <> string ind
+R8258:8258 PLF.References STLCRef x def
+R8280:8280 PLF.References STLCRef y def
+R8302:8302 PLF.References STLCRef z def
+def 8324:8327 STLCRef tseq
+binder 8329:8330 <> t1:17
+binder 8332:8333 <> t2:18
+R8340:8342 PLF.References STLCRef :::'<{'_x_'}>' not
+R8363:8365 PLF.References STLCRef :::'<{'_x_'}>' not
+R8359:8360 PLF.References STLCRef :stlc::x_x not
+R8343:8343 PLF.References STLCRef :stlc::'('_x_')' not
+R8358:8358 PLF.References STLCRef :stlc::'('_x_')' not
+R8344:8345 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R8347:8349 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R8354:8355 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R8346:8346 PLF.References STLCRef x def
+R8350:8353 PLF.References STLCRef :stlc::'Unit' not
+R8356:8357 PLF.References <> t2:18 var
+R8361:8362 PLF.References <> t1:17 var
+R8392:8395 PLF.References STLCRef tseq def
+not 8378:8378 STLCRef :stlc::x_';'_x
+def 15676:15680 STLCRef store
+R15685:15688 Coq.Init.Datatypes <> list ind
+R15690:15691 PLF.References STLCRef tm ind
+def 16039:16050 STLCRef store_lookup
+R16055:16057 Coq.Init.Datatypes <> nat ind
+binder 16053:16053 <> n:19
+R16064:16068 PLF.References STLCRef store def
+binder 16061:16062 <> st:20
+R16076:16078 Coq.Lists.List <> nth def
+R16085:16087 PLF.References STLCRef :::'<{'_x_'}>' not
+R16092:16094 PLF.References STLCRef :::'<{'_x_'}>' not
+R16088:16091 PLF.References STLCRef :stlc::'unit' not
+R16082:16083 PLF.References <> st:20 var
+R16080:16080 PLF.References <> n:19 var
+def 16232:16238 STLCRef replace
+binder 16241:16241 <> A:21
+R16252:16254 Coq.Init.Datatypes <> nat ind
+binder 16250:16250 <> n:22
+R16260:16260 PLF.References <> A:21 var
+binder 16258:16258 <> x:23
+R16266:16269 Coq.Init.Datatypes <> list ind
+R16271:16271 PLF.References <> A:21 var
+binder 16264:16264 <> l:24
+R16276:16279 Coq.Init.Datatypes <> list ind
+R16281:16281 PLF.References <> A:21 var
+R16294:16294 PLF.References <> l:24 var
+R16305:16307 Coq.Init.Datatypes <> nil constr
+R16315:16317 Coq.Init.Datatypes <> nil constr
+R16324:16327 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16343:16343 PLF.References <> n:22 var
+R16356:16356 Coq.Init.Datatypes <> O constr
+R16365:16368 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16364:16364 PLF.References <> x:23 var
+R16377:16377 Coq.Init.Datatypes <> S constr
+R16386:16389 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16390:16396 PLF.References <> replace:25 def
+R16401:16401 PLF.References <> x:23 var
+prf 16427:16437 STLCRef replace_nil
+binder 16448:16448 <> A:28
+binder 16450:16450 <> n:29
+R16455:16455 PLF.References <> A:28 var
+binder 16453:16453 <> x:30
+R16476:16478 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16461:16467 PLF.References STLCRef replace def
+R16473:16475 Coq.Init.Datatypes <> nil constr
+R16471:16471 PLF.References <> x:30 var
+R16469:16469 PLF.References <> n:29 var
+R16479:16481 Coq.Init.Datatypes <> nil constr
+prf 16523:16536 STLCRef length_replace
+binder 16547:16547 <> A:31
+binder 16549:16549 <> n:32
+binder 16551:16551 <> x:33
+R16556:16559 Coq.Init.Datatypes <> list ind
+R16561:16561 PLF.References <> A:31 var
+binder 16554:16554 <> l:34
+R16589:16591 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16567:16572 Coq.Init.Datatypes <> length def
+R16575:16581 PLF.References STLCRef replace def
+R16587:16587 PLF.References <> l:34 var
+R16585:16585 PLF.References <> x:33 var
+R16583:16583 PLF.References <> n:32 var
+R16592:16597 Coq.Init.Datatypes <> length def
+R16599:16599 PLF.References <> l:34 var
+prf 16762:16778 STLCRef lookup_replace_eq
+binder 16789:16789 <> l:35
+binder 16791:16791 <> t:36
+binder 16793:16794 <> st:37
+R16812:16817 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16800:16802 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R16799:16799 PLF.References <> l:35 var
+R16803:16808 Coq.Init.Datatypes <> length def
+R16810:16811 PLF.References <> st:37 var
+R16849:16851 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16818:16829 PLF.References STLCRef store_lookup def
+R16831:16831 PLF.References <> l:35 var
+R16834:16840 PLF.References STLCRef replace def
+R16846:16847 PLF.References <> st:37 var
+R16844:16844 PLF.References <> t:36 var
+R16842:16842 PLF.References <> l:35 var
+R16852:16852 PLF.References <> t:36 var
+R16898:16909 PLF.References STLCRef store_lookup def
+prf 17118:17135 STLCRef lookup_replace_neq
+binder 17146:17147 <> l1:38
+binder 17149:17150 <> l2:39
+binder 17152:17152 <> t:40
+binder 17154:17155 <> st:41
+R17168:17173 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17162:17165 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R17160:17161 PLF.References <> l1:38 var
+R17166:17167 PLF.References <> l2:39 var
+R17207:17209 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17174:17185 PLF.References STLCRef store_lookup def
+R17187:17188 PLF.References <> l1:38 var
+R17191:17197 PLF.References STLCRef replace def
+R17204:17205 PLF.References <> st:41 var
+R17202:17202 PLF.References <> t:40 var
+R17199:17200 PLF.References <> l2:39 var
+R17210:17221 PLF.References STLCRef store_lookup def
+R17223:17224 PLF.References <> l1:38 var
+R17226:17227 PLF.References <> st:41 var
+R17256:17267 PLF.References STLCRef store_lookup def
+R17379:17389 PLF.References STLCRef replace_nil thm
+R17379:17389 PLF.References STLCRef replace_nil thm
+R17379:17389 PLF.References STLCRef replace_nil thm
+ind 19668:19671 STLCRef step
+constr 19715:19723 STLCRef ST_AppAbs
+constr 19839:19845 STLCRef ST_App1
+constr 19961:19967 STLCRef ST_App2
+constr 20120:20129 STLCRef ST_SuccNat
+constr 20209:20215 STLCRef ST_Succ
+constr 20332:20341 STLCRef ST_PredNat
+constr 20423:20429 STLCRef ST_Pred
+constr 20546:20556 STLCRef ST_MultNats
+constr 20643:20650 STLCRef ST_Mult1
+constr 20770:20777 STLCRef ST_Mult2
+constr 20918:20923 STLCRef ST_If0
+constr 21076:21086 STLCRef ST_If0_Zero
+constr 21165:21178 STLCRef ST_If0_Nonzero
+constr 21282:21292 STLCRef ST_RefValue
+constr 21404:21409 STLCRef ST_Ref
+constr 21526:21536 STLCRef ST_DerefLoc
+constr 21649:21656 STLCRef ST_Deref
+constr 21767:21775 STLCRef ST_Assign
+constr 21909:21918 STLCRef ST_Assign1
+constr 22040:22049 STLCRef ST_Assign2
+R19685:19688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19677:19679 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R19675:19676 PLF.References STLCRef tm ind
+R19680:19684 PLF.References STLCRef store def
+R19699:19702 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19691:19693 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R19689:19690 PLF.References STLCRef tm ind
+R19694:19698 PLF.References STLCRef store def
+R22227:22230 PLF.References <> step:43 ind
+R22239:22239 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22242:22242 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22246:22246 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22232:22232 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22234:22234 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22237:22237 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+binder 19734:19734 <> x:44
+binder 19736:19737 <> T2:45
+binder 19739:19740 <> t1:46
+binder 19742:19743 <> v2:47
+binder 19745:19746 <> st:48
+R19766:19778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19758:19762 PLF.References STLCRef value ind
+R19764:19765 PLF.References <> v2:47 var
+R19801:19803 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R19806:19810 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R19829:19831 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R19779:19781 PLF.References STLCRef :::'<{'_x_'}>' not
+R19798:19800 PLF.References STLCRef :::'<{'_x_'}>' not
+R19795:19795 PLF.References STLCRef :stlc::x_x not
+R19782:19782 PLF.References STLCRef :stlc::'('_x_')' not
+R19794:19794 PLF.References STLCRef :stlc::'('_x_')' not
+R19783:19783 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R19785:19787 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R19790:19791 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R19784:19784 PLF.References <> x:44 var
+R19788:19789 PLF.References <> T2:45 var
+R19792:19793 PLF.References <> t1:46 var
+R19796:19797 PLF.References <> v2:47 var
+R19804:19805 PLF.References <> st:48 var
+R19811:19813 PLF.References STLCRef :::'<{'_x_'}>' not
+R19826:19828 PLF.References STLCRef :::'<{'_x_'}>' not
+R19814:19814 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R19816:19819 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R19822:19823 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R19815:19815 PLF.References <> x:44 var
+R19820:19821 PLF.References <> v2:47 var
+R19824:19825 PLF.References <> t1:46 var
+R19832:19833 PLF.References <> st:48 var
+binder 19856:19857 <> t1:49
+binder 19859:19861 <> t1':50
+binder 19863:19864 <> t2:51
+binder 19866:19867 <> st:52
+binder 19869:19871 <> st':53
+R19904:19916 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19885:19887 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R19890:19894 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R19898:19900 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R19883:19884 PLF.References <> t1:49 var
+R19888:19889 PLF.References <> st:52 var
+R19895:19897 PLF.References <> t1':50 var
+R19901:19903 PLF.References <> st':53 var
+R19928:19930 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R19933:19937 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R19950:19952 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R19917:19919 PLF.References STLCRef :::'<{'_x_'}>' not
+R19925:19927 PLF.References STLCRef :::'<{'_x_'}>' not
+R19922:19922 PLF.References STLCRef :stlc::x_x not
+R19920:19921 PLF.References <> t1:49 var
+R19923:19924 PLF.References <> t2:51 var
+R19931:19932 PLF.References <> st:52 var
+R19938:19940 PLF.References STLCRef :::'<{'_x_'}>' not
+R19947:19949 PLF.References STLCRef :::'<{'_x_'}>' not
+R19944:19944 PLF.References STLCRef :stlc::x_x not
+R19941:19943 PLF.References <> t1':50 var
+R19945:19946 PLF.References <> t2:51 var
+R19953:19955 PLF.References <> st':53 var
+binder 19978:19979 <> v1:54
+binder 19981:19982 <> t2:55
+binder 19984:19986 <> t2':56
+binder 19988:19989 <> st:57
+binder 19991:19993 <> st':58
+R20013:20025 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20005:20009 PLF.References STLCRef value ind
+R20011:20012 PLF.References <> v1:54 var
+R20047:20059 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20028:20030 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20033:20037 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20041:20043 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20026:20027 PLF.References <> t2:55 var
+R20031:20032 PLF.References <> st:57 var
+R20038:20040 PLF.References <> t2':56 var
+R20044:20046 PLF.References <> st':58 var
+R20071:20073 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20076:20080 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20093:20095 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20060:20062 PLF.References STLCRef :::'<{'_x_'}>' not
+R20068:20070 PLF.References STLCRef :::'<{'_x_'}>' not
+R20065:20065 PLF.References STLCRef :stlc::x_x not
+R20063:20064 PLF.References <> v1:54 var
+R20066:20067 PLF.References <> t2:55 var
+R20074:20075 PLF.References <> st:57 var
+R20081:20083 PLF.References STLCRef :::'<{'_x_'}>' not
+R20090:20092 PLF.References STLCRef :::'<{'_x_'}>' not
+R20086:20086 PLF.References STLCRef :stlc::x_x not
+R20084:20085 PLF.References <> v1:54 var
+R20087:20089 PLF.References <> t2':56 var
+R20096:20098 PLF.References <> st':58 var
+R20145:20147 Coq.Init.Datatypes <> nat ind
+binder 20141:20141 <> n:59
+binder 20150:20151 <> st:60
+R20175:20177 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20180:20184 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20199:20201 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20163:20165 PLF.References STLCRef :::'<{'_x_'}>' not
+R20172:20174 PLF.References STLCRef :::'<{'_x_'}>' not
+R20166:20170 PLF.References STLCRef :stlc::'succ'_x not
+R20171:20171 PLF.References <> n:59 var
+R20178:20179 PLF.References <> st:60 var
+R20185:20192 PLF.References STLCRef tm_const constr
+R20195:20195 Coq.Init.Datatypes <> S constr
+R20197:20197 PLF.References <> n:59 var
+R20202:20203 PLF.References <> st:60 var
+binder 20226:20227 <> t1:61
+binder 20229:20231 <> t1':62
+binder 20233:20234 <> st:63
+binder 20236:20238 <> st':64
+R20271:20283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20252:20254 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20257:20261 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20265:20267 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20250:20251 PLF.References <> t1:61 var
+R20255:20256 PLF.References <> st:63 var
+R20262:20264 PLF.References <> t1':62 var
+R20268:20270 PLF.References <> st':64 var
+R20297:20299 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20302:20306 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20321:20323 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20284:20286 PLF.References STLCRef :::'<{'_x_'}>' not
+R20294:20296 PLF.References STLCRef :::'<{'_x_'}>' not
+R20287:20291 PLF.References STLCRef :stlc::'succ'_x not
+R20292:20293 PLF.References <> t1:61 var
+R20300:20301 PLF.References <> st:63 var
+R20307:20309 PLF.References STLCRef :::'<{'_x_'}>' not
+R20318:20320 PLF.References STLCRef :::'<{'_x_'}>' not
+R20310:20314 PLF.References STLCRef :stlc::'succ'_x not
+R20315:20317 PLF.References <> t1':62 var
+R20324:20326 PLF.References <> st':64 var
+R20357:20359 Coq.Init.Datatypes <> nat ind
+binder 20353:20353 <> n:65
+binder 20362:20363 <> st:66
+R20387:20389 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20392:20396 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20413:20415 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20375:20377 PLF.References STLCRef :::'<{'_x_'}>' not
+R20384:20386 PLF.References STLCRef :::'<{'_x_'}>' not
+R20378:20382 PLF.References STLCRef :stlc::'pred'_x not
+R20383:20383 PLF.References <> n:65 var
+R20390:20391 PLF.References <> st:66 var
+R20397:20404 PLF.References STLCRef tm_const constr
+R20408:20410 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R20407:20407 PLF.References <> n:65 var
+R20416:20417 PLF.References <> st:66 var
+binder 20440:20441 <> t1:67
+binder 20443:20445 <> t1':68
+binder 20447:20448 <> st:69
+binder 20450:20452 <> st':70
+R20485:20497 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20466:20468 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20471:20475 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20479:20481 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20464:20465 PLF.References <> t1:67 var
+R20469:20470 PLF.References <> st:69 var
+R20476:20478 PLF.References <> t1':68 var
+R20482:20484 PLF.References <> st':70 var
+R20511:20513 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20516:20520 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20535:20537 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20498:20500 PLF.References STLCRef :::'<{'_x_'}>' not
+R20508:20510 PLF.References STLCRef :::'<{'_x_'}>' not
+R20501:20505 PLF.References STLCRef :stlc::'pred'_x not
+R20506:20507 PLF.References <> t1:67 var
+R20514:20515 PLF.References <> st:69 var
+R20521:20523 PLF.References STLCRef :::'<{'_x_'}>' not
+R20532:20534 PLF.References STLCRef :::'<{'_x_'}>' not
+R20524:20528 PLF.References STLCRef :stlc::'pred'_x not
+R20529:20531 PLF.References <> t1':68 var
+R20538:20540 PLF.References <> st':70 var
+R20576:20578 Coq.Init.Datatypes <> nat ind
+binder 20568:20569 <> n1:71
+binder 20571:20572 <> n2:72
+binder 20581:20582 <> st:73
+R20604:20606 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20609:20614 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20633:20635 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20591:20593 PLF.References STLCRef :::'<{'_x_'}>' not
+R20601:20603 PLF.References STLCRef :::'<{'_x_'}>' not
+R20596:20598 PLF.References STLCRef :stlc::x_'*'_x not
+R20594:20595 PLF.References <> n1:71 var
+R20599:20600 PLF.References <> n2:72 var
+R20607:20608 PLF.References <> st:73 var
+R20615:20622 PLF.References STLCRef tm_const constr
+R20627:20629 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R20625:20626 PLF.References <> n1:71 var
+R20630:20631 PLF.References <> n2:72 var
+R20636:20637 PLF.References <> st:73 var
+binder 20661:20662 <> t1:74
+binder 20664:20665 <> t2:75
+binder 20667:20669 <> t1':76
+binder 20671:20672 <> st:77
+binder 20674:20676 <> st':78
+R20709:20721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20690:20692 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20695:20699 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20703:20705 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20688:20689 PLF.References <> t1:74 var
+R20693:20694 PLF.References <> st:77 var
+R20700:20702 PLF.References <> t1':76 var
+R20706:20708 PLF.References <> st':78 var
+R20735:20737 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20740:20744 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20759:20761 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20722:20724 PLF.References STLCRef :::'<{'_x_'}>' not
+R20732:20734 PLF.References STLCRef :::'<{'_x_'}>' not
+R20727:20729 PLF.References STLCRef :stlc::x_'*'_x not
+R20725:20726 PLF.References <> t1:74 var
+R20730:20731 PLF.References <> t2:75 var
+R20738:20739 PLF.References <> st:77 var
+R20745:20747 PLF.References STLCRef :::'<{'_x_'}>' not
+R20756:20758 PLF.References STLCRef :::'<{'_x_'}>' not
+R20751:20753 PLF.References STLCRef :stlc::x_'*'_x not
+R20748:20750 PLF.References <> t1':76 var
+R20754:20755 PLF.References <> t2:75 var
+R20762:20764 PLF.References <> st':78 var
+binder 20788:20789 <> v1:79
+binder 20791:20792 <> t2:80
+binder 20794:20796 <> t2':81
+binder 20798:20799 <> st:82
+binder 20801:20803 <> st':83
+R20823:20835 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20815:20819 PLF.References STLCRef value ind
+R20821:20822 PLF.References <> v1:79 var
+R20857:20869 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20838:20840 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20843:20847 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20851:20853 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20836:20837 PLF.References <> t2:80 var
+R20841:20842 PLF.References <> st:82 var
+R20848:20850 PLF.References <> t2':81 var
+R20854:20856 PLF.References <> st':83 var
+R20883:20885 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20888:20892 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20907:20909 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20870:20872 PLF.References STLCRef :::'<{'_x_'}>' not
+R20880:20882 PLF.References STLCRef :::'<{'_x_'}>' not
+R20875:20877 PLF.References STLCRef :stlc::x_'*'_x not
+R20873:20874 PLF.References <> v1:79 var
+R20878:20879 PLF.References <> t2:80 var
+R20886:20887 PLF.References <> st:82 var
+R20893:20895 PLF.References STLCRef :::'<{'_x_'}>' not
+R20904:20906 PLF.References STLCRef :::'<{'_x_'}>' not
+R20898:20900 PLF.References STLCRef :stlc::x_'*'_x not
+R20896:20897 PLF.References <> v1:79 var
+R20901:20903 PLF.References <> t2':81 var
+R20910:20912 PLF.References <> st':83 var
+binder 20934:20935 <> t1:84
+binder 20937:20939 <> t1':85
+binder 20941:20942 <> t2:86
+binder 20944:20945 <> t3:87
+binder 20947:20948 <> st:88
+binder 20950:20952 <> st':89
+R20985:20997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20966:20968 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20971:20975 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20979:20981 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20964:20965 PLF.References <> t1:84 var
+R20969:20970 PLF.References <> st:88 var
+R20976:20978 PLF.References <> t1':85 var
+R20982:20984 PLF.References <> st':89 var
+R21026:21028 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21031:21035 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21065:21067 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R20998:21000 PLF.References STLCRef :::'<{'_x_'}>' not
+R21023:21025 PLF.References STLCRef :::'<{'_x_'}>' not
+R21001:21004 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R21007:21012 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R21015:21020 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R21005:21006 PLF.References <> t1:84 var
+R21013:21014 PLF.References <> t2:86 var
+R21021:21022 PLF.References <> t3:87 var
+R21029:21030 PLF.References <> st:88 var
+R21036:21038 PLF.References STLCRef :::'<{'_x_'}>' not
+R21062:21064 PLF.References STLCRef :::'<{'_x_'}>' not
+R21039:21042 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R21046:21051 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R21054:21059 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R21043:21045 PLF.References <> t1':85 var
+R21052:21053 PLF.References <> t2:86 var
+R21060:21061 PLF.References <> t3:87 var
+R21068:21070 PLF.References <> st':89 var
+binder 21097:21098 <> t2:90
+binder 21100:21101 <> t3:91
+binder 21103:21104 <> st:92
+R21143:21145 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21148:21152 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21155:21157 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21116:21118 PLF.References STLCRef :::'<{'_x_'}>' not
+R21140:21142 PLF.References STLCRef :::'<{'_x_'}>' not
+R21119:21122 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R21124:21129 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R21132:21137 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R21130:21131 PLF.References <> t2:90 var
+R21138:21139 PLF.References <> t3:91 var
+R21146:21147 PLF.References <> st:92 var
+R21153:21154 PLF.References <> t2:90 var
+R21158:21159 PLF.References <> st:92 var
+binder 21189:21189 <> n:93
+binder 21191:21192 <> t2:94
+binder 21194:21195 <> t3:95
+binder 21197:21198 <> st:96
+R21241:21243 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21246:21250 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21253:21255 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21210:21212 PLF.References STLCRef :::'<{'_x_'}>' not
+R21238:21240 PLF.References STLCRef :::'<{'_x_'}>' not
+R21213:21216 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R21222:21227 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R21230:21235 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R21217:21217 PLF.References STLCRef :stlc::'{'_x_'}' not
+R21221:21221 PLF.References STLCRef :stlc::'{'_x_'}' not
+R21218:21218 Coq.Init.Datatypes <> S constr
+R21220:21220 PLF.References <> n:93 var
+R21228:21229 PLF.References <> t2:94 var
+R21236:21237 PLF.References <> t3:95 var
+R21244:21245 PLF.References <> st:96 var
+R21251:21252 PLF.References <> t3:95 var
+R21256:21257 PLF.References <> st:96 var
+binder 21303:21303 <> v:97
+binder 21305:21306 <> st:98
+R21325:21337 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21318:21322 PLF.References STLCRef value ind
+R21324:21324 PLF.References <> v:97 var
+R21349:21351 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21354:21358 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21382:21385 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21398:21398 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21338:21340 PLF.References STLCRef :::'<{'_x_'}>' not
+R21346:21348 PLF.References STLCRef :::'<{'_x_'}>' not
+R21341:21344 PLF.References STLCRef :stlc::'ref'_x not
+R21345:21345 PLF.References <> v:97 var
+R21352:21353 PLF.References <> st:98 var
+R21359:21361 PLF.References STLCRef :::'<{'_x_'}>' not
+R21379:21381 PLF.References STLCRef :::'<{'_x_'}>' not
+R21362:21365 PLF.References STLCRef :stlc::'loc'_x not
+R21366:21367 PLF.References STLCRef :stlc::'{'_x_'}' not
+R21377:21378 PLF.References STLCRef :stlc::'{'_x_'}' not
+R21368:21373 Coq.Init.Datatypes <> length def
+R21375:21376 PLF.References <> st:98 var
+R21388:21391 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R21386:21387 PLF.References <> st:98 var
+R21393:21394 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R21392:21392 PLF.References <> v:97 var
+R21395:21397 Coq.Init.Datatypes <> nil constr
+binder 21420:21421 <> t1:99
+binder 21423:21425 <> t1':100
+binder 21427:21428 <> st:101
+binder 21430:21432 <> st':102
+R21465:21477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21446:21448 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21451:21455 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21459:21461 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21444:21445 PLF.References <> t1:99 var
+R21449:21450 PLF.References <> st:101 var
+R21456:21458 PLF.References <> t1':100 var
+R21462:21464 PLF.References <> st':102 var
+R21490:21493 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21496:21500 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21514:21517 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21478:21480 PLF.References STLCRef :::'<{'_x_'}>' not
+R21487:21489 PLF.References STLCRef :::'<{'_x_'}>' not
+R21481:21484 PLF.References STLCRef :stlc::'ref'_x not
+R21485:21486 PLF.References <> t1:99 var
+R21494:21495 PLF.References <> st:101 var
+R21501:21503 PLF.References STLCRef :::'<{'_x_'}>' not
+R21511:21513 PLF.References STLCRef :::'<{'_x_'}>' not
+R21504:21507 PLF.References STLCRef :stlc::'ref'_x not
+R21508:21510 PLF.References <> t1':100 var
+R21518:21520 PLF.References <> st':102 var
+binder 21547:21548 <> st:103
+binder 21550:21550 <> l:104
+R21575:21587 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21563:21565 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R21562:21562 PLF.References <> l:104 var
+R21566:21571 Coq.Init.Datatypes <> length def
+R21573:21574 PLF.References <> st:103 var
+R21602:21604 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21607:21611 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21639:21641 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21588:21590 PLF.References STLCRef :::'<{'_x_'}>' not
+R21599:21601 PLF.References STLCRef :::'<{'_x_'}>' not
+R21591:21591 PLF.References STLCRef :stlc::'!'_x not
+R21592:21592 PLF.References STLCRef :stlc::'('_x_')' not
+R21598:21598 PLF.References STLCRef :stlc::'('_x_')' not
+R21593:21596 PLF.References STLCRef :stlc::'loc'_x not
+R21597:21597 PLF.References <> l:104 var
+R21605:21606 PLF.References <> st:103 var
+R21612:21614 PLF.References STLCRef :::'<{'_x_'}>' not
+R21636:21638 PLF.References STLCRef :::'<{'_x_'}>' not
+R21615:21616 PLF.References STLCRef :stlc::'{'_x_'}' not
+R21634:21635 PLF.References STLCRef :stlc::'{'_x_'}' not
+R21617:21628 PLF.References STLCRef store_lookup def
+R21630:21630 PLF.References <> l:104 var
+R21632:21633 PLF.References <> st:103 var
+R21642:21643 PLF.References <> st:103 var
+binder 21667:21668 <> t1:105
+binder 21670:21672 <> t1':106
+binder 21674:21675 <> st:107
+binder 21677:21679 <> st':108
+R21712:21724 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21693:21695 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21698:21702 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21706:21708 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21691:21692 PLF.References <> t1:105 var
+R21696:21697 PLF.References <> st:107 var
+R21703:21705 PLF.References <> t1':106 var
+R21709:21711 PLF.References <> st':108 var
+R21735:21737 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21740:21744 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21756:21758 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21725:21727 PLF.References STLCRef :::'<{'_x_'}>' not
+R21732:21734 PLF.References STLCRef :::'<{'_x_'}>' not
+R21728:21729 PLF.References STLCRef :stlc::'!'_x not
+R21730:21731 PLF.References <> t1:105 var
+R21738:21739 PLF.References <> st:107 var
+R21745:21747 PLF.References STLCRef :::'<{'_x_'}>' not
+R21753:21755 PLF.References STLCRef :::'<{'_x_'}>' not
+R21748:21749 PLF.References STLCRef :stlc::'!'_x not
+R21750:21752 PLF.References <> t1':106 var
+R21759:21761 PLF.References <> st':108 var
+binder 21786:21786 <> v:109
+binder 21788:21788 <> l:110
+binder 21790:21791 <> st:111
+R21810:21822 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21803:21807 PLF.References STLCRef value ind
+R21809:21809 PLF.References <> v:109 var
+R21836:21848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21824:21826 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R21823:21823 PLF.References <> l:110 var
+R21827:21832 Coq.Init.Datatypes <> length def
+R21834:21835 PLF.References <> st:111 var
+R21867:21869 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21872:21876 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21887:21889 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21849:21851 PLF.References STLCRef :::'<{'_x_'}>' not
+R21864:21866 PLF.References STLCRef :::'<{'_x_'}>' not
+R21859:21862 PLF.References STLCRef :stlc::x_':='_x not
+R21852:21852 PLF.References STLCRef :stlc::'('_x_')' not
+R21858:21858 PLF.References STLCRef :stlc::'('_x_')' not
+R21853:21856 PLF.References STLCRef :stlc::'loc'_x not
+R21857:21857 PLF.References <> l:110 var
+R21863:21863 PLF.References <> v:109 var
+R21870:21871 PLF.References <> st:111 var
+R21877:21879 PLF.References STLCRef :::'<{'_x_'}>' not
+R21884:21886 PLF.References STLCRef :::'<{'_x_'}>' not
+R21880:21883 PLF.References STLCRef :stlc::'unit' not
+R21890:21896 PLF.References STLCRef replace def
+R21902:21903 PLF.References <> st:111 var
+R21900:21900 PLF.References <> v:109 var
+R21898:21898 PLF.References <> l:110 var
+binder 21929:21930 <> t1:112
+binder 21932:21934 <> t1':113
+binder 21936:21937 <> t2:114
+binder 21939:21940 <> st:115
+binder 21942:21944 <> st':116
+R21977:21989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21958:21960 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21963:21967 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21971:21973 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21956:21957 PLF.References <> t1:112 var
+R21961:21962 PLF.References <> st:115 var
+R21968:21970 PLF.References <> t1':113 var
+R21974:21976 PLF.References <> st':116 var
+R22004:22006 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R22009:22013 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R22029:22031 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R21990:21992 PLF.References STLCRef :::'<{'_x_'}>' not
+R22001:22003 PLF.References STLCRef :::'<{'_x_'}>' not
+R21995:21998 PLF.References STLCRef :stlc::x_':='_x not
+R21993:21994 PLF.References <> t1:112 var
+R21999:22000 PLF.References <> t2:114 var
+R22007:22008 PLF.References <> st:115 var
+R22014:22016 PLF.References STLCRef :::'<{'_x_'}>' not
+R22026:22028 PLF.References STLCRef :::'<{'_x_'}>' not
+R22020:22023 PLF.References STLCRef :stlc::x_':='_x not
+R22017:22019 PLF.References <> t1':113 var
+R22024:22025 PLF.References <> t2:114 var
+R22032:22034 PLF.References <> st':116 var
+binder 22060:22061 <> v1:117
+binder 22063:22064 <> t2:118
+binder 22066:22068 <> t2':119
+binder 22070:22071 <> st:120
+binder 22073:22075 <> st':121
+R22095:22107 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22087:22091 PLF.References STLCRef value ind
+R22093:22094 PLF.References <> v1:117 var
+R22129:22141 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22110:22112 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R22115:22119 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R22123:22125 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R22108:22109 PLF.References <> t2:118 var
+R22113:22114 PLF.References <> st:120 var
+R22120:22122 PLF.References <> t2':119 var
+R22126:22128 PLF.References <> st':121 var
+R22156:22158 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R22161:22165 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R22181:22183 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R22142:22144 PLF.References STLCRef :::'<{'_x_'}>' not
+R22153:22155 PLF.References STLCRef :::'<{'_x_'}>' not
+R22147:22150 PLF.References STLCRef :stlc::x_':='_x not
+R22145:22146 PLF.References <> v1:117 var
+R22151:22152 PLF.References <> t2:118 var
+R22159:22160 PLF.References <> st:120 var
+R22166:22168 PLF.References STLCRef :::'<{'_x_'}>' not
+R22178:22180 PLF.References STLCRef :::'<{'_x_'}>' not
+R22171:22174 PLF.References STLCRef :stlc::x_':='_x not
+R22169:22170 PLF.References <> v1:117 var
+R22175:22177 PLF.References <> t2':119 var
+R22184:22186 PLF.References <> st':121 var
+scheme 19668:19671 STLCRef step_ind
+scheme 19668:19671 STLCRef step_sind
+R22227:22230 PLF.References STLCRef step ind
+R22232:22232 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22234:22234 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22237:22237 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22239:22239 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22242:22242 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22246:22246 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+not 22195:22195 STLCRef :::x_'/'_x_'-->'_x_'/'_x
+R22269:22272 PLF.References <> step ind
+def 22294:22302 STLCRef multistep
+R22308:22312 PLF.Smallstep <> multi ind
+R22314:22317 PLF.References STLCRef step ind
+R22378:22386 PLF.References STLCRef multistep def
+R22388:22388 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22390:22390 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22393:22393 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22395:22395 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22398:22398 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22402:22402 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+not 22330:22330 STLCRef :::x_'/'_x_'-->*'_x_'/'_x
+def 22705:22711 STLCRef context
+R22716:22726 PLF.Maps <> partial_map def
+R22728:22729 PLF.References STLCRef ty ind
+def 24067:24074 STLCRef store_ty
+R24079:24082 Coq.Init.Datatypes <> list ind
+R24084:24085 PLF.References STLCRef ty ind
+def 24332:24344 STLCRef store_Tlookup
+R24349:24351 Coq.Init.Datatypes <> nat ind
+binder 24347:24347 <> n:122
+R24358:24365 PLF.References STLCRef store_ty def
+binder 24355:24356 <> ST:123
+R24373:24375 Coq.Lists.List <> nth def
+R24382:24384 PLF.References STLCRef :::'<{'_x_'}>' not
+R24389:24391 PLF.References STLCRef :::'<{'_x_'}>' not
+R24385:24388 PLF.References STLCRef :stlc::'Unit' not
+R24379:24380 PLF.References <> ST:123 var
+R24377:24377 PLF.References <> n:122 var
+ind 25672:25679 STLCRef has_type
+constr 25734:25738 STLCRef T_Var
+constr 25822:25826 STLCRef T_Abs
+constr 25951:25955 STLCRef T_App
+constr 26099:26103 STLCRef T_Nat
+constr 26166:26171 STLCRef T_Succ
+constr 26268:26273 STLCRef T_Pred
+constr 26370:26375 STLCRef T_Mult
+constr 26510:26514 STLCRef T_If0
+constr 26702:26707 STLCRef T_Unit
+constr 26764:26768 STLCRef T_Loc
+constr 26876:26880 STLCRef T_Ref
+constr 26985:26991 STLCRef T_Deref
+constr 27094:27101 STLCRef T_Assign
+R25687:25694 PLF.References STLCRef store_ty def
+binder 25682:25683 <> ST:124
+R25706:25709 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25699:25705 PLF.References STLCRef context def
+R25712:25715 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25710:25711 PLF.References STLCRef tm ind
+R25718:25721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25716:25717 PLF.References STLCRef ty ind
+R27285:27292 PLF.References <> has_type:126 ind
+binder 25749:25753 <> Gamma:127
+binder 25755:25755 <> x:128
+binder 25757:25758 <> T1:129
+R25784:25793 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25774:25776 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25767:25771 PLF.References <> Gamma:127 var
+R25773:25773 PLF.References <> x:128 var
+R25777:25780 Coq.Init.Datatypes <> Some constr
+R25782:25783 PLF.References <> T1:129 var
+R25799:25801 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R25804:25808 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R25810:25814 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R25802:25803 PLF.References <> ST:124 var
+R25794:25798 PLF.References <> Gamma:127 var
+R25809:25809 PLF.References <> x:128 var
+R25815:25816 PLF.References <> T1:129 var
+binder 25837:25841 <> Gamma:130
+binder 25843:25843 <> x:131
+binder 25845:25846 <> T1:132
+binder 25848:25849 <> T2:133
+binder 25851:25852 <> t1:134
+R25897:25906 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25878:25880 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R25883:25887 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R25890:25894 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R25881:25882 PLF.References <> ST:124 var
+R25861:25866 PLF.Maps <> update def
+R25876:25877 PLF.References <> T2:133 var
+R25874:25874 PLF.References <> x:131 var
+R25868:25872 PLF.References <> Gamma:130 var
+R25888:25889 PLF.References <> t1:134 var
+R25895:25896 PLF.References <> T1:132 var
+R25912:25914 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R25917:25921 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R25931:25935 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R25915:25916 PLF.References <> ST:124 var
+R25907:25911 PLF.References <> Gamma:130 var
+R25922:25922 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R25924:25924 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R25927:25928 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R25923:25923 PLF.References <> x:131 var
+R25925:25926 PLF.References <> T2:133 var
+R25929:25930 PLF.References <> t1:134 var
+R25936:25936 PLF.References STLCRef :stlc::'('_x_')' not
+R25945:25945 PLF.References STLCRef :stlc::'('_x_')' not
+R25939:25942 PLF.References STLCRef :stlc::x_'->'_x not
+R25937:25938 PLF.References <> T2:133 var
+R25943:25944 PLF.References <> T1:132 var
+binder 25966:25967 <> T1:135
+binder 25969:25970 <> T2:136
+binder 25972:25976 <> Gamma:137
+binder 25978:25979 <> t1:138
+binder 25981:25982 <> t2:139
+R26023:26032 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25996:25998 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26001:26005 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26008:26012 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R25999:26000 PLF.References <> ST:124 var
+R25991:25995 PLF.References <> Gamma:137 var
+R26006:26007 PLF.References <> t1:138 var
+R26013:26013 PLF.References STLCRef :stlc::'('_x_')' not
+R26022:26022 PLF.References STLCRef :stlc::'('_x_')' not
+R26016:26019 PLF.References STLCRef :stlc::x_'->'_x not
+R26014:26015 PLF.References <> T2:136 var
+R26020:26021 PLF.References <> T1:135 var
+R26057:26066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26038:26040 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26043:26047 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26050:26054 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26041:26042 PLF.References <> ST:124 var
+R26033:26037 PLF.References <> Gamma:137 var
+R26048:26049 PLF.References <> t2:139 var
+R26055:26056 PLF.References <> T2:136 var
+R26072:26074 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26077:26081 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26087:26091 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26075:26076 PLF.References <> ST:124 var
+R26067:26071 PLF.References <> Gamma:137 var
+R26084:26084 PLF.References STLCRef :stlc::x_x not
+R26082:26083 PLF.References <> t1:138 var
+R26085:26086 PLF.References <> t2:139 var
+R26092:26093 PLF.References <> T1:135 var
+binder 26114:26118 <> Gamma:140
+R26125:26127 Coq.Init.Datatypes <> nat ind
+binder 26121:26121 <> n:141
+R26142:26144 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26147:26151 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26153:26157 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26145:26146 PLF.References <> ST:124 var
+R26137:26141 PLF.References <> Gamma:140 var
+R26152:26152 PLF.References <> n:141 var
+R26158:26160 PLF.References STLCRef :stlc::'Nat' not
+binder 26182:26186 <> Gamma:142
+binder 26188:26189 <> t1:143
+R26223:26232 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26203:26205 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26208:26212 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26215:26219 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26206:26207 PLF.References <> ST:124 var
+R26198:26202 PLF.References <> Gamma:142 var
+R26213:26214 PLF.References <> t1:143 var
+R26220:26222 PLF.References STLCRef :stlc::'Nat' not
+R26238:26240 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26243:26247 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26255:26259 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26241:26242 PLF.References <> ST:124 var
+R26233:26237 PLF.References <> Gamma:142 var
+R26248:26252 PLF.References STLCRef :stlc::'succ'_x not
+R26253:26254 PLF.References <> t1:143 var
+R26260:26262 PLF.References STLCRef :stlc::'Nat' not
+binder 26284:26288 <> Gamma:144
+binder 26290:26291 <> t1:145
+R26325:26334 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26305:26307 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26310:26314 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26317:26321 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26308:26309 PLF.References <> ST:124 var
+R26300:26304 PLF.References <> Gamma:144 var
+R26315:26316 PLF.References <> t1:145 var
+R26322:26324 PLF.References STLCRef :stlc::'Nat' not
+R26340:26342 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26345:26349 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26357:26361 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26343:26344 PLF.References <> ST:124 var
+R26335:26339 PLF.References <> Gamma:144 var
+R26350:26354 PLF.References STLCRef :stlc::'pred'_x not
+R26355:26356 PLF.References <> t1:145 var
+R26362:26364 PLF.References STLCRef :stlc::'Nat' not
+binder 26386:26390 <> Gamma:146
+binder 26392:26393 <> t1:147
+binder 26395:26396 <> t2:148
+R26430:26439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26410:26412 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26415:26419 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26422:26426 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26413:26414 PLF.References <> ST:124 var
+R26405:26409 PLF.References <> Gamma:146 var
+R26420:26421 PLF.References <> t1:147 var
+R26427:26429 PLF.References STLCRef :stlc::'Nat' not
+R26465:26474 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26445:26447 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26450:26454 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26457:26461 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26448:26449 PLF.References <> ST:124 var
+R26440:26444 PLF.References <> Gamma:146 var
+R26455:26456 PLF.References <> t2:148 var
+R26462:26464 PLF.References STLCRef :stlc::'Nat' not
+R26480:26482 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26485:26489 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26497:26501 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26483:26484 PLF.References <> ST:124 var
+R26475:26479 PLF.References <> Gamma:146 var
+R26492:26494 PLF.References STLCRef :stlc::x_'*'_x not
+R26490:26491 PLF.References <> t1:147 var
+R26495:26496 PLF.References <> t2:148 var
+R26502:26504 PLF.References STLCRef :stlc::'Nat' not
+binder 26525:26529 <> Gamma:149
+binder 26531:26532 <> t1:150
+binder 26534:26535 <> t2:151
+binder 26537:26538 <> t3:152
+binder 26540:26541 <> T0:153
+R26575:26584 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26555:26557 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26560:26564 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26567:26571 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26558:26559 PLF.References <> ST:124 var
+R26550:26554 PLF.References <> Gamma:149 var
+R26565:26566 PLF.References <> t1:150 var
+R26572:26574 PLF.References STLCRef :stlc::'Nat' not
+R26609:26618 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26590:26592 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26595:26599 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26602:26606 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26593:26594 PLF.References <> ST:124 var
+R26585:26589 PLF.References <> Gamma:149 var
+R26600:26601 PLF.References <> t2:151 var
+R26607:26608 PLF.References <> T0:153 var
+R26643:26652 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26624:26626 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26629:26633 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26636:26640 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26627:26628 PLF.References <> ST:124 var
+R26619:26623 PLF.References <> Gamma:149 var
+R26634:26635 PLF.References <> t3:152 var
+R26641:26642 PLF.References <> T0:153 var
+R26658:26660 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26663:26667 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26690:26694 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26661:26662 PLF.References <> ST:124 var
+R26653:26657 PLF.References <> Gamma:149 var
+R26668:26671 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R26674:26679 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R26682:26687 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R26672:26673 PLF.References <> t1:150 var
+R26680:26681 PLF.References <> t2:151 var
+R26688:26689 PLF.References <> t3:152 var
+R26695:26696 PLF.References <> T0:153 var
+binder 26718:26722 <> Gamma:154
+R26736:26738 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26741:26745 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26750:26754 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26739:26740 PLF.References <> ST:124 var
+R26731:26735 PLF.References <> Gamma:154 var
+R26746:26749 PLF.References STLCRef :stlc::'unit' not
+R26755:26758 PLF.References STLCRef :stlc::'Unit' not
+binder 26779:26783 <> Gamma:155
+binder 26785:26785 <> l:156
+R26807:26816 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26795:26797 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R26794:26794 PLF.References <> l:156 var
+R26798:26803 Coq.Init.Datatypes <> length def
+R26805:26806 PLF.References <> ST:124 var
+R26822:26824 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26827:26831 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26839:26843 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26825:26826 PLF.References <> ST:124 var
+R26817:26821 PLF.References <> Gamma:155 var
+R26832:26832 PLF.References STLCRef :stlc::'('_x_')' not
+R26838:26838 PLF.References STLCRef :stlc::'('_x_')' not
+R26833:26836 PLF.References STLCRef :stlc::'loc'_x not
+R26837:26837 PLF.References <> l:156 var
+R26844:26844 PLF.References STLCRef :stlc::'('_x_')' not
+R26870:26870 PLF.References STLCRef :stlc::'('_x_')' not
+R26845:26848 PLF.References STLCRef :stlc::'Ref'_x not
+R26849:26849 PLF.References STLCRef :stlc::'{'_x_'}' not
+R26868:26869 PLF.References STLCRef :stlc::'{'_x_'}' not
+R26850:26862 PLF.References STLCRef store_Tlookup def
+R26864:26864 PLF.References <> l:156 var
+R26866:26867 PLF.References <> ST:124 var
+binder 26891:26895 <> Gamma:157
+binder 26897:26898 <> t1:158
+binder 26900:26901 <> T1:159
+R26934:26943 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26915:26917 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26920:26924 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26927:26931 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26918:26919 PLF.References <> ST:124 var
+R26910:26914 PLF.References <> Gamma:157 var
+R26925:26926 PLF.References <> t1:158 var
+R26932:26933 PLF.References <> T1:159 var
+R26949:26951 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26954:26958 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26967:26971 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R26952:26953 PLF.References <> ST:124 var
+R26944:26948 PLF.References <> Gamma:157 var
+R26959:26959 PLF.References STLCRef :stlc::'('_x_')' not
+R26966:26966 PLF.References STLCRef :stlc::'('_x_')' not
+R26960:26963 PLF.References STLCRef :stlc::'ref'_x not
+R26964:26965 PLF.References <> t1:158 var
+R26972:26972 PLF.References STLCRef :stlc::'('_x_')' not
+R26979:26979 PLF.References STLCRef :stlc::'('_x_')' not
+R26973:26976 PLF.References STLCRef :stlc::'Ref'_x not
+R26977:26978 PLF.References <> T1:159 var
+binder 27002:27006 <> Gamma:160
+binder 27008:27009 <> t1:161
+binder 27011:27012 <> T1:162
+R27051:27060 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27026:27028 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27031:27035 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27038:27042 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27029:27030 PLF.References <> ST:124 var
+R27021:27025 PLF.References <> Gamma:160 var
+R27036:27037 PLF.References <> t1:161 var
+R27043:27043 PLF.References STLCRef :stlc::'('_x_')' not
+R27050:27050 PLF.References STLCRef :stlc::'('_x_')' not
+R27044:27047 PLF.References STLCRef :stlc::'Ref'_x not
+R27048:27049 PLF.References <> T1:162 var
+R27066:27068 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27071:27075 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27082:27086 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27069:27070 PLF.References <> ST:124 var
+R27061:27065 PLF.References <> Gamma:160 var
+R27076:27076 PLF.References STLCRef :stlc::'('_x_')' not
+R27081:27081 PLF.References STLCRef :stlc::'('_x_')' not
+R27077:27078 PLF.References STLCRef :stlc::'!'_x not
+R27079:27080 PLF.References <> t1:161 var
+R27087:27088 PLF.References <> T1:162 var
+binder 27112:27116 <> Gamma:163
+binder 27118:27119 <> t1:164
+binder 27121:27122 <> t2:165
+binder 27124:27125 <> T2:166
+R27164:27173 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27139:27141 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27144:27148 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27151:27155 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27142:27143 PLF.References <> ST:124 var
+R27134:27138 PLF.References <> Gamma:163 var
+R27149:27150 PLF.References <> t1:164 var
+R27156:27156 PLF.References STLCRef :stlc::'('_x_')' not
+R27163:27163 PLF.References STLCRef :stlc::'('_x_')' not
+R27157:27160 PLF.References STLCRef :stlc::'Ref'_x not
+R27161:27162 PLF.References <> T2:166 var
+R27198:27207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27179:27181 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27184:27188 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27191:27195 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27182:27183 PLF.References <> ST:124 var
+R27174:27178 PLF.References <> Gamma:163 var
+R27189:27190 PLF.References <> t2:165 var
+R27196:27197 PLF.References <> T2:166 var
+R27213:27215 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27218:27222 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27233:27237 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27216:27217 PLF.References <> ST:124 var
+R27208:27212 PLF.References <> Gamma:163 var
+R27223:27223 PLF.References STLCRef :stlc::'('_x_')' not
+R27232:27232 PLF.References STLCRef :stlc::'('_x_')' not
+R27226:27229 PLF.References STLCRef :stlc::x_':='_x not
+R27224:27225 PLF.References <> t1:164 var
+R27230:27231 PLF.References <> t2:165 var
+R27238:27241 PLF.References STLCRef :stlc::'Unit' not
+scheme 25672:25679 STLCRef has_type_ind
+scheme 25672:25679 STLCRef has_type_sind
+R27285:27292 PLF.References STLCRef has_type ind
+not 27250:27250 STLCRef :::x_';'_x_'|--'_x_'\in'_x
+R27328:27335 PLF.References <> has_type ind
+prf 27830:27848 STLCRef preservation_wrong1
+binder 27859:27860 <> ST:167
+binder 27862:27862 <> T:168
+binder 27864:27864 <> t:169
+binder 27866:27867 <> st:170
+binder 27869:27870 <> t':171
+binder 27872:27874 <> st':172
+R27901:27906 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27884:27886 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27889:27893 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27895:27899 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27887:27888 PLF.References <> ST:167 var
+R27879:27883 PLF.Maps <> empty def
+R27894:27894 PLF.References <> t:169 var
+R27900:27900 PLF.References <> T:168 var
+R27926:27931 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27908:27910 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R27913:27917 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R27920:27922 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R27907:27907 PLF.References <> t:169 var
+R27911:27912 PLF.References <> st:170 var
+R27918:27919 PLF.References <> t':171 var
+R27923:27925 PLF.References <> st':172 var
+R27937:27939 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27942:27946 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27949:27953 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R27940:27941 PLF.References <> ST:167 var
+R27932:27936 PLF.Maps <> empty def
+R27947:27948 PLF.References <> t':171 var
+R27954:27954 PLF.References <> T:168 var
+def 28165:28180 STLCRef store_well_typed
+R28186:28193 PLF.References STLCRef store_ty def
+binder 28183:28184 <> ST:173
+R28200:28204 PLF.References STLCRef store def
+binder 28197:28198 <> st:174
+R28233:28239 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R28333:28333 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R28221:28223 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28212:28217 Coq.Init.Datatypes <> length def
+R28219:28220 PLF.References <> ST:173 var
+R28224:28229 Coq.Init.Datatypes <> length def
+R28231:28232 PLF.References <> st:174 var
+binder 28247:28247 <> l:175
+R28263:28271 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28251:28253 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R28250:28250 PLF.References <> l:175 var
+R28254:28259 Coq.Init.Datatypes <> length def
+R28261:28262 PLF.References <> st:174 var
+R28277:28278 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R28281:28285 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R28307:28311 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R28279:28280 PLF.References <> ST:173 var
+R28272:28276 PLF.Maps <> empty def
+R28286:28287 PLF.References STLCRef :stlc::'{'_x_'}' not
+R28305:28306 PLF.References STLCRef :stlc::'{'_x_'}' not
+R28288:28299 PLF.References STLCRef store_lookup def
+R28301:28301 PLF.References <> l:175 var
+R28303:28304 PLF.References <> st:174 var
+R28312:28312 PLF.References STLCRef :stlc::'{'_x_'}' not
+R28331:28332 PLF.References STLCRef :stlc::'{'_x_'}' not
+R28313:28325 PLF.References STLCRef store_Tlookup def
+R28327:28327 PLF.References <> l:175 var
+R28329:28330 PLF.References <> ST:173 var
+prf 28505:28523 STLCRef preservation_wrong2
+binder 28534:28535 <> ST:176
+binder 28537:28537 <> T:177
+binder 28539:28539 <> t:178
+binder 28541:28542 <> st:179
+binder 28544:28545 <> t':180
+binder 28547:28549 <> st':181
+R28576:28581 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28559:28561 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R28564:28568 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R28570:28574 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R28562:28563 PLF.References <> ST:176 var
+R28554:28558 PLF.Maps <> empty def
+R28569:28569 PLF.References <> t:178 var
+R28575:28575 PLF.References <> T:177 var
+R28601:28606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28583:28585 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R28588:28592 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R28595:28597 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R28582:28582 PLF.References <> t:178 var
+R28586:28587 PLF.References <> st:179 var
+R28593:28594 PLF.References <> t':180 var
+R28598:28600 PLF.References <> st':181 var
+R28629:28634 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28607:28622 PLF.References STLCRef store_well_typed def
+R28624:28625 PLF.References <> ST:176 var
+R28627:28628 PLF.References <> st:179 var
+R28640:28642 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R28645:28649 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R28652:28656 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R28643:28644 PLF.References <> ST:176 var
+R28635:28639 PLF.Maps <> empty def
+R28650:28651 PLF.References <> t':180 var
+R28657:28657 PLF.References <> T:177 var
+ind 28959:28965 STLCRef extends
+constr 29005:29015 STLCRef extends_nil
+constr 29058:29069 STLCRef extends_cons
+R28977:28980 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28969:28976 PLF.References STLCRef store_ty def
+R28989:28992 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28981:28988 PLF.References STLCRef store_ty def
+binder 29027:29029 <> ST':184
+R29038:29044 PLF.References <> extends:182 ind
+R29050:29052 Coq.Init.Datatypes <> nil constr
+R29046:29048 PLF.References <> ST':184 var
+binder 29080:29080 <> x:185
+binder 29082:29084 <> ST':186
+binder 29086:29087 <> ST:187
+R29110:29119 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29096:29102 PLF.References <> extends:182 ind
+R29108:29109 PLF.References <> ST:187 var
+R29104:29106 PLF.References <> ST':186 var
+R29120:29126 PLF.References <> extends:182 ind
+R29139:29140 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29138:29138 PLF.References <> x:185 var
+R29141:29142 PLF.References <> ST:187 var
+R29130:29131 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29129:29129 PLF.References <> x:185 var
+R29132:29134 PLF.References <> ST':186 var
+scheme 28959:28965 STLCRef extends_ind
+scheme 28959:28965 STLCRef extends_sind
+R29165:29171 PLF.References <> extends ind
+prf 29360:29373 STLCRef extends_lookup
+binder 29384:29384 <> l:188
+binder 29386:29387 <> ST:189
+binder 29389:29391 <> ST':190
+R29409:29414 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29397:29399 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R29396:29396 PLF.References <> l:188 var
+R29400:29405 Coq.Init.Datatypes <> length def
+R29407:29408 PLF.References <> ST:189 var
+R29429:29434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29415:29421 PLF.References STLCRef extends ind
+R29423:29425 PLF.References <> ST':190 var
+R29427:29428 PLF.References <> ST:189 var
+R29454:29456 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29435:29447 PLF.References STLCRef store_Tlookup def
+R29449:29449 PLF.References <> l:188 var
+R29451:29453 PLF.References <> ST':190 var
+R29457:29469 PLF.References STLCRef store_Tlookup def
+R29471:29471 PLF.References <> l:188 var
+R29473:29474 PLF.References <> ST:189 var
+R29639:29651 PLF.References STLCRef store_Tlookup def
+prf 29998:30011 STLCRef length_extends
+binder 30022:30022 <> l:191
+binder 30024:30025 <> ST:192
+binder 30027:30029 <> ST':193
+R30047:30052 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30035:30037 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R30034:30034 PLF.References <> l:191 var
+R30038:30043 Coq.Init.Datatypes <> length def
+R30045:30046 PLF.References <> ST:192 var
+R30067:30072 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30053:30059 PLF.References STLCRef extends ind
+R30061:30063 PLF.References <> ST':193 var
+R30065:30066 PLF.References <> ST:192 var
+R30074:30076 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R30073:30073 PLF.References <> l:191 var
+R30077:30082 Coq.Init.Datatypes <> length def
+R30084:30086 PLF.References <> ST':193 var
+R30253:30268 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R30253:30268 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+prf 30374:30384 STLCRef extends_app
+binder 30395:30396 <> ST:194
+binder 30398:30398 <> T:195
+R30403:30409 PLF.References STLCRef extends ind
+R30414:30417 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R30412:30413 PLF.References <> ST:194 var
+R30418:30418 PLF.References <> T:195 var
+R30421:30422 PLF.References <> ST:194 var
+prf 30493:30504 STLCRef extends_refl
+binder 30515:30516 <> ST:196
+R30521:30527 PLF.References STLCRef extends ind
+R30529:30530 PLF.References <> ST:196 var
+R30532:30533 PLF.References <> ST:196 var
+def 30779:30798 STLCRef preservation_theorem
+binder 30810:30811 <> ST:197
+binder 30813:30813 <> t:198
+binder 30815:30816 <> t':199
+binder 30818:30818 <> T:200
+binder 30820:30821 <> st:201
+binder 30823:30825 <> st':202
+R30852:30857 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30835:30837 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R30840:30844 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R30846:30850 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R30838:30839 PLF.References <> ST:197 var
+R30830:30834 PLF.Maps <> empty def
+R30845:30845 PLF.References <> t:198 var
+R30851:30851 PLF.References <> T:200 var
+R30880:30885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30858:30873 PLF.References STLCRef store_well_typed def
+R30875:30876 PLF.References <> ST:197 var
+R30878:30879 PLF.References <> st:201 var
+R30905:30910 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30887:30889 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R30892:30896 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R30899:30901 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R30886:30886 PLF.References <> t:198 var
+R30890:30891 PLF.References <> st:201 var
+R30897:30898 PLF.References <> t':199 var
+R30902:30904 PLF.References <> st':202 var
+R30911:30917 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R30921:30927 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 30918:30920 <> ST':203
+R30942:30950 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30928:30934 PLF.References STLCRef extends ind
+R30936:30938 PLF.References <> ST':203 var
+R30940:30941 PLF.References <> ST:197 var
+R30975:30983 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30956:30958 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R30962:30966 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R30969:30973 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R30959:30961 PLF.References <> ST':203 var
+R30951:30955 PLF.Maps <> empty def
+R30967:30968 PLF.References <> t':199 var
+R30974:30974 PLF.References <> T:200 var
+R30984:30999 PLF.References STLCRef store_well_typed def
+R31001:31003 PLF.References <> ST':203 var
+R31005:31007 PLF.References <> st':202 var
+prf 31442:31450 STLCRef weakening
+binder 31461:31465 <> Gamma:204
+binder 31467:31472 <> Gamma':205
+binder 31474:31475 <> ST:206
+binder 31477:31477 <> t:207
+binder 31479:31479 <> T:208
+R31510:31518 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31487:31496 PLF.Maps <> includedin def
+R31504:31509 PLF.References <> Gamma':205 var
+R31498:31502 PLF.References <> Gamma:204 var
+R31542:31551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31524:31527 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31530:31534 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31536:31540 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31528:31529 PLF.References <> ST:206 var
+R31519:31523 PLF.References <> Gamma:204 var
+R31535:31535 PLF.References <> t:207 var
+R31541:31541 PLF.References <> T:208 var
+R31558:31560 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31563:31567 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31569:31573 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31561:31562 PLF.References <> ST:206 var
+R31552:31557 PLF.References <> Gamma':205 var
+R31568:31568 PLF.References <> t:207 var
+R31574:31574 PLF.References <> T:208 var
+R31678:31694 PLF.Maps <> includedin_update thm
+R31678:31694 PLF.Maps <> includedin_update thm
+R31678:31694 PLF.Maps <> includedin_update thm
+R31678:31694 PLF.Maps <> includedin_update thm
+R31678:31694 PLF.Maps <> includedin_update thm
+R31678:31694 PLF.Maps <> includedin_update thm
+R31678:31694 PLF.Maps <> includedin_update thm
+R31678:31694 PLF.Maps <> includedin_update thm
+R31678:31694 PLF.Maps <> includedin_update thm
+R31678:31694 PLF.Maps <> includedin_update thm
+R31678:31694 PLF.Maps <> includedin_update thm
+R31678:31694 PLF.Maps <> includedin_update thm
+R31678:31694 PLF.Maps <> includedin_update thm
+R31678:31694 PLF.Maps <> includedin_update thm
+prf 31709:31723 STLCRef weakening_empty
+binder 31734:31738 <> Gamma:209
+binder 31740:31741 <> ST:210
+binder 31743:31743 <> t:211
+binder 31745:31745 <> T:212
+R31775:31784 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31758:31760 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31763:31767 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31769:31773 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31761:31762 PLF.References <> ST:210 var
+R31753:31757 PLF.Maps <> empty def
+R31768:31768 PLF.References <> t:211 var
+R31774:31774 PLF.References <> T:212 var
+R31790:31792 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31795:31799 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31801:31805 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31793:31794 PLF.References <> ST:210 var
+R31785:31789 PLF.References <> Gamma:209 var
+R31800:31800 PLF.References <> t:211 var
+R31806:31806 PLF.References <> T:212 var
+R31848:31856 PLF.References STLCRef weakening thm
+R31848:31856 PLF.References STLCRef weakening thm
+prf 31887:31915 STLCRef substitution_preserves_typing
+binder 31926:31930 <> Gamma:213
+binder 31932:31933 <> ST:214
+binder 31935:31935 <> x:215
+binder 31937:31937 <> U:216
+binder 31939:31939 <> t:217
+binder 31941:31941 <> v:218
+binder 31943:31943 <> T:219
+R31982:31987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31948:31948 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31965:31967 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31970:31974 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31976:31980 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31968:31969 PLF.References <> ST:214 var
+R31949:31954 PLF.Maps <> update def
+R31964:31964 PLF.References <> U:216 var
+R31962:31962 PLF.References <> x:215 var
+R31956:31960 PLF.References <> Gamma:213 var
+R31975:31975 PLF.References <> t:217 var
+R31981:31981 PLF.References <> T:219 var
+R32010:32017 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31993:31995 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31998:32002 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R32004:32008 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R31996:31997 PLF.References <> ST:214 var
+R31988:31992 PLF.Maps <> empty def
+R32003:32003 PLF.References <> v:218 var
+R32009:32009 PLF.References <> U:216 var
+R32023:32025 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R32028:32032 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R32040:32044 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R32026:32027 PLF.References <> ST:214 var
+R32018:32022 PLF.References <> Gamma:213 var
+R32033:32033 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R32035:32036 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R32038:32038 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R32034:32034 PLF.References <> x:215 var
+R32037:32037 PLF.References <> v:218 var
+R32039:32039 PLF.References <> t:217 var
+R32045:32045 PLF.References <> T:219 var
+R32332:32346 Coq.Strings.String <> eqb_spec thm
+R32332:32346 Coq.Strings.String <> eqb_spec thm
+R32391:32399 PLF.Maps <> update_eq thm
+R32391:32399 PLF.Maps <> update_eq thm
+R32391:32399 PLF.Maps <> update_eq thm
+R32453:32467 PLF.References STLCRef weakening_empty thm
+R32453:32467 PLF.References STLCRef weakening_empty thm
+R32511:32515 PLF.References STLCRef T_Var constr
+R32511:32515 PLF.References STLCRef T_Var constr
+R32526:32535 PLF.Maps <> update_neq thm
+R32526:32535 PLF.Maps <> update_neq thm
+R32526:32535 PLF.Maps <> update_neq thm
+R32526:32535 PLF.Maps <> update_neq thm
+R32599:32613 Coq.Strings.String <> eqb_spec thm
+R32634:32638 PLF.References STLCRef T_Abs constr
+R32599:32613 Coq.Strings.String <> eqb_spec thm
+R32634:32638 PLF.References STLCRef T_Abs constr
+R32634:32638 PLF.References STLCRef T_Abs constr
+R32671:32683 PLF.Maps <> update_shadow thm
+R32671:32683 PLF.Maps <> update_shadow thm
+R32671:32683 PLF.Maps <> update_shadow thm
+R32752:32765 PLF.Maps <> update_permute thm
+R32752:32765 PLF.Maps <> update_permute thm
+R32752:32765 PLF.Maps <> update_permute thm
+R32752:32765 PLF.Maps <> update_permute thm
+prf 33121:33144 STLCRef assign_pres_store_typing
+binder 33155:33156 <> ST:220
+binder 33158:33159 <> st:221
+binder 33161:33161 <> l:222
+binder 33163:33163 <> t:223
+R33181:33186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33169:33171 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R33168:33168 PLF.References <> l:222 var
+R33172:33177 Coq.Init.Datatypes <> length def
+R33179:33180 PLF.References <> st:221 var
+R33209:33214 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33187:33202 PLF.References STLCRef store_well_typed def
+R33204:33205 PLF.References <> ST:220 var
+R33207:33208 PLF.References <> st:221 var
+R33256:33261 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33220:33222 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R33225:33229 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R33231:33235 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R33223:33224 PLF.References <> ST:220 var
+R33215:33219 PLF.Maps <> empty def
+R33230:33230 PLF.References <> t:223 var
+R33236:33236 PLF.References STLCRef :stlc::'{'_x_'}' not
+R33255:33255 PLF.References STLCRef :stlc::'{'_x_'}' not
+R33237:33249 PLF.References STLCRef store_Tlookup def
+R33251:33251 PLF.References <> l:222 var
+R33253:33254 PLF.References <> ST:220 var
+R33262:33277 PLF.References STLCRef store_well_typed def
+R33279:33280 PLF.References <> ST:220 var
+R33283:33289 PLF.References STLCRef replace def
+R33295:33296 PLF.References <> st:221 var
+R33293:33293 PLF.References <> t:223 var
+R33291:33291 PLF.References <> l:222 var
+R33390:33403 PLF.References STLCRef length_replace thm
+R33390:33403 PLF.References STLCRef length_replace thm
+R33390:33403 PLF.References STLCRef length_replace thm
+R33439:33442 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R33439:33442 Coq.Init.Nat <> ::nat_scope:x_'=?'_x not
+R33486:33491 Coq.Arith.PeanoNat Nat eqb_eq thm
+R33486:33491 Coq.Arith.PeanoNat Nat eqb_eq thm
+R33523:33539 PLF.References STLCRef lookup_replace_eq thm
+R33523:33539 PLF.References STLCRef lookup_replace_eq thm
+R33523:33539 PLF.References STLCRef lookup_replace_eq thm
+R33523:33539 PLF.References STLCRef lookup_replace_eq thm
+R33572:33578 Coq.Arith.PeanoNat Nat eqb_neq thm
+R33572:33578 Coq.Arith.PeanoNat Nat eqb_neq thm
+R33603:33620 PLF.References STLCRef lookup_replace_neq thm
+R33603:33620 PLF.References STLCRef lookup_replace_neq thm
+R33603:33620 PLF.References STLCRef lookup_replace_neq thm
+R33603:33620 PLF.References STLCRef lookup_replace_neq thm
+R33637:33650 PLF.References STLCRef length_replace thm
+R33637:33650 PLF.References STLCRef length_replace thm
+R33637:33650 PLF.References STLCRef length_replace thm
+prf 34248:34262 STLCRef store_weakening
+binder 34273:34277 <> Gamma:224
+binder 34279:34280 <> ST:225
+binder 34282:34284 <> ST':226
+binder 34286:34286 <> t:227
+binder 34288:34288 <> T:228
+R34307:34312 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34293:34299 PLF.References STLCRef extends ind
+R34301:34303 PLF.References <> ST':226 var
+R34305:34306 PLF.References <> ST:225 var
+R34335:34340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34318:34320 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R34323:34327 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R34329:34333 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R34321:34322 PLF.References <> ST:225 var
+R34313:34317 PLF.References <> Gamma:224 var
+R34328:34328 PLF.References <> t:227 var
+R34334:34334 PLF.References <> T:228 var
+R34346:34348 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R34352:34356 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R34358:34362 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R34349:34351 PLF.References <> ST':226 var
+R34341:34345 PLF.References <> Gamma:224 var
+R34357:34357 PLF.References <> t:227 var
+R34363:34363 PLF.References <> T:228 var
+R34447:34460 PLF.References STLCRef extends_lookup thm
+R34447:34460 PLF.References STLCRef extends_lookup thm
+R34447:34460 PLF.References STLCRef extends_lookup thm
+R34447:34460 PLF.References STLCRef extends_lookup thm
+R34447:34460 PLF.References STLCRef extends_lookup thm
+R34484:34488 PLF.References STLCRef T_Loc constr
+R34484:34488 PLF.References STLCRef T_Loc constr
+R34502:34515 PLF.References STLCRef length_extends thm
+R34502:34515 PLF.References STLCRef length_extends thm
+prf 34790:34809 STLCRef store_well_typed_app
+binder 34820:34821 <> ST:229
+binder 34823:34824 <> st:230
+binder 34826:34827 <> t1:231
+binder 34829:34830 <> T1:232
+R34857:34862 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34835:34850 PLF.References STLCRef store_well_typed def
+R34852:34853 PLF.References <> ST:229 var
+R34855:34856 PLF.References <> st:230 var
+R34887:34892 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34868:34870 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R34873:34877 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R34880:34884 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R34871:34872 PLF.References <> ST:229 var
+R34863:34867 PLF.Maps <> empty def
+R34878:34879 PLF.References <> t1:231 var
+R34885:34886 PLF.References <> T1:232 var
+R34893:34908 PLF.References STLCRef store_well_typed def
+R34913:34916 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R34911:34912 PLF.References <> ST:229 var
+R34919:34920 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34917:34918 PLF.References <> T1:232 var
+R34921:34923 Coq.Init.Datatypes <> nil constr
+R34929:34932 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R34927:34928 PLF.References <> st:230 var
+R34935:34936 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R34933:34934 PLF.References <> t1:231 var
+R34937:34939 Coq.Init.Datatypes <> nil constr
+R34979:34994 PLF.References STLCRef store_well_typed def
+R35043:35052 Coq.Lists.List <> app_length thm
+R35055:35062 Coq.Arith.PeanoNat Nat add_comm thm
+R35043:35052 Coq.Lists.List <> app_length thm
+R35043:35052 Coq.Lists.List <> app_length thm
+R35055:35062 Coq.Arith.PeanoNat Nat add_comm thm
+R35055:35062 Coq.Arith.PeanoNat Nat add_comm thm
+R35082:35091 Coq.Lists.List <> app_length thm
+R35094:35101 Coq.Arith.PeanoNat Nat add_comm thm
+R35082:35091 Coq.Lists.List <> app_length thm
+R35082:35091 Coq.Lists.List <> app_length thm
+R35094:35101 Coq.Arith.PeanoNat Nat add_comm thm
+R35094:35101 Coq.Arith.PeanoNat Nat add_comm thm
+R35173:35184 PLF.References STLCRef store_lookup def
+R35187:35199 PLF.References STLCRef store_Tlookup def
+R35212:35223 Coq.Arith.Compare_dec <> le_lt_eq_dec def
+R35212:35223 Coq.Arith.Compare_dec <> le_lt_eq_dec def
+R35300:35315 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R35300:35315 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R35340:35347 Coq.Lists.List <> app_nth1 thm
+R35340:35347 Coq.Lists.List <> app_nth1 thm
+R35340:35347 Coq.Lists.List <> app_nth1 thm
+R35340:35347 Coq.Lists.List <> app_nth1 thm
+R35340:35347 Coq.Lists.List <> app_nth1 thm
+R35340:35347 Coq.Lists.List <> app_nth1 thm
+R35340:35347 Coq.Lists.List <> app_nth1 thm
+R35366:35380 PLF.References STLCRef store_weakening thm
+R35366:35380 PLF.References STLCRef store_weakening thm
+R35397:35407 PLF.References STLCRef extends_app thm
+R35397:35407 PLF.References STLCRef extends_app thm
+R35533:35540 Coq.Lists.List <> app_nth2 thm
+R35533:35540 Coq.Lists.List <> app_nth2 thm
+R35533:35540 Coq.Lists.List <> app_nth2 thm
+R35533:35540 Coq.Lists.List <> app_nth2 thm
+R35589:35596 Coq.Arith.PeanoNat Nat sub_diag thm
+R35589:35596 Coq.Arith.PeanoNat Nat sub_diag thm
+R35589:35596 Coq.Arith.PeanoNat Nat sub_diag thm
+R35618:35632 PLF.References STLCRef store_weakening thm
+R35618:35632 PLF.References STLCRef store_weakening thm
+R35659:35669 PLF.References STLCRef extends_app thm
+R35659:35669 PLF.References STLCRef extends_app thm
+R35688:35695 Coq.Lists.List <> app_nth2 thm
+R35688:35695 Coq.Lists.List <> app_nth2 thm
+R35688:35695 Coq.Lists.List <> app_nth2 thm
+R35688:35695 Coq.Lists.List <> app_nth2 thm
+R35720:35727 Coq.Arith.PeanoNat Nat sub_diag thm
+R35720:35727 Coq.Arith.PeanoNat Nat sub_diag thm
+R35720:35727 Coq.Arith.PeanoNat Nat sub_diag thm
+prf 36016:36026 STLCRef nth_eq_last
+binder 36037:36037 <> A:233
+R36042:36045 Coq.Init.Datatypes <> list ind
+R36047:36047 PLF.References <> A:233 var
+binder 36040:36040 <> l:234
+binder 36050:36050 <> x:235
+binder 36052:36052 <> d:236
+R36087:36089 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36057:36059 Coq.Lists.List <> nth def
+R36086:36086 PLF.References <> d:236 var
+R36074:36077 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R36073:36073 PLF.References <> l:234 var
+R36079:36080 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R36078:36078 PLF.References <> x:235 var
+R36081:36083 Coq.Init.Datatypes <> nil constr
+R36062:36067 Coq.Init.Datatypes <> length def
+R36069:36069 PLF.References <> l:234 var
+R36090:36090 PLF.References <> x:235 var
+prf 36230:36241 STLCRef preservation
+binder 36252:36253 <> ST:237
+binder 36255:36255 <> t:238
+binder 36257:36258 <> t':239
+binder 36260:36260 <> T:240
+binder 36262:36263 <> st:241
+binder 36265:36267 <> st':242
+R36294:36299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36277:36279 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R36282:36286 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R36288:36292 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R36280:36281 PLF.References <> ST:237 var
+R36272:36276 PLF.Maps <> empty def
+R36287:36287 PLF.References <> t:238 var
+R36293:36293 PLF.References <> T:240 var
+R36322:36327 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36300:36315 PLF.References STLCRef store_well_typed def
+R36317:36318 PLF.References <> ST:237 var
+R36320:36321 PLF.References <> st:241 var
+R36347:36352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36329:36331 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R36334:36338 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R36341:36343 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R36328:36328 PLF.References <> t:238 var
+R36332:36333 PLF.References <> st:241 var
+R36339:36340 PLF.References <> t':239 var
+R36344:36346 PLF.References <> st':242 var
+R36353:36359 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R36363:36369 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 36360:36362 <> ST':243
+R36384:36392 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R36370:36376 PLF.References STLCRef extends ind
+R36378:36380 PLF.References <> ST':243 var
+R36382:36383 PLF.References <> ST:237 var
+R36417:36425 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R36398:36400 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R36404:36408 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R36411:36415 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R36401:36403 PLF.References <> ST':243 var
+R36393:36397 PLF.Maps <> empty def
+R36409:36410 PLF.References <> t':239 var
+R36416:36416 PLF.References <> T:240 var
+R36426:36441 PLF.References STLCRef store_well_typed def
+R36443:36445 PLF.References <> ST':243 var
+R36447:36449 PLF.References <> st':242 var
+R36475:36489 PLF.References STLCRef store_weakening thm
+R36492:36503 PLF.References STLCRef extends_refl thm
+R36517:36521 PLF.Maps <> empty def
+R36517:36521 PLF.Maps <> empty def
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36704:36718 PLF.References STLCRef store_weakening thm
+R36721:36732 PLF.References STLCRef extends_refl thm
+R36838:36866 PLF.References STLCRef substitution_preserves_typing thm
+R36838:36866 PLF.References STLCRef substitution_preserves_typing thm
+R37760:37763 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37766:37767 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37768:37770 Coq.Init.Datatypes <> nil constr
+R37760:37763 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37766:37767 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37768:37770 Coq.Init.Datatypes <> nil constr
+R37823:37833 PLF.References STLCRef extends_app thm
+R37823:37833 PLF.References STLCRef extends_app thm
+R37863:37865 PLF.References STLCRef :::'<{'_x_'}>' not
+R37872:37874 PLF.References STLCRef :::'<{'_x_'}>' not
+R37866:37869 PLF.References STLCRef :stlc::'Ref'_x not
+R37889:37891 PLF.References STLCRef :::'<{'_x_'}>' not
+R37939:37941 PLF.References STLCRef :::'<{'_x_'}>' not
+R37892:37895 PLF.References STLCRef :stlc::'Ref'_x not
+R37896:37896 PLF.References STLCRef :stlc::'{'_x_'}' not
+R37938:37938 PLF.References STLCRef :stlc::'{'_x_'}' not
+R37897:37909 PLF.References STLCRef store_Tlookup def
+R37912:37917 Coq.Init.Datatypes <> length def
+R37926:37929 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37932:37933 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37934:37936 Coq.Init.Datatypes <> nil constr
+R37863:37865 PLF.References STLCRef :::'<{'_x_'}>' not
+R37872:37874 PLF.References STLCRef :::'<{'_x_'}>' not
+R37866:37869 PLF.References STLCRef :stlc::'Ref'_x not
+R37889:37891 PLF.References STLCRef :::'<{'_x_'}>' not
+R37939:37941 PLF.References STLCRef :::'<{'_x_'}>' not
+R37892:37895 PLF.References STLCRef :stlc::'Ref'_x not
+R37896:37896 PLF.References STLCRef :stlc::'{'_x_'}' not
+R37938:37938 PLF.References STLCRef :stlc::'{'_x_'}' not
+R37897:37909 PLF.References STLCRef store_Tlookup def
+R37912:37917 Coq.Init.Datatypes <> length def
+R37926:37929 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37932:37933 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37934:37936 Coq.Init.Datatypes <> nil constr
+R37958:37962 PLF.References STLCRef T_Loc constr
+R37958:37962 PLF.References STLCRef T_Loc constr
+R37995:38004 Coq.Lists.List <> app_length thm
+R38007:38014 Coq.Arith.PeanoNat Nat add_comm thm
+R37995:38004 Coq.Lists.List <> app_length thm
+R37995:38004 Coq.Lists.List <> app_length thm
+R38007:38014 Coq.Arith.PeanoNat Nat add_comm thm
+R38007:38014 Coq.Arith.PeanoNat Nat add_comm thm
+R38044:38056 PLF.References STLCRef store_Tlookup def
+R38081:38091 PLF.References STLCRef nth_eq_last thm
+R38081:38091 PLF.References STLCRef nth_eq_last thm
+R38081:38091 PLF.References STLCRef nth_eq_last thm
+R38125:38144 PLF.References STLCRef store_well_typed_app thm
+R38125:38144 PLF.References STLCRef store_well_typed_app thm
+R38387:38399 PLF.References STLCRef store_Tlookup def
+R38387:38399 PLF.References STLCRef store_Tlookup def
+R38642:38665 PLF.References STLCRef assign_pres_store_typing thm
+R38642:38665 PLF.References STLCRef assign_pres_store_typing thm
+prf 39465:39472 STLCRef progress
+binder 39483:39484 <> ST:244
+binder 39486:39486 <> t:245
+binder 39488:39488 <> T:246
+binder 39490:39491 <> st:247
+R39518:39523 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39501:39503 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R39506:39510 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R39512:39516 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R39504:39505 PLF.References <> ST:244 var
+R39496:39500 PLF.Maps <> empty def
+R39511:39511 PLF.References <> t:245 var
+R39517:39517 PLF.References <> T:246 var
+R39546:39552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39598:39598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39524:39539 PLF.References STLCRef store_well_typed def
+R39541:39542 PLF.References <> ST:244 var
+R39544:39545 PLF.References <> st:247 var
+R39560:39563 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R39553:39557 PLF.References STLCRef value ind
+R39559:39559 PLF.References <> t:245 var
+R39564:39570 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R39577:39578 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 39571:39572 <> t':248
+binder 39574:39576 <> st':249
+R39580:39582 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R39585:39589 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R39592:39594 PLF.References STLCRef :::x_'/'_x_'-->'_x_'/'_x not
+R39579:39579 PLF.References <> t:245 var
+R39583:39584 PLF.References <> st:247 var
+R39590:39591 PLF.References <> t':248 var
+R39595:39597 PLF.References <> st':249 var
+R39655:39659 PLF.Maps <> empty def
+R39655:39659 PLF.Maps <> empty def
+R39978:39980 PLF.References STLCRef :::'<{'_x_'}>' not
+R40000:40002 PLF.References STLCRef :::'<{'_x_'}>' not
+R39996:39996 PLF.References STLCRef :stlc::x_x not
+R39981:39981 PLF.References STLCRef :stlc::'('_x_')' not
+R39995:39995 PLF.References STLCRef :stlc::'('_x_')' not
+R39982:39983 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R39986:39988 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R39991:39992 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R39978:39980 PLF.References STLCRef :::'<{'_x_'}>' not
+R40000:40002 PLF.References STLCRef :::'<{'_x_'}>' not
+R39996:39996 PLF.References STLCRef :stlc::x_x not
+R39981:39981 PLF.References STLCRef :stlc::'('_x_')' not
+R39995:39995 PLF.References STLCRef :stlc::'('_x_')' not
+R39982:39983 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R39986:39988 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R39991:39992 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R40088:40090 PLF.References STLCRef :::'<{'_x_'}>' not
+R40097:40099 PLF.References STLCRef :::'<{'_x_'}>' not
+R40094:40094 PLF.References STLCRef :stlc::x_x not
+R40088:40090 PLF.References STLCRef :::'<{'_x_'}>' not
+R40097:40099 PLF.References STLCRef :::'<{'_x_'}>' not
+R40094:40094 PLF.References STLCRef :stlc::x_x not
+R40297:40299 PLF.References STLCRef :::'<{'_x_'}>' not
+R40305:40307 PLF.References STLCRef :::'<{'_x_'}>' not
+R40300:40300 PLF.References STLCRef :stlc::'{'_x_'}' not
+R40304:40304 PLF.References STLCRef :stlc::'{'_x_'}' not
+R40301:40301 Coq.Init.Datatypes <> S constr
+R40297:40299 PLF.References STLCRef :::'<{'_x_'}>' not
+R40305:40307 PLF.References STLCRef :::'<{'_x_'}>' not
+R40300:40300 PLF.References STLCRef :stlc::'{'_x_'}' not
+R40304:40304 PLF.References STLCRef :stlc::'{'_x_'}' not
+R40301:40301 Coq.Init.Datatypes <> S constr
+R40392:40394 PLF.References STLCRef :::'<{'_x_'}>' not
+R40403:40405 PLF.References STLCRef :::'<{'_x_'}>' not
+R40395:40399 PLF.References STLCRef :stlc::'succ'_x not
+R40392:40394 PLF.References STLCRef :::'<{'_x_'}>' not
+R40403:40405 PLF.References STLCRef :::'<{'_x_'}>' not
+R40395:40399 PLF.References STLCRef :stlc::'succ'_x not
+R40602:40604 PLF.References STLCRef :::'<{'_x_'}>' not
+R40612:40614 PLF.References STLCRef :::'<{'_x_'}>' not
+R40605:40605 PLF.References STLCRef :stlc::'{'_x_'}' not
+R40611:40611 PLF.References STLCRef :stlc::'{'_x_'}' not
+R40607:40609 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R40602:40604 PLF.References STLCRef :::'<{'_x_'}>' not
+R40612:40614 PLF.References STLCRef :::'<{'_x_'}>' not
+R40605:40605 PLF.References STLCRef :stlc::'{'_x_'}' not
+R40611:40611 PLF.References STLCRef :stlc::'{'_x_'}' not
+R40607:40609 Coq.Init.Nat <> ::nat_scope:x_'-'_x not
+R40699:40701 PLF.References STLCRef :::'<{'_x_'}>' not
+R40710:40712 PLF.References STLCRef :::'<{'_x_'}>' not
+R40702:40706 PLF.References STLCRef :stlc::'pred'_x not
+R40699:40701 PLF.References STLCRef :::'<{'_x_'}>' not
+R40710:40712 PLF.References STLCRef :::'<{'_x_'}>' not
+R40702:40706 PLF.References STLCRef :stlc::'pred'_x not
+R41009:41011 PLF.References STLCRef :::'<{'_x_'}>' not
+R41020:41022 PLF.References STLCRef :::'<{'_x_'}>' not
+R41012:41012 PLF.References STLCRef :stlc::'{'_x_'}' not
+R41019:41019 PLF.References STLCRef :stlc::'{'_x_'}' not
+R41014:41016 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R41009:41011 PLF.References STLCRef :::'<{'_x_'}>' not
+R41020:41022 PLF.References STLCRef :::'<{'_x_'}>' not
+R41012:41012 PLF.References STLCRef :stlc::'{'_x_'}' not
+R41019:41019 PLF.References STLCRef :stlc::'{'_x_'}' not
+R41014:41016 Coq.Init.Nat <> ::nat_scope:x_'*'_x not
+R41113:41115 PLF.References STLCRef :::'<{'_x_'}>' not
+R41123:41125 PLF.References STLCRef :::'<{'_x_'}>' not
+R41117:41119 PLF.References STLCRef :stlc::x_'*'_x not
+R41113:41115 PLF.References STLCRef :::'<{'_x_'}>' not
+R41123:41125 PLF.References STLCRef :::'<{'_x_'}>' not
+R41117:41119 PLF.References STLCRef :stlc::x_'*'_x not
+R41211:41213 PLF.References STLCRef :::'<{'_x_'}>' not
+R41222:41224 PLF.References STLCRef :::'<{'_x_'}>' not
+R41217:41219 PLF.References STLCRef :stlc::x_'*'_x not
+R41211:41213 PLF.References STLCRef :::'<{'_x_'}>' not
+R41222:41224 PLF.References STLCRef :::'<{'_x_'}>' not
+R41217:41219 PLF.References STLCRef :stlc::x_'*'_x not
+R41549:41551 PLF.References STLCRef :::'<{'_x_'}>' not
+R41575:41577 PLF.References STLCRef :::'<{'_x_'}>' not
+R41552:41555 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R41559:41564 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R41567:41572 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R41549:41551 PLF.References STLCRef :::'<{'_x_'}>' not
+R41575:41577 PLF.References STLCRef :::'<{'_x_'}>' not
+R41552:41555 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R41559:41564 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R41567:41572 PLF.References STLCRef :stlc::'if0'_x_'then'_x_'else'_x not
+R41724:41725 PLF.References STLCRef :::'<{'_x_'}>' not
+R41733:41734 PLF.References STLCRef :::'<{'_x_'}>' not
+R41726:41729 PLF.References STLCRef :stlc::'ref'_x not
+R41724:41725 PLF.References STLCRef :::'<{'_x_'}>' not
+R41733:41734 PLF.References STLCRef :::'<{'_x_'}>' not
+R41726:41729 PLF.References STLCRef :stlc::'ref'_x not
+R41913:41923 PLF.References STLCRef ST_DerefLoc constr
+R41913:41923 PLF.References STLCRef ST_DerefLoc constr
+R42075:42077 PLF.References STLCRef :::'<{'_x_'}>' not
+R42083:42085 PLF.References STLCRef :::'<{'_x_'}>' not
+R42078:42079 PLF.References STLCRef :stlc::'!'_x not
+R42075:42077 PLF.References STLCRef :::'<{'_x_'}>' not
+R42083:42085 PLF.References STLCRef :::'<{'_x_'}>' not
+R42078:42079 PLF.References STLCRef :stlc::'!'_x not
+R42335:42343 PLF.References STLCRef ST_Assign constr
+R42335:42343 PLF.References STLCRef ST_Assign constr
+R42509:42511 PLF.References STLCRef :::'<{'_x_'}>' not
+R42521:42523 PLF.References STLCRef :::'<{'_x_'}>' not
+R42514:42517 PLF.References STLCRef :stlc::x_':='_x not
+R42509:42511 PLF.References STLCRef :::'<{'_x_'}>' not
+R42521:42523 PLF.References STLCRef :::'<{'_x_'}>' not
+R42514:42517 PLF.References STLCRef :stlc::x_':='_x not
+R42609:42611 PLF.References STLCRef :::'<{'_x_'}>' not
+R42621:42623 PLF.References STLCRef :::'<{'_x_'}>' not
+R42615:42618 PLF.References STLCRef :stlc::x_':='_x not
+R42609:42611 PLF.References STLCRef :::'<{'_x_'}>' not
+R42621:42623 PLF.References STLCRef :::'<{'_x_'}>' not
+R42615:42618 PLF.References STLCRef :stlc::x_':='_x not
+mod 43560:43575 <> STLCRef.ExampleVariables
+def 43616:43616 STLCRef.ExampleVariables x
+def 43637:43637 STLCRef.ExampleVariables y
+def 43658:43658 STLCRef.ExampleVariables r
+def 43679:43679 STLCRef.ExampleVariables s
+R43694:43709 PLF.References STLCRef.ExampleVariables <> mod
+mod 43720:43740 <> STLCRef.RefsAndNontermination
+R43750:43765 PLF.References STLCRef.ExampleVariables <> mod
+def 43780:43787 STLCRef.RefsAndNontermination loop_fun
+R43794:43796 PLF.References STLCRef :::'<{'_x_'}>' not
+R43817:43819 PLF.References STLCRef :::'<{'_x_'}>' not
+R43797:43797 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R43799:43801 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R43806:43807 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R43798:43798 PLF.References STLCRef.ExampleVariables x def
+R43802:43805 PLF.References STLCRef :stlc::'Unit' not
+R43812:43812 PLF.References STLCRef :stlc::x_x not
+R43808:43808 PLF.References STLCRef :stlc::'('_x_')' not
+R43811:43811 PLF.References STLCRef :stlc::'('_x_')' not
+R43809:43809 PLF.References STLCRef :stlc::'!'_x not
+R43810:43810 PLF.References STLCRef.ExampleVariables r def
+R43813:43816 PLF.References STLCRef :stlc::'unit' not
+def 43834:43837 STLCRef.RefsAndNontermination loop
+R43844:43846 PLF.References STLCRef :::'<{'_x_'}>' not
+R43934:43936 PLF.References STLCRef :::'<{'_x_'}>' not
+R43910:43910 PLF.References STLCRef :stlc::x_x not
+R43847:43847 PLF.References STLCRef :stlc::'('_x_')' not
+R43909:43909 PLF.References STLCRef :stlc::'('_x_')' not
+R43848:43848 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R43850:43852 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R43871:43872 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R43849:43849 PLF.References STLCRef.ExampleVariables r def
+R43853:43856 PLF.References STLCRef :stlc::'Ref'_x not
+R43857:43857 PLF.References STLCRef :stlc::'('_x_')' not
+R43870:43870 PLF.References STLCRef :stlc::'('_x_')' not
+R43862:43865 PLF.References STLCRef :stlc::x_'->'_x not
+R43858:43861 PLF.References STLCRef :stlc::'Unit' not
+R43866:43869 PLF.References STLCRef :stlc::'Unit' not
+R43873:43873 PLF.References STLCRef :stlc::'('_x_')' not
+R43907:43908 PLF.References STLCRef :stlc::'('_x_')' not
+R43891:43892 PLF.References STLCRef :stlc::x_';'_x not
+R43874:43875 PLF.References STLCRef :stlc::'('_x_')' not
+R43889:43890 PLF.References STLCRef :stlc::'('_x_')' not
+R43877:43880 PLF.References STLCRef :stlc::x_':='_x not
+R43876:43876 PLF.References STLCRef.ExampleVariables r def
+R43881:43888 PLF.References STLCRef.RefsAndNontermination loop_fun def
+R43893:43894 PLF.References STLCRef :stlc::'('_x_')' not
+R43905:43906 PLF.References STLCRef :stlc::'('_x_')' not
+R43900:43900 PLF.References STLCRef :stlc::x_x not
+R43895:43895 PLF.References STLCRef :stlc::'('_x_')' not
+R43899:43899 PLF.References STLCRef :stlc::'('_x_')' not
+R43896:43897 PLF.References STLCRef :stlc::'!'_x not
+R43898:43898 PLF.References STLCRef.ExampleVariables r def
+R43901:43904 PLF.References STLCRef :stlc::'unit' not
+R43911:43911 PLF.References STLCRef :stlc::'('_x_')' not
+R43933:43933 PLF.References STLCRef :stlc::'('_x_')' not
+R43912:43915 PLF.References STLCRef :stlc::'ref'_x not
+R43916:43916 PLF.References STLCRef :stlc::'('_x_')' not
+R43932:43932 PLF.References STLCRef :stlc::'('_x_')' not
+R43917:43917 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R43919:43921 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R43926:43927 PLF.References STLCRef :stlc::'\'_x_':'_x_','_x not
+R43918:43918 PLF.References STLCRef.ExampleVariables x def
+R43922:43925 PLF.References STLCRef :stlc::'Unit' not
+R43928:43931 PLF.References STLCRef :stlc::'unit' not
+prf 43979:43991 STLCRef.RefsAndNontermination loop_typeable
+R43995:44001 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R44003:44004 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 44002:44002 <> T:250
+R44010:44011 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R44015:44019 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R44024:44028 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R44012:44014 Coq.Init.Datatypes <> nil constr
+R44005:44009 PLF.Maps <> empty def
+R44020:44023 PLF.References STLCRef.RefsAndNontermination loop def
+R44029:44029 PLF.References <> T:250 var
+R44068:44071 PLF.References STLCRef.RefsAndNontermination loop def
+R44081:44088 PLF.References STLCRef.RefsAndNontermination loop_fun def
+R44100:44104 PLF.References STLCRef T_App constr
+R44100:44104 PLF.References STLCRef T_App constr
+R44118:44122 PLF.References STLCRef T_Abs constr
+R44118:44122 PLF.References STLCRef T_Abs constr
+R44136:44140 PLF.References STLCRef T_App constr
+R44136:44140 PLF.References STLCRef T_App constr
+R44156:44160 PLF.References STLCRef T_Abs constr
+R44156:44160 PLF.References STLCRef T_Abs constr
+R44170:44174 PLF.References STLCRef T_App constr
+R44170:44174 PLF.References STLCRef T_App constr
+R44184:44190 PLF.References STLCRef T_Deref constr
+R44184:44190 PLF.References STLCRef T_Deref constr
+R44200:44204 PLF.References STLCRef T_Var constr
+R44200:44204 PLF.References STLCRef T_Var constr
+R44219:44228 PLF.Maps <> update_neq thm
+R44219:44228 PLF.Maps <> update_neq thm
+R44219:44228 PLF.Maps <> update_neq thm
+R44219:44228 PLF.Maps <> update_neq thm
+R44268:44276 PLF.Maps <> update_eq thm
+R44268:44276 PLF.Maps <> update_eq thm
+R44268:44276 PLF.Maps <> update_eq thm
+R44307:44314 PLF.References STLCRef T_Assign constr
+R44307:44314 PLF.References STLCRef T_Assign constr
+R44328:44332 PLF.References STLCRef T_Var constr
+R44328:44332 PLF.References STLCRef T_Var constr
+R44343:44351 PLF.Maps <> update_eq thm
+R44343:44351 PLF.Maps <> update_eq thm
+R44343:44351 PLF.Maps <> update_eq thm
+R44376:44380 PLF.References STLCRef T_Abs constr
+R44376:44380 PLF.References STLCRef T_Abs constr
+R44394:44398 PLF.References STLCRef T_App constr
+R44394:44398 PLF.References STLCRef T_App constr
+R44416:44422 PLF.References STLCRef T_Deref constr
+R44416:44422 PLF.References STLCRef T_Deref constr
+R44432:44436 PLF.References STLCRef T_Var constr
+R44432:44436 PLF.References STLCRef T_Var constr
+ind 44845:44856 STLCRef.RefsAndNontermination step_closure
+constr 44907:44912 STLCRef.RefsAndNontermination sc_one
+constr 44983:44989 STLCRef.RefsAndNontermination sc_step
+binder 44859:44859 <> X:251
+R44871:44878 PLF.Smallstep <> relation def
+R44880:44880 PLF.References <> X:251 var
+binder 44868:44868 <> R:252
+R44886:44889 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R44891:44894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R44931:44931 PLF.References <> X:251 var
+binder 44925:44925 <> x:255
+binder 44927:44927 <> y:256
+R44956:44959 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R44951:44951 PLF.References <> R:252 var
+R44953:44953 PLF.References <> x:255 var
+R44955:44955 PLF.References <> y:256 var
+R44960:44971 PLF.References <> step_closure:253 ind
+R44977:44977 PLF.References <> y:256 var
+R44975:44975 PLF.References <> x:255 var
+R44973:44973 PLF.References <> R:252 var
+R45009:45009 PLF.References <> X:251 var
+binder 45001:45001 <> x:257
+binder 45003:45003 <> y:258
+binder 45005:45005 <> z:259
+R45034:45053 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R45029:45029 PLF.References <> R:252 var
+R45031:45031 PLF.References <> x:257 var
+R45033:45033 PLF.References <> y:258 var
+R45072:45091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R45054:45065 PLF.References <> step_closure:253 ind
+R45071:45071 PLF.References <> z:259 var
+R45069:45069 PLF.References <> y:258 var
+R45067:45067 PLF.References <> R:252 var
+R45092:45103 PLF.References <> step_closure:253 ind
+R45109:45109 PLF.References <> z:259 var
+R45107:45107 PLF.References <> x:257 var
+R45105:45105 PLF.References <> R:252 var
+scheme 44845:44856 STLCRef.RefsAndNontermination step_closure_ind
+scheme 44845:44856 STLCRef.RefsAndNontermination step_closure_sind
+def 45124:45133 STLCRef.RefsAndNontermination multistep1
+R45139:45150 PLF.References STLCRef.RefsAndNontermination step_closure ind
+R45152:45155 PLF.References STLCRef step ind
+R45210:45219 PLF.References STLCRef.RefsAndNontermination multistep1 def
+R45221:45221 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45224:45224 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45227:45227 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45229:45229 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45232:45232 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45236:45236 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+not 45168:45168 STLCRef.RefsAndNontermination :::x_'/'_x_'-->+'_x_'/'_x
+R45937:45946 PLF.Smallstep <> multi_step constr
+R46022:46031 PLF.Smallstep <> multi_refl constr
+prf 46154:46175 STLCRef.RefsAndNontermination loop_steps_to_loop_fun
+R46185:46187 PLF.References STLCRef :::x_'/'_x_'-->*'_x_'/'_x not
+R46191:46198 PLF.References STLCRef :::x_'/'_x_'-->*'_x_'/'_x not
+R46221:46223 PLF.References STLCRef :::x_'/'_x_'-->*'_x_'/'_x not
+R46181:46184 PLF.References STLCRef.RefsAndNontermination loop def
+R46188:46190 Coq.Init.Datatypes <> nil constr
+R46199:46201 PLF.References STLCRef :::'<{'_x_'}>' not
+R46218:46220 PLF.References STLCRef :::'<{'_x_'}>' not
+R46213:46213 PLF.References STLCRef :stlc::x_x not
+R46202:46202 PLF.References STLCRef :stlc::'('_x_')' not
+R46212:46212 PLF.References STLCRef :stlc::'('_x_')' not
+R46203:46204 PLF.References STLCRef :stlc::'!'_x not
+R46205:46205 PLF.References STLCRef :stlc::'('_x_')' not
+R46211:46211 PLF.References STLCRef :stlc::'('_x_')' not
+R46206:46209 PLF.References STLCRef :stlc::'loc'_x not
+R46214:46217 PLF.References STLCRef :stlc::'unit' not
+R46224:46227 Coq.Init.Datatypes <> cons constr
+R46257:46259 Coq.Init.Datatypes <> nil constr
+R46229:46231 PLF.References STLCRef :::'<{'_x_'}>' not
+R46253:46255 PLF.References STLCRef :::'<{'_x_'}>' not
+R46232:46232 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R46234:46237 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R46243:46244 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R46233:46233 PLF.References STLCRef.ExampleVariables r def
+R46238:46241 PLF.References STLCRef :stlc::'loc'_x not
+R46245:46252 PLF.References STLCRef.RefsAndNontermination loop_fun def
+R46278:46281 PLF.References STLCRef.RefsAndNontermination loop def
+prf 46394:46411 STLCRef.RefsAndNontermination loop_fun_step_self
+R46439:46441 PLF.References STLCRef.RefsAndNontermination :::x_'/'_x_'-->+'_x_'/'_x not
+R46478:46485 PLF.References STLCRef.RefsAndNontermination :::x_'/'_x_'-->+'_x_'/'_x not
+R46508:46510 PLF.References STLCRef.RefsAndNontermination :::x_'/'_x_'-->+'_x_'/'_x not
+R46417:46419 PLF.References STLCRef :::'<{'_x_'}>' not
+R46436:46438 PLF.References STLCRef :::'<{'_x_'}>' not
+R46431:46431 PLF.References STLCRef :stlc::x_x not
+R46420:46420 PLF.References STLCRef :stlc::'('_x_')' not
+R46430:46430 PLF.References STLCRef :stlc::'('_x_')' not
+R46421:46422 PLF.References STLCRef :stlc::'!'_x not
+R46423:46423 PLF.References STLCRef :stlc::'('_x_')' not
+R46429:46429 PLF.References STLCRef :stlc::'('_x_')' not
+R46424:46427 PLF.References STLCRef :stlc::'loc'_x not
+R46432:46435 PLF.References STLCRef :stlc::'unit' not
+R46442:46445 Coq.Init.Datatypes <> cons constr
+R46475:46477 Coq.Init.Datatypes <> nil constr
+R46447:46449 PLF.References STLCRef :::'<{'_x_'}>' not
+R46471:46473 PLF.References STLCRef :::'<{'_x_'}>' not
+R46450:46450 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R46452:46455 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R46461:46462 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R46451:46451 PLF.References STLCRef.ExampleVariables r def
+R46456:46459 PLF.References STLCRef :stlc::'loc'_x not
+R46463:46470 PLF.References STLCRef.RefsAndNontermination loop_fun def
+R46486:46488 PLF.References STLCRef :::'<{'_x_'}>' not
+R46505:46507 PLF.References STLCRef :::'<{'_x_'}>' not
+R46500:46500 PLF.References STLCRef :stlc::x_x not
+R46489:46489 PLF.References STLCRef :stlc::'('_x_')' not
+R46499:46499 PLF.References STLCRef :stlc::'('_x_')' not
+R46490:46491 PLF.References STLCRef :stlc::'!'_x not
+R46492:46492 PLF.References STLCRef :stlc::'('_x_')' not
+R46498:46498 PLF.References STLCRef :stlc::'('_x_')' not
+R46493:46496 PLF.References STLCRef :stlc::'loc'_x not
+R46501:46504 PLF.References STLCRef :stlc::'unit' not
+R46511:46514 Coq.Init.Datatypes <> cons constr
+R46544:46546 Coq.Init.Datatypes <> nil constr
+R46516:46518 PLF.References STLCRef :::'<{'_x_'}>' not
+R46540:46542 PLF.References STLCRef :::'<{'_x_'}>' not
+R46519:46519 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R46521:46524 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R46530:46531 PLF.References STLCRef :stlc::'['_x_':='_x_']'_x not
+R46520:46520 PLF.References STLCRef.ExampleVariables r def
+R46525:46528 PLF.References STLCRef :stlc::'loc'_x not
+R46532:46539 PLF.References STLCRef.RefsAndNontermination loop_fun def
+R46576:46583 PLF.References STLCRef.RefsAndNontermination loop_fun def
+R46602:46608 PLF.References STLCRef.RefsAndNontermination sc_step constr
+R46602:46608 PLF.References STLCRef.RefsAndNontermination sc_step constr
+R46617:46623 PLF.References STLCRef ST_App1 constr
+R46617:46623 PLF.References STLCRef ST_App1 constr
+R46637:46642 PLF.References STLCRef.RefsAndNontermination sc_one constr
+R46637:46642 PLF.References STLCRef.RefsAndNontermination sc_one constr
+R46660:46668 PLF.References STLCRef ST_AppAbs constr
+R46660:46668 PLF.References STLCRef ST_AppAbs constr
+def 47037:47045 STLCRef.RefsAndNontermination factorial
+R47049:47050 PLF.References STLCRef tm ind
+prf 47126:47139 STLCRef.RefsAndNontermination factorial_type
+R47148:47149 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R47153:47157 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R47167:47171 PLF.References STLCRef :::x_';'_x_'|--'_x_'\in'_x not
+R47150:47152 Coq.Init.Datatypes <> nil constr
+R47143:47147 PLF.Maps <> empty def
+R47158:47166 PLF.References STLCRef.RefsAndNontermination factorial prfax
+R47172:47172 PLF.References STLCRef :stlc::'('_x_')' not
+R47183:47183 PLF.References STLCRef :stlc::'('_x_')' not
+R47176:47179 PLF.References STLCRef :stlc::x_'->'_x not
+R47173:47175 PLF.References STLCRef :stlc::'Nat' not
+R47180:47182 PLF.References STLCRef :stlc::'Nat' not
+R47925:47945 PLF.References STLCRef.RefsAndNontermination <> mod
+R47952:47958 PLF.References STLCRef <> mod

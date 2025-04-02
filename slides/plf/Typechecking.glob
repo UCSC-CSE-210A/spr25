@@ -1,0 +1,307 @@
+DIGEST 4756258ce07f981712274fb2a322df75
+FPLF.Typechecking
+R854:857 Coq.Bool.Bool <> <> lib
+R884:887 PLF.Maps <> <> lib
+R914:922 PLF.Smallstep <> <> lib
+R949:952 PLF.Stlc <> <> lib
+R972:979 PLF.MoreStlc <> <> lib
+mod 990:998 <> STLCTypes
+R1008:1011 PLF.Stlc STLC <> mod
+def 1193:1198 STLCTypes eqb_ty
+R1207:1208 PLF.Stlc STLC ty ind
+binder 1201:1202 <> T1:1
+binder 1204:1205 <> T2:2
+R1213:1216 Coq.Init.Datatypes <> bool ind
+R1232:1233 PLF.Typechecking <> T2:2 var
+R1229:1230 PLF.Typechecking <> T1:1 var
+R1244:1246 PLF.Stlc STLC :::'<{'_x_'}>' not
+R1251:1253 PLF.Stlc STLC :::'<{'_x_'}>' not
+R1247:1250 PLF.Stlc STLC :stlc::'Bool' not
+R1257:1259 PLF.Stlc STLC :::'<{'_x_'}>' not
+R1264:1266 PLF.Stlc STLC :::'<{'_x_'}>' not
+R1260:1263 PLF.Stlc STLC :stlc::'Bool' not
+R1277:1280 PLF.Stlc STLC :::'true' not
+R1286:1288 PLF.Stlc STLC :::'<{'_x_'}>' not
+R1297:1299 PLF.Stlc STLC :::'<{'_x_'}>' not
+R1292:1293 PLF.Stlc STLC :stlc::x_'->'_x not
+R1302:1304 PLF.Stlc STLC :::'<{'_x_'}>' not
+R1313:1315 PLF.Stlc STLC :::'<{'_x_'}>' not
+R1308:1309 PLF.Stlc STLC :stlc::x_'->'_x not
+R1326:1329 Coq.Init.Datatypes <> andb def
+R1349:1354 PLF.Typechecking <> eqb_ty:3 def
+R1332:1337 PLF.Typechecking <> eqb_ty:3 def
+R1382:1386 PLF.Stlc STLC :::'false' not
+prf 1579:1589 STLCTypes eqb_ty_refl
+binder 1600:1600 <> T:6
+R1615:1617 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1605:1610 PLF.Typechecking STLCTypes eqb_ty def
+R1612:1612 PLF.Typechecking <> T:6 var
+R1614:1614 PLF.Typechecking <> T:6 var
+R1618:1621 PLF.Stlc STLC :::'true' not
+prf 1738:1747 STLCTypes eqb_ty__eq
+binder 1758:1759 <> T1:7
+binder 1761:1762 <> T2:8
+R1786:1789 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1779:1781 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1767:1772 PLF.Typechecking STLCTypes eqb_ty def
+R1774:1775 PLF.Typechecking <> T1:7 var
+R1777:1778 PLF.Typechecking <> T2:8 var
+R1782:1785 PLF.Stlc STLC :::'true' not
+R1792:1794 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1790:1791 PLF.Typechecking <> T1:7 var
+R1795:1796 PLF.Typechecking <> T2:8 var
+R1961:1973 Coq.Bool.Bool <> andb_true_iff thm
+R1961:1973 Coq.Bool.Bool <> andb_true_iff thm
+R1961:1973 Coq.Bool.Bool <> andb_true_iff thm
+R2082:2090 PLF.Typechecking STLCTypes <> mod
+mod 2701:2708 <> FirstTry
+R2718:2726 PLF.Typechecking STLCTypes <> mod
+def 2739:2748 FirstTry type_check
+R2759:2765 PLF.Stlc STLC context def
+binder 2751:2755 <> Gamma:9
+R2773:2774 PLF.Stlc STLC tm ind
+binder 2769:2769 <> t:10
+R2779:2784 Coq.Init.Datatypes <> option ind
+R2786:2787 PLF.Stlc STLC ty ind
+R2800:2800 PLF.Typechecking <> t:10 var
+R2811:2816 PLF.Stlc STLC tm_var constr
+R2829:2833 PLF.Typechecking <> Gamma:9 var
+R2841:2842 PLF.Stlc STLC :::'<{'_x_'}>' not
+R2852:2853 PLF.Stlc STLC :::'<{'_x_'}>' not
+R2843:2843 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R2845:2845 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R2848:2849 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R2870:2879 PLF.Typechecking <> type_check:11 def
+R2883:2887 PLF.Maps <> :::x_'|->'_x_';'_x not
+R2890:2892 PLF.Maps <> :::x_'|->'_x_';'_x not
+R2893:2897 PLF.Typechecking <> Gamma:9 var
+R2916:2919 Coq.Init.Datatypes <> Some constr
+R2927:2930 Coq.Init.Datatypes <> Some constr
+R2932:2933 PLF.Stlc STLC :::'<{'_x_'}>' not
+R2940:2941 PLF.Stlc STLC :::'<{'_x_'}>' not
+R2936:2937 PLF.Stlc STLC :stlc::x_'->'_x not
+R2956:2959 Coq.Init.Datatypes <> None constr
+R2975:2976 PLF.Stlc STLC :::'<{'_x_'}>' not
+R2982:2983 PLF.Stlc STLC :::'<{'_x_'}>' not
+R2979:2979 PLF.Stlc STLC :stlc::x_x not
+R3021:3030 PLF.Typechecking <> type_check:11 def
+R3032:3036 PLF.Typechecking <> Gamma:9 var
+R3000:3009 PLF.Typechecking <> type_check:11 def
+R3011:3015 PLF.Typechecking <> Gamma:9 var
+R3054:3057 Coq.Init.Datatypes <> Some constr
+R3059:3060 PLF.Stlc STLC :::'<{'_x_'}>' not
+R3069:3070 PLF.Stlc STLC :::'<{'_x_'}>' not
+R3064:3065 PLF.Stlc STLC :stlc::x_'->'_x not
+R3073:3076 Coq.Init.Datatypes <> Some constr
+R3097:3102 PLF.Typechecking STLCTypes eqb_ty def
+R3130:3133 Coq.Init.Datatypes <> None constr
+R3116:3119 Coq.Init.Datatypes <> Some constr
+R3150:3153 Coq.Init.Datatypes <> None constr
+R3169:3170 PLF.Stlc STLC :::'<{'_x_'}>' not
+R3175:3176 PLF.Stlc STLC :::'<{'_x_'}>' not
+R3171:3174 PLF.Stlc STLC :stlc::'true' not
+R3187:3190 Coq.Init.Datatypes <> Some constr
+R3192:3193 PLF.Stlc STLC :::'<{'_x_'}>' not
+R3198:3199 PLF.Stlc STLC :::'<{'_x_'}>' not
+R3194:3197 PLF.Stlc STLC :stlc::'Bool' not
+R3205:3206 PLF.Stlc STLC :::'<{'_x_'}>' not
+R3212:3213 PLF.Stlc STLC :::'<{'_x_'}>' not
+R3207:3211 PLF.Stlc STLC :stlc::'false' not
+R3224:3227 Coq.Init.Datatypes <> Some constr
+R3229:3230 PLF.Stlc STLC :::'<{'_x_'}>' not
+R3235:3236 PLF.Stlc STLC :::'<{'_x_'}>' not
+R3231:3234 PLF.Stlc STLC :stlc::'Bool' not
+R3242:3243 PLF.Stlc STLC :::'<{'_x_'}>' not
+R3266:3267 PLF.Stlc STLC :::'<{'_x_'}>' not
+R3244:3246 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R3252:3257 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R3259:3264 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R3284:3293 PLF.Typechecking <> type_check:11 def
+R3295:3299 PLF.Typechecking <> Gamma:9 var
+R3320:3323 Coq.Init.Datatypes <> Some constr
+R3325:3326 PLF.Stlc STLC :::'<{'_x_'}>' not
+R3331:3332 PLF.Stlc STLC :::'<{'_x_'}>' not
+R3327:3330 PLF.Stlc STLC :stlc::'Bool' not
+R3373:3382 PLF.Typechecking <> type_check:11 def
+R3384:3388 PLF.Typechecking <> Gamma:9 var
+R3353:3362 PLF.Typechecking <> type_check:11 def
+R3370:3370 PLF.Typechecking <> t:10 var
+R3364:3368 PLF.Typechecking <> Gamma:9 var
+R3409:3412 Coq.Init.Datatypes <> Some constr
+R3418:3421 Coq.Init.Datatypes <> Some constr
+R3446:3451 PLF.Typechecking STLCTypes eqb_ty def
+R3477:3480 Coq.Init.Datatypes <> None constr
+R3464:3467 Coq.Init.Datatypes <> Some constr
+R3501:3504 Coq.Init.Datatypes <> None constr
+R3533:3536 Coq.Init.Datatypes <> None constr
+R3560:3567 PLF.Typechecking FirstTry <> mod
+R4079:4082 Coq.Init.Datatypes <> Some constr
+R4124:4127 Coq.Init.Datatypes <> None constr
+R4132:4135 Coq.Init.Datatypes <> None constr
+not 4012:4012 <> :::x_'<-'_x_';;'_x
+R4333:4336 Coq.Init.Datatypes <> Some constr
+not 4312:4312 <> :::'return'_x
+R4382:4385 Coq.Init.Datatypes <> None constr
+not 4366:4366 <> :::'fail'
+mod 4396:4406 <> STLCChecker
+R4416:4424 PLF.Typechecking STLCTypes <> mod
+def 4556:4565 STLCChecker type_check
+R4576:4582 PLF.Stlc STLC context def
+binder 4568:4572 <> Gamma:13
+R4590:4591 PLF.Stlc STLC tm ind
+binder 4586:4586 <> t:14
+R4596:4601 Coq.Init.Datatypes <> option ind
+R4603:4604 PLF.Stlc STLC ty ind
+R4617:4617 PLF.Typechecking <> t:14 var
+R4628:4633 PLF.Stlc STLC tm_var constr
+R4652:4656 PLF.Typechecking <> Gamma:13 var
+R4673:4676 Coq.Init.Datatypes <> Some constr
+R4683:4689 PLF.Typechecking <> :::'return'_x not
+R4700:4703 Coq.Init.Datatypes <> None constr
+R4710:4713 PLF.Typechecking <> :::'fail' not
+R4729:4730 PLF.Stlc STLC :::'<{'_x_'}>' not
+R4740:4741 PLF.Stlc STLC :::'<{'_x_'}>' not
+R4731:4731 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R4733:4733 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R4736:4737 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R4754:4757 PLF.Typechecking <> :::x_'<-'_x_';;'_x not
+R4790:4799 PLF.Typechecking <> :::x_'<-'_x_';;'_x not
+R4758:4767 PLF.Typechecking <> type_check:15 def
+R4771:4775 PLF.Maps <> :::x_'|->'_x_';'_x not
+R4778:4780 PLF.Maps <> :::x_'|->'_x_';'_x not
+R4781:4785 PLF.Typechecking <> Gamma:13 var
+binder 4752:4753 <> T1:17
+R4800:4806 PLF.Typechecking <> :::'return'_x not
+R4807:4808 PLF.Stlc STLC :::'<{'_x_'}>' not
+R4815:4816 PLF.Stlc STLC :::'<{'_x_'}>' not
+R4811:4812 PLF.Stlc STLC :stlc::x_'->'_x not
+R4813:4814 PLF.Typechecking <> T1:17 var
+R4822:4823 PLF.Stlc STLC :::'<{'_x_'}>' not
+R4829:4830 PLF.Stlc STLC :::'<{'_x_'}>' not
+R4826:4826 PLF.Stlc STLC :stlc::x_x not
+R4843:4846 PLF.Typechecking <> :::x_'<-'_x_';;'_x not
+R4866:4875 PLF.Typechecking <> :::x_'<-'_x_';;'_x not
+R4847:4856 PLF.Typechecking <> type_check:15 def
+R4858:4862 PLF.Typechecking <> Gamma:13 var
+binder 4841:4842 <> T1:18
+R4878:4881 PLF.Typechecking <> :::x_'<-'_x_';;'_x not
+R4901:4910 PLF.Typechecking <> :::x_'<-'_x_';;'_x not
+R4882:4891 PLF.Typechecking <> type_check:15 def
+R4893:4897 PLF.Typechecking <> Gamma:13 var
+binder 4876:4877 <> T2:19
+R4917:4918 PLF.Typechecking <> T1:18 var
+R4933:4934 PLF.Stlc STLC :::'<{'_x_'}>' not
+R4943:4944 PLF.Stlc STLC :::'<{'_x_'}>' not
+R4938:4939 PLF.Stlc STLC :stlc::x_'->'_x not
+R4962:4967 PLF.Typechecking STLCTypes eqb_ty def
+R4973:4974 PLF.Typechecking <> T2:19 var
+R4997:5000 PLF.Typechecking <> :::'fail' not
+R4981:4987 PLF.Typechecking <> :::'return'_x not
+R5015:5018 PLF.Typechecking <> :::'fail' not
+R5034:5035 PLF.Stlc STLC :::'<{'_x_'}>' not
+R5040:5041 PLF.Stlc STLC :::'<{'_x_'}>' not
+R5036:5039 PLF.Stlc STLC :stlc::'true' not
+R5052:5058 PLF.Typechecking <> :::'return'_x not
+R5059:5061 PLF.Stlc STLC :::'<{'_x_'}>' not
+R5066:5068 PLF.Stlc STLC :::'<{'_x_'}>' not
+R5062:5065 PLF.Stlc STLC :stlc::'Bool' not
+R5074:5075 PLF.Stlc STLC :::'<{'_x_'}>' not
+R5081:5082 PLF.Stlc STLC :::'<{'_x_'}>' not
+R5076:5080 PLF.Stlc STLC :stlc::'false' not
+R5093:5099 PLF.Typechecking <> :::'return'_x not
+R5100:5102 PLF.Stlc STLC :::'<{'_x_'}>' not
+R5107:5109 PLF.Stlc STLC :::'<{'_x_'}>' not
+R5103:5106 PLF.Stlc STLC :stlc::'Bool' not
+R5115:5116 PLF.Stlc STLC :::'<{'_x_'}>' not
+R5141:5142 PLF.Stlc STLC :::'<{'_x_'}>' not
+R5117:5119 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R5125:5130 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R5133:5138 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R5159:5162 PLF.Typechecking <> :::x_'<-'_x_';;'_x not
+R5185:5194 PLF.Typechecking <> :::x_'<-'_x_';;'_x not
+R5163:5172 PLF.Typechecking <> type_check:15 def
+R5174:5178 PLF.Typechecking <> Gamma:13 var
+binder 5153:5158 <> Tguard:21
+R5197:5200 PLF.Typechecking <> :::x_'<-'_x_';;'_x not
+R5220:5229 PLF.Typechecking <> :::x_'<-'_x_';;'_x not
+R5201:5210 PLF.Typechecking <> type_check:15 def
+R5212:5216 PLF.Typechecking <> Gamma:13 var
+binder 5195:5196 <> T1:22
+R5232:5235 PLF.Typechecking <> :::x_'<-'_x_';;'_x not
+R5255:5264 PLF.Typechecking <> :::x_'<-'_x_';;'_x not
+R5236:5245 PLF.Typechecking <> type_check:15 def
+R5247:5251 PLF.Typechecking <> Gamma:13 var
+binder 5230:5231 <> T2:23
+R5271:5276 PLF.Typechecking <> Tguard:21 var
+R5291:5293 PLF.Stlc STLC :::'<{'_x_'}>' not
+R5298:5300 PLF.Stlc STLC :::'<{'_x_'}>' not
+R5294:5297 PLF.Stlc STLC :stlc::'Bool' not
+R5318:5323 PLF.Typechecking STLCTypes eqb_ty def
+R5325:5326 PLF.Typechecking <> T1:22 var
+R5328:5329 PLF.Typechecking <> T2:23 var
+R5351:5354 PLF.Typechecking <> :::'fail' not
+R5336:5342 PLF.Typechecking <> :::'return'_x not
+R5343:5344 PLF.Typechecking <> T1:22 var
+R5369:5372 PLF.Typechecking <> :::'fail' not
+prf 5720:5738 STLCChecker type_checking_sound
+binder 5749:5753 <> Gamma:25
+binder 5755:5755 <> t:26
+binder 5757:5757 <> T:27
+R5789:5792 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5780:5782 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5762:5771 PLF.Typechecking STLCChecker type_check def
+R5773:5777 PLF.Typechecking <> Gamma:25 var
+R5779:5779 PLF.Typechecking <> t:26 var
+R5783:5786 Coq.Init.Datatypes <> Some constr
+R5788:5788 PLF.Typechecking <> T:27 var
+R5793:5800 PLF.Stlc STLC has_type ind
+R5802:5806 PLF.Typechecking <> Gamma:25 var
+R5808:5808 PLF.Typechecking <> t:26 var
+R5810:5810 PLF.Typechecking <> T:27 var
+R6079:6088 PLF.Typechecking STLCChecker type_check def
+R6079:6088 PLF.Typechecking STLCChecker type_check def
+R6222:6231 PLF.Typechecking STLCChecker type_check def
+R6222:6231 PLF.Typechecking STLCChecker type_check def
+R6222:6231 PLF.Typechecking STLCChecker type_check def
+R6313:6318 PLF.Typechecking STLCTypes eqb_ty def
+R6313:6318 PLF.Typechecking STLCTypes eqb_ty def
+R6349:6358 PLF.Typechecking STLCTypes eqb_ty__eq thm
+R6349:6358 PLF.Typechecking STLCTypes eqb_ty__eq thm
+R6475:6479 PLF.Maps <> :::x_'|->'_x_';'_x not
+R6482:6484 PLF.Maps <> :::x_'|->'_x_';'_x not
+R6475:6479 PLF.Maps <> :::x_'|->'_x_';'_x not
+R6482:6484 PLF.Maps <> :::x_'|->'_x_';'_x not
+R6513:6522 PLF.Typechecking STLCChecker type_check def
+R6513:6522 PLF.Typechecking STLCChecker type_check def
+R6676:6685 PLF.Typechecking STLCChecker type_check def
+R6676:6685 PLF.Typechecking STLCChecker type_check def
+R6719:6728 PLF.Typechecking STLCChecker type_check def
+R6719:6728 PLF.Typechecking STLCChecker type_check def
+R6762:6771 PLF.Typechecking STLCChecker type_check def
+R6762:6771 PLF.Typechecking STLCChecker type_check def
+R6987:6992 PLF.Typechecking STLCTypes eqb_ty def
+R6987:6992 PLF.Typechecking STLCTypes eqb_ty def
+R7046:7055 PLF.Typechecking STLCTypes eqb_ty__eq thm
+R7046:7055 PLF.Typechecking STLCTypes eqb_ty__eq thm
+prf 7114:7135 STLCChecker type_checking_complete
+binder 7146:7150 <> Gamma:28
+binder 7152:7152 <> t:29
+binder 7154:7154 <> T:30
+R7177:7180 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7159:7166 PLF.Stlc STLC has_type ind
+R7168:7172 PLF.Typechecking <> Gamma:28 var
+R7174:7174 PLF.Typechecking <> t:29 var
+R7176:7176 PLF.Typechecking <> T:30 var
+R7199:7201 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7181:7190 PLF.Typechecking STLCChecker type_check def
+R7192:7196 PLF.Typechecking <> Gamma:28 var
+R7198:7198 PLF.Typechecking <> t:29 var
+R7202:7205 Coq.Init.Datatypes <> Some constr
+R7207:7207 PLF.Typechecking <> T:30 var
+R7428:7438 PLF.Typechecking STLCTypes eqb_ty_refl thm
+R7428:7438 PLF.Typechecking STLCTypes eqb_ty_refl thm
+R7428:7438 PLF.Typechecking STLCTypes eqb_ty_refl thm
+R7572:7582 PLF.Typechecking STLCTypes eqb_ty_refl thm
+R7572:7582 PLF.Typechecking STLCTypes eqb_ty_refl thm
+R7572:7582 PLF.Typechecking STLCTypes eqb_ty_refl thm
+R7601:7611 PLF.Typechecking STLCChecker <> mod

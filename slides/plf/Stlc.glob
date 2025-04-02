@@ -1,0 +1,648 @@
+DIGEST d5430e2a99be512a5d7a1892be0c601a
+FPLF.Stlc
+R1768:1781 Coq.Strings.String <> <> lib
+R1808:1811 PLF.Maps <> <> lib
+R1838:1846 PLF.Smallstep <> <> lib
+mod 5118:5121 <> STLC
+ind 5224:5225 STLC ty
+constr 5241:5247 STLC Ty_Bool
+constr 5259:5266 STLC Ty_Arrow
+R5252:5253 PLF.Stlc <> ty:1 ind
+R5272:5275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5270:5271 PLF.Stlc <> ty:1 ind
+R5278:5281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5276:5277 PLF.Stlc <> ty:1 ind
+R5282:5283 PLF.Stlc <> ty:1 ind
+scheme 5224:5225 STLC ty_rect
+scheme 5224:5225 STLC ty_ind
+scheme 5224:5225 STLC ty_rec
+scheme 5224:5225 STLC ty_sind
+ind 5386:5387 STLC tm
+constr 5403:5408 STLC tm_var
+constr 5431:5436 STLC tm_app
+constr 5461:5466 STLC tm_abs
+constr 5501:5507 STLC tm_true
+constr 5519:5526 STLC tm_false
+constr 5537:5541 STLC tm_if
+R5420:5423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5414:5419 Coq.Strings.String <> string ind
+R5424:5425 PLF.Stlc <> tm:3 ind
+R5444:5447 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5442:5443 PLF.Stlc <> tm:3 ind
+R5450:5453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5448:5449 PLF.Stlc <> tm:3 ind
+R5454:5455 PLF.Stlc <> tm:3 ind
+R5478:5481 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5472:5477 Coq.Strings.String <> string ind
+R5484:5487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5482:5483 PLF.Stlc STLC ty ind
+R5490:5493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5488:5489 PLF.Stlc <> tm:3 ind
+R5494:5495 PLF.Stlc <> tm:3 ind
+R5512:5513 PLF.Stlc <> tm:3 ind
+R5530:5531 PLF.Stlc <> tm:3 ind
+R5550:5553 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5548:5549 PLF.Stlc <> tm:3 ind
+R5556:5559 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5554:5555 PLF.Stlc <> tm:3 ind
+R5562:5565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5560:5561 PLF.Stlc <> tm:3 ind
+R5566:5567 PLF.Stlc <> tm:3 ind
+scheme 5386:5387 STLC tm_rect
+scheme 5386:5387 STLC tm_ind
+scheme 5386:5387 STLC tm_rec
+scheme 5386:5387 STLC tm_sind
+not 5712:5712 STLC :::'<{'_x_'}>'
+not 5765:5765 STLC :stlc::'('_x_')'
+not 5820:5820 STLC :stlc::x
+R5901:5908 PLF.Stlc STLC Ty_Arrow constr
+not 5888:5888 STLC :stlc::x_'->'_x
+R5985:5990 PLF.Stlc STLC tm_app constr
+not 5975:5975 STLC :stlc::x_x
+R6075:6080 PLF.Stlc STLC tm_abs constr
+not 6055:6055 STLC :stlc::'\'_x_':'_x_','_x
+R6271:6301 PLF.Stlc STLC tm_var constr
+R6326:6332 PLF.Stlc STLC Ty_Bool constr
+not 6314:6314 STLC :stlc::'Bool'
+R6405:6409 PLF.Stlc STLC tm_if constr
+not 6372:6372 STLC :stlc::'if'_x_'then'_x_'else'_x
+R6651:6654 Coq.Init.Datatypes <> true constr
+not 6638:6638 STLC :::'true'
+R6692:6698 PLF.Stlc STLC tm_true constr
+not 6679:6679 STLC :stlc::'true'
+R6752:6756 Coq.Init.Datatypes <> false constr
+not 6738:6738 STLC :::'false'
+R6795:6802 PLF.Stlc STLC tm_false constr
+not 6781:6781 STLC :stlc::'false'
+def 6845:6845 STLC x
+R6849:6854 Coq.Strings.String <> string ind
+def 6875:6875 STLC y
+R6879:6884 Coq.Strings.String <> string ind
+def 6905:6905 STLC z
+R6909:6914 Coq.Strings.String <> string ind
+R6936:6936 PLF.Stlc STLC x def
+R6958:6958 PLF.Stlc STLC y def
+R6980:6980 PLF.Stlc STLC z def
+abbrev 7345:7347 STLC idB
+R7354:7355 PLF.Stlc STLC :::'<{'_x_'}>' not
+R7366:7367 PLF.Stlc STLC :::'<{'_x_'}>' not
+R7356:7356 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7358:7358 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7363:7364 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7357:7357 PLF.Stlc STLC x def
+R7359:7362 PLF.Stlc STLC :stlc::'Bool' not
+R7365:7365 PLF.Stlc STLC x def
+abbrev 7380:7383 STLC idBB
+R7390:7391 PLF.Stlc STLC :::'<{'_x_'}>' not
+R7408:7409 PLF.Stlc STLC :::'<{'_x_'}>' not
+R7392:7392 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7394:7394 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7405:7406 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7393:7393 PLF.Stlc STLC x def
+R7399:7400 PLF.Stlc STLC :stlc::x_'->'_x not
+R7395:7398 PLF.Stlc STLC :stlc::'Bool' not
+R7401:7404 PLF.Stlc STLC :stlc::'Bool' not
+R7407:7407 PLF.Stlc STLC x def
+abbrev 7422:7427 STLC idBBBB
+R7434:7435 PLF.Stlc STLC :::'<{'_x_'}>' not
+R7470:7471 PLF.Stlc STLC :::'<{'_x_'}>' not
+R7436:7436 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7438:7438 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7467:7468 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7437:7437 PLF.Stlc STLC x def
+R7439:7439 PLF.Stlc STLC :stlc::'('_x_')' not
+R7466:7466 PLF.Stlc STLC :stlc::'('_x_')' not
+R7452:7453 PLF.Stlc STLC :stlc::x_'->'_x not
+R7440:7440 PLF.Stlc STLC :stlc::'('_x_')' not
+R7451:7451 PLF.Stlc STLC :stlc::'('_x_')' not
+R7445:7446 PLF.Stlc STLC :stlc::x_'->'_x not
+R7441:7444 PLF.Stlc STLC :stlc::'Bool' not
+R7447:7450 PLF.Stlc STLC :stlc::'Bool' not
+R7454:7454 PLF.Stlc STLC :stlc::'('_x_')' not
+R7465:7465 PLF.Stlc STLC :stlc::'('_x_')' not
+R7459:7460 PLF.Stlc STLC :stlc::x_'->'_x not
+R7455:7458 PLF.Stlc STLC :stlc::'Bool' not
+R7461:7464 PLF.Stlc STLC :stlc::'Bool' not
+R7469:7469 PLF.Stlc STLC x def
+abbrev 7484:7484 STLC k
+R7489:7490 PLF.Stlc STLC :::'<{'_x_'}>' not
+R7510:7511 PLF.Stlc STLC :::'<{'_x_'}>' not
+R7491:7491 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7493:7493 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7498:7499 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7492:7492 PLF.Stlc STLC x def
+R7494:7497 PLF.Stlc STLC :stlc::'Bool' not
+R7500:7500 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7502:7502 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7507:7508 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7501:7501 PLF.Stlc STLC y def
+R7503:7506 PLF.Stlc STLC :stlc::'Bool' not
+R7509:7509 PLF.Stlc STLC x def
+abbrev 7524:7527 STLC notB
+R7532:7533 PLF.Stlc STLC :::'<{'_x_'}>' not
+R7568:7569 PLF.Stlc STLC :::'<{'_x_'}>' not
+R7534:7534 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7536:7536 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7541:7542 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R7535:7535 PLF.Stlc STLC x def
+R7537:7540 PLF.Stlc STLC :stlc::'Bool' not
+R7543:7545 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R7547:7552 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R7558:7563 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R7546:7546 PLF.Stlc STLC x def
+R7553:7557 PLF.Stlc STLC :stlc::'false' not
+R7564:7567 PLF.Stlc STLC :stlc::'true' not
+ind 9378:9382 STLC value
+constr 9404:9408 STLC v_abs
+constr 9458:9463 STLC v_true
+constr 9492:9498 STLC v_false
+R9388:9391 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9386:9387 PLF.Stlc STLC tm ind
+binder 9419:9419 <> x:7
+binder 9421:9422 <> T2:8
+binder 9424:9425 <> t1:9
+R9434:9438 PLF.Stlc <> value:5 ind
+R9440:9441 PLF.Stlc STLC :::'<{'_x_'}>' not
+R9451:9452 PLF.Stlc STLC :::'<{'_x_'}>' not
+R9442:9442 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R9444:9444 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R9447:9448 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R9443:9443 PLF.Stlc <> x:7 var
+R9445:9446 PLF.Stlc <> T2:8 var
+R9449:9450 PLF.Stlc <> t1:9 var
+R9473:9477 PLF.Stlc <> value:5 ind
+R9479:9480 PLF.Stlc STLC :::'<{'_x_'}>' not
+R9485:9486 PLF.Stlc STLC :::'<{'_x_'}>' not
+R9481:9484 PLF.Stlc STLC :stlc::'true' not
+R9508:9512 PLF.Stlc <> value:5 ind
+R9514:9515 PLF.Stlc STLC :::'<{'_x_'}>' not
+R9521:9522 PLF.Stlc STLC :::'<{'_x_'}>' not
+R9516:9520 PLF.Stlc STLC :stlc::'false' not
+scheme 9378:9382 STLC value_ind
+scheme 9378:9382 STLC value_sind
+R9544:9548 PLF.Stlc <> value ind
+def 12727:12731 STLC subst
+R12738:12743 Coq.Strings.String <> string ind
+binder 12734:12734 <> x:10
+R12751:12752 PLF.Stlc STLC tm ind
+binder 12747:12747 <> s:11
+R12760:12761 PLF.Stlc STLC tm ind
+binder 12756:12756 <> t:12
+R12766:12767 PLF.Stlc STLC tm ind
+R13162:13166 PLF.Stlc <> subst:13 def
+R12780:12780 PLF.Stlc <> t:12 var
+R12791:12796 PLF.Stlc STLC tm_var constr
+R12812:12821 Coq.Strings.String <> eqb def
+R12823:12823 PLF.Stlc <> x:10 var
+R12839:12839 PLF.Stlc <> t:12 var
+R12832:12832 PLF.Stlc <> s:11 var
+R12845:12846 PLF.Stlc STLC :::'<{'_x_'}>' not
+R12855:12856 PLF.Stlc STLC :::'<{'_x_'}>' not
+R12847:12847 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R12849:12849 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R12851:12852 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R12870:12879 Coq.Strings.String <> eqb def
+R12881:12881 PLF.Stlc <> x:10 var
+R12897:12898 PLF.Stlc STLC :::'<{'_x_'}>' not
+R12914:12915 PLF.Stlc STLC :::'<{'_x_'}>' not
+R12899:12899 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R12901:12901 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R12903:12904 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R12905:12905 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R12907:12908 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R12910:12911 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R12906:12906 PLF.Stlc <> x:10 var
+R12909:12909 PLF.Stlc <> s:11 var
+R12890:12890 PLF.Stlc <> t:12 var
+R12921:12922 PLF.Stlc STLC :::'<{'_x_'}>' not
+R12928:12929 PLF.Stlc STLC :::'<{'_x_'}>' not
+R12925:12925 PLF.Stlc STLC :stlc::x_x not
+R12940:12941 PLF.Stlc STLC :::'<{'_x_'}>' not
+R12965:12966 PLF.Stlc STLC :::'<{'_x_'}>' not
+R12953:12953 PLF.Stlc STLC :stlc::x_x not
+R12942:12942 PLF.Stlc STLC :stlc::'('_x_')' not
+R12952:12952 PLF.Stlc STLC :stlc::'('_x_')' not
+R12943:12943 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R12945:12946 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R12948:12949 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R12944:12944 PLF.Stlc <> x:10 var
+R12947:12947 PLF.Stlc <> s:11 var
+R12954:12954 PLF.Stlc STLC :stlc::'('_x_')' not
+R12964:12964 PLF.Stlc STLC :stlc::'('_x_')' not
+R12955:12955 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R12957:12958 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R12960:12961 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R12956:12956 PLF.Stlc <> x:10 var
+R12959:12959 PLF.Stlc <> s:11 var
+R12972:12973 PLF.Stlc STLC :::'<{'_x_'}>' not
+R12978:12979 PLF.Stlc STLC :::'<{'_x_'}>' not
+R12974:12977 PLF.Stlc STLC :stlc::'true' not
+R12990:12991 PLF.Stlc STLC :::'<{'_x_'}>' not
+R12996:12997 PLF.Stlc STLC :::'<{'_x_'}>' not
+R12992:12995 PLF.Stlc STLC :stlc::'true' not
+R13003:13004 PLF.Stlc STLC :::'<{'_x_'}>' not
+R13010:13011 PLF.Stlc STLC :::'<{'_x_'}>' not
+R13005:13009 PLF.Stlc STLC :stlc::'false' not
+R13022:13023 PLF.Stlc STLC :::'<{'_x_'}>' not
+R13029:13030 PLF.Stlc STLC :::'<{'_x_'}>' not
+R13024:13028 PLF.Stlc STLC :stlc::'false' not
+R13036:13037 PLF.Stlc STLC :::'<{'_x_'}>' not
+R13059:13060 PLF.Stlc STLC :::'<{'_x_'}>' not
+R13038:13040 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R13043:13048 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R13051:13056 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R13071:13072 PLF.Stlc STLC :::'<{'_x_'}>' not
+R13121:13122 PLF.Stlc STLC :::'<{'_x_'}>' not
+R13073:13075 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R13087:13092 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R13104:13109 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R13076:13076 PLF.Stlc STLC :stlc::'('_x_')' not
+R13086:13086 PLF.Stlc STLC :stlc::'('_x_')' not
+R13077:13077 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R13079:13080 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R13082:13083 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R13078:13078 PLF.Stlc <> x:10 var
+R13081:13081 PLF.Stlc <> s:11 var
+R13093:13093 PLF.Stlc STLC :stlc::'('_x_')' not
+R13103:13103 PLF.Stlc STLC :stlc::'('_x_')' not
+R13094:13094 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R13096:13097 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R13099:13100 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R13095:13095 PLF.Stlc <> x:10 var
+R13098:13098 PLF.Stlc <> s:11 var
+R13110:13110 PLF.Stlc STLC :stlc::'('_x_')' not
+R13120:13120 PLF.Stlc STLC :stlc::'('_x_')' not
+R13111:13111 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R13113:13114 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R13116:13117 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R13112:13112 PLF.Stlc <> x:10 var
+R13115:13115 PLF.Stlc <> s:11 var
+R13162:13166 PLF.Stlc STLC subst def
+not 13137:13137 STLC :stlc::'['_x_':='_x_']'_x
+ind 15961:15964 STLC step
+constr 15992:16000 STLC ST_AppAbs
+constr 16094:16100 STLC ST_App1
+constr 16183:16189 STLC ST_App2
+constr 16294:16302 STLC ST_IfTrue
+constr 16365:16374 STLC ST_IfFalse
+constr 16438:16442 STLC ST_If
+R15970:15973 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15968:15969 PLF.Stlc STLC tm ind
+R15976:15979 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15974:15975 PLF.Stlc STLC tm ind
+R16574:16577 PLF.Stlc <> step:16 ind
+binder 16011:16011 <> x:17
+binder 16013:16014 <> T2:18
+binder 16016:16017 <> t1:19
+binder 16019:16020 <> v2:20
+R16040:16052 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16032:16036 PLF.Stlc STLC value ind
+R16038:16039 PLF.Stlc <> v2:20 var
+R16071:16075 PLF.Stlc STLC :::x_'-->'_x not
+R16053:16054 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16069:16070 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16066:16066 PLF.Stlc STLC :stlc::x_x not
+R16055:16055 PLF.Stlc STLC :stlc::'('_x_')' not
+R16065:16065 PLF.Stlc STLC :stlc::'('_x_')' not
+R16056:16056 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R16058:16058 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R16061:16062 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R16057:16057 PLF.Stlc <> x:17 var
+R16059:16060 PLF.Stlc <> T2:18 var
+R16063:16064 PLF.Stlc <> t1:19 var
+R16067:16068 PLF.Stlc <> v2:20 var
+R16076:16077 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16087:16088 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16078:16078 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R16080:16081 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R16084:16084 PLF.Stlc STLC :stlc::'['_x_':='_x_']'_x not
+R16079:16079 PLF.Stlc <> x:17 var
+R16082:16083 PLF.Stlc <> v2:20 var
+R16085:16086 PLF.Stlc <> t1:19 var
+binder 16111:16112 <> t1:21
+binder 16114:16116 <> t1':22
+binder 16118:16119 <> t2:23
+R16141:16153 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16133:16137 PLF.Stlc STLC :::x_'-->'_x not
+R16131:16132 PLF.Stlc <> t1:21 var
+R16138:16140 PLF.Stlc <> t1':22 var
+R16163:16167 PLF.Stlc STLC :::x_'-->'_x not
+R16154:16155 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16161:16162 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16158:16158 PLF.Stlc STLC :stlc::x_x not
+R16156:16157 PLF.Stlc <> t1:21 var
+R16159:16160 PLF.Stlc <> t2:23 var
+R16168:16169 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16176:16177 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16173:16173 PLF.Stlc STLC :stlc::x_x not
+R16170:16172 PLF.Stlc <> t1':22 var
+R16174:16175 PLF.Stlc <> t2:23 var
+binder 16200:16201 <> v1:24
+binder 16203:16204 <> t2:25
+binder 16206:16208 <> t2':26
+R16228:16240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16220:16224 PLF.Stlc STLC value ind
+R16226:16227 PLF.Stlc <> v1:24 var
+R16251:16263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16243:16247 PLF.Stlc STLC :::x_'-->'_x not
+R16241:16242 PLF.Stlc <> t2:25 var
+R16248:16250 PLF.Stlc <> t2':26 var
+R16273:16277 PLF.Stlc STLC :::x_'-->'_x not
+R16264:16265 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16271:16272 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16268:16268 PLF.Stlc STLC :stlc::x_x not
+R16266:16267 PLF.Stlc <> v1:24 var
+R16269:16270 PLF.Stlc <> t2:25 var
+R16278:16279 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16287:16288 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16282:16283 PLF.Stlc STLC :stlc::x_x not
+R16280:16281 PLF.Stlc <> v1:24 var
+R16284:16286 PLF.Stlc <> t2':26 var
+binder 16313:16314 <> t1:27
+binder 16316:16317 <> t2:28
+R16353:16357 PLF.Stlc STLC :::x_'-->'_x not
+R16326:16327 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16351:16352 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16328:16330 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R16335:16340 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R16343:16348 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R16331:16334 PLF.Stlc STLC :stlc::'true' not
+R16341:16342 PLF.Stlc <> t1:27 var
+R16349:16350 PLF.Stlc <> t2:28 var
+R16358:16359 PLF.Stlc <> t1:27 var
+binder 16385:16386 <> t1:29
+binder 16388:16389 <> t2:30
+R16426:16430 PLF.Stlc STLC :::x_'-->'_x not
+R16398:16399 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16424:16425 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16400:16402 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R16408:16413 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R16416:16421 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R16403:16407 PLF.Stlc STLC :stlc::'false' not
+R16414:16415 PLF.Stlc <> t1:29 var
+R16422:16423 PLF.Stlc <> t2:30 var
+R16431:16432 PLF.Stlc <> t2:30 var
+binder 16453:16454 <> t1:31
+binder 16456:16458 <> t1':32
+binder 16460:16461 <> t2:33
+binder 16463:16464 <> t3:34
+R16483:16492 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16475:16479 PLF.Stlc STLC :::x_'-->'_x not
+R16473:16474 PLF.Stlc <> t1:31 var
+R16480:16482 PLF.Stlc <> t1':32 var
+R16518:16522 PLF.Stlc STLC :::x_'-->'_x not
+R16493:16494 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16516:16517 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16495:16497 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R16500:16505 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R16508:16513 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R16498:16499 PLF.Stlc <> t1:31 var
+R16506:16507 PLF.Stlc <> t2:33 var
+R16514:16515 PLF.Stlc <> t3:34 var
+R16523:16524 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16547:16548 PLF.Stlc STLC :::'<{'_x_'}>' not
+R16525:16527 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R16531:16536 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R16539:16544 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R16528:16530 PLF.Stlc <> t1':32 var
+R16537:16538 PLF.Stlc <> t2:33 var
+R16545:16546 PLF.Stlc <> t3:34 var
+scheme 15961:15964 STLC step_ind
+scheme 15961:15964 STLC step_sind
+R16574:16577 PLF.Stlc STLC step ind
+not 16557:16557 STLC :::x_'-->'_x
+R16605:16608 PLF.Stlc <> step ind
+abbrev 16628:16636 STLC multistep
+R16642:16646 PLF.Smallstep <> multi ind
+R16648:16651 PLF.Stlc STLC step ind
+R16683:16691 PLF.Stlc STLC multistep abbrev
+not 16664:16664 STLC :::x_'-->*'_x
+def 18633:18639 STLC context
+R18644:18654 PLF.Maps <> partial_map def
+R18656:18657 PLF.Stlc STLC ty ind
+ind 20093:20100 STLC has_type
+constr 20139:20143 STLC T_Var
+constr 20222:20226 STLC T_Abs
+constr 20340:20344 STLC T_App
+constr 20473:20478 STLC T_True
+constr 20531:20537 STLC T_False
+constr 20591:20594 STLC T_If
+R20111:20114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20104:20110 PLF.Stlc STLC context def
+R20117:20120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20115:20116 PLF.Stlc STLC tm ind
+R20123:20126 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20121:20122 PLF.Stlc STLC ty ind
+R20797:20804 PLF.Stlc <> has_type:36 ind
+binder 20154:20158 <> Gamma:37
+binder 20160:20160 <> x:38
+binder 20162:20163 <> T1:39
+R20189:20198 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20179:20181 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20172:20176 PLF.Stlc <> Gamma:37 var
+R20178:20178 PLF.Stlc <> x:38 var
+R20182:20185 Coq.Init.Datatypes <> Some constr
+R20187:20188 PLF.Stlc <> T1:39 var
+R20204:20208 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20210:20214 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20199:20203 PLF.Stlc <> Gamma:37 var
+R20209:20209 PLF.Stlc <> x:38 var
+R20215:20216 PLF.Stlc <> T1:39 var
+binder 20237:20241 <> Gamma:40
+binder 20243:20243 <> x:41
+binder 20245:20246 <> T1:42
+binder 20248:20249 <> T2:43
+binder 20251:20252 <> t1:44
+R20291:20300 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20277:20281 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20284:20288 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20262:20266 PLF.Maps <> :::x_'|->'_x_';'_x not
+R20269:20271 PLF.Maps <> :::x_'|->'_x_';'_x not
+R20272:20276 PLF.Stlc <> Gamma:40 var
+R20261:20261 PLF.Stlc <> x:41 var
+R20267:20268 PLF.Stlc <> T2:43 var
+R20282:20283 PLF.Stlc <> t1:44 var
+R20289:20290 PLF.Stlc <> T1:42 var
+R20306:20310 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20320:20324 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20301:20305 PLF.Stlc <> Gamma:40 var
+R20311:20311 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R20313:20313 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R20316:20317 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R20312:20312 PLF.Stlc <> x:41 var
+R20314:20315 PLF.Stlc <> T2:43 var
+R20318:20319 PLF.Stlc <> t1:44 var
+R20325:20325 PLF.Stlc STLC :stlc::'('_x_')' not
+R20334:20334 PLF.Stlc STLC :stlc::'('_x_')' not
+R20328:20331 PLF.Stlc STLC :stlc::x_'->'_x not
+R20326:20327 PLF.Stlc <> T2:43 var
+R20332:20333 PLF.Stlc <> T1:42 var
+binder 20355:20356 <> T1:45
+binder 20358:20359 <> T2:46
+binder 20361:20365 <> Gamma:47
+binder 20367:20368 <> t1:48
+binder 20370:20371 <> t2:49
+R20407:20416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20385:20389 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20392:20396 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20380:20384 PLF.Stlc <> Gamma:47 var
+R20390:20391 PLF.Stlc <> t1:48 var
+R20397:20397 PLF.Stlc STLC :stlc::'('_x_')' not
+R20406:20406 PLF.Stlc STLC :stlc::'('_x_')' not
+R20400:20403 PLF.Stlc STLC :stlc::x_'->'_x not
+R20398:20399 PLF.Stlc <> T2:46 var
+R20404:20405 PLF.Stlc <> T1:45 var
+R20436:20445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20422:20426 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20429:20433 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20417:20421 PLF.Stlc <> Gamma:47 var
+R20427:20428 PLF.Stlc <> t2:49 var
+R20434:20435 PLF.Stlc <> T2:46 var
+R20451:20455 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20461:20465 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20446:20450 PLF.Stlc <> Gamma:47 var
+R20458:20458 PLF.Stlc STLC :stlc::x_x not
+R20456:20457 PLF.Stlc <> t1:48 var
+R20459:20460 PLF.Stlc <> t2:49 var
+R20466:20467 PLF.Stlc <> T1:45 var
+binder 20489:20493 <> Gamma:50
+R20508:20512 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20517:20521 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20503:20507 PLF.Stlc <> Gamma:50 var
+R20513:20516 PLF.Stlc STLC :stlc::'true' not
+R20522:20525 PLF.Stlc STLC :stlc::'Bool' not
+binder 20548:20552 <> Gamma:51
+R20567:20571 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20577:20581 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20562:20566 PLF.Stlc <> Gamma:51 var
+R20572:20576 PLF.Stlc STLC :stlc::'false' not
+R20582:20585 PLF.Stlc STLC :stlc::'Bool' not
+binder 20605:20606 <> t1:52
+binder 20608:20609 <> t2:53
+binder 20611:20612 <> t3:54
+binder 20614:20615 <> T1:55
+binder 20617:20621 <> Gamma:56
+R20652:20662 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20636:20640 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20643:20647 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20631:20635 PLF.Stlc <> Gamma:56 var
+R20641:20642 PLF.Stlc <> t1:52 var
+R20648:20651 PLF.Stlc STLC :stlc::'Bool' not
+R20682:20692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20668:20672 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20675:20679 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20663:20667 PLF.Stlc <> Gamma:56 var
+R20673:20674 PLF.Stlc <> t2:53 var
+R20680:20681 PLF.Stlc <> T1:55 var
+R20712:20722 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20698:20702 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20705:20709 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20693:20697 PLF.Stlc <> Gamma:56 var
+R20703:20704 PLF.Stlc <> t3:54 var
+R20710:20711 PLF.Stlc <> T1:55 var
+R20728:20732 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20754:20758 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20723:20727 PLF.Stlc <> Gamma:56 var
+R20733:20735 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R20738:20743 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R20746:20751 PLF.Stlc STLC :stlc::'if'_x_'then'_x_'else'_x not
+R20736:20737 PLF.Stlc <> t1:52 var
+R20744:20745 PLF.Stlc <> t2:53 var
+R20752:20753 PLF.Stlc <> t3:54 var
+R20759:20760 PLF.Stlc <> T1:55 var
+scheme 20093:20100 STLC has_type_ind
+scheme 20093:20100 STLC has_type_sind
+R20797:20804 PLF.Stlc STLC has_type ind
+not 20769:20769 STLC :::x_'|--'_x_'\in'_x
+R20837:20844 PLF.Stlc <> has_type ind
+def 20955:20970 STLC typing_example_1
+R20981:20985 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20996:21000 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R20976:20980 PLF.Maps <> empty def
+R20986:20986 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R20988:20988 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R20993:20994 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R20987:20987 PLF.Stlc STLC x def
+R20989:20992 PLF.Stlc STLC :stlc::'Bool' not
+R20995:20995 PLF.Stlc STLC x def
+R21001:21001 PLF.Stlc STLC :stlc::'('_x_')' not
+R21014:21014 PLF.Stlc STLC :stlc::'('_x_')' not
+R21006:21009 PLF.Stlc STLC :stlc::x_'->'_x not
+R21002:21005 PLF.Stlc STLC :stlc::'Bool' not
+R21010:21013 PLF.Stlc STLC :stlc::'Bool' not
+def 21182:21198 STLC typing_example_1'
+R21209:21213 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R21224:21228 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R21204:21208 PLF.Maps <> empty def
+R21214:21214 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R21216:21216 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R21221:21222 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R21215:21215 PLF.Stlc STLC x def
+R21217:21220 PLF.Stlc STLC :stlc::'Bool' not
+R21223:21223 PLF.Stlc STLC x def
+R21229:21229 PLF.Stlc STLC :stlc::'('_x_')' not
+R21242:21242 PLF.Stlc STLC :stlc::'('_x_')' not
+R21234:21237 PLF.Stlc STLC :stlc::x_'->'_x not
+R21230:21233 PLF.Stlc STLC :stlc::'Bool' not
+R21238:21241 PLF.Stlc STLC :stlc::'Bool' not
+def 21372:21387 STLC typing_example_2
+R21398:21406 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R21457:21465 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R21393:21397 PLF.Maps <> empty def
+R21407:21407 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R21409:21409 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R21414:21422 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R21408:21408 PLF.Stlc STLC x def
+R21410:21413 PLF.Stlc STLC :stlc::'Bool' not
+R21423:21423 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R21425:21425 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R21436:21447 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R21424:21424 PLF.Stlc STLC y def
+R21430:21431 PLF.Stlc STLC :stlc::x_'->'_x not
+R21426:21429 PLF.Stlc STLC :stlc::'Bool' not
+R21432:21435 PLF.Stlc STLC :stlc::'Bool' not
+R21448:21448 PLF.Stlc STLC :stlc::'('_x_')' not
+R21456:21456 PLF.Stlc STLC :stlc::'('_x_')' not
+R21450:21450 PLF.Stlc STLC :stlc::x_x not
+R21449:21449 PLF.Stlc STLC y def
+R21451:21451 PLF.Stlc STLC :stlc::'('_x_')' not
+R21455:21455 PLF.Stlc STLC :stlc::'('_x_')' not
+R21453:21453 PLF.Stlc STLC :stlc::x_x not
+R21452:21452 PLF.Stlc STLC y def
+R21454:21454 PLF.Stlc STLC x def
+R21466:21466 PLF.Stlc STLC :stlc::'('_x_')' not
+R21497:21497 PLF.Stlc STLC :stlc::'('_x_')' not
+R21471:21474 PLF.Stlc STLC :stlc::x_'->'_x not
+R21467:21470 PLF.Stlc STLC :stlc::'Bool' not
+R21489:21492 PLF.Stlc STLC :stlc::x_'->'_x not
+R21475:21475 PLF.Stlc STLC :stlc::'('_x_')' not
+R21488:21488 PLF.Stlc STLC :stlc::'('_x_')' not
+R21480:21483 PLF.Stlc STLC :stlc::x_'->'_x not
+R21476:21479 PLF.Stlc STLC :stlc::'Bool' not
+R21484:21487 PLF.Stlc STLC :stlc::'Bool' not
+R21493:21496 PLF.Stlc STLC :stlc::'Bool' not
+def 21894:21912 STLC typing_nonexample_1
+R21918:21919 Coq.Init.Logic <> ::type_scope:'~'_x not
+R21920:21926 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R21928:21935 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 21927:21927 <> T:57
+R21941:21953 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R22004:22016 PLF.Stlc STLC :::x_'|--'_x_'\in'_x not
+R21936:21940 PLF.Maps <> empty def
+R21954:21954 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R21956:21956 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R21961:21974 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R21955:21955 PLF.Stlc STLC x def
+R21957:21960 PLF.Stlc STLC :stlc::'Bool' not
+R21975:21975 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R21977:21977 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R21982:21998 PLF.Stlc STLC :stlc::'\'_x_':'_x_','_x not
+R21976:21976 PLF.Stlc STLC y def
+R21978:21981 PLF.Stlc STLC :stlc::'Bool' not
+R21999:21999 PLF.Stlc STLC :stlc::'('_x_')' not
+R22003:22003 PLF.Stlc STLC :stlc::'('_x_')' not
+R22001:22001 PLF.Stlc STLC :stlc::x_x not
+R22000:22000 PLF.Stlc STLC x def
+R22002:22002 PLF.Stlc STLC y def
+R22017:22017 PLF.Stlc <> T:57 var
+R23035:23038 PLF.Stlc STLC <> mod
