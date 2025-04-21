@@ -20,7 +20,7 @@ Hi, I'm [Owen Arden](https://owenarden.github.io/home/)!
   
 ## A few essential details about the course
 
-  - Class meets in person {{ site.meeting-time }}, in [Phys Sciences 110](https://its.ucsc.edu/classrooms/media-info/psb110.html)
+  - Class meets in person {{ site.meeting-time }}, in [Stevenson 175](https://its.ucsc.edu/classrooms/media-info/stv175.html)
   - Canvas (for reading responses and grades): <{{ site.canvas-url }}> 
   - Ed Discussion (for announcements, live chat during lectures, Q&A, communicating with Owen, TAs, and your fellow students, etc.): <{{ site.ed-url }}> 
   - New experiment: #general channel on Ed <{{ site.chat-url }}>
