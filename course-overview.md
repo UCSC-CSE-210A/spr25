@@ -15,7 +15,7 @@ Welcome!  This is an overview of the Spring 2025 edition of CSE 210A ("Programmi
 Hi, I'm [Owen Arden](https://owenarden.github.io/home/)! 
   - Contact: **for anything CSE 210A-related, post or send a DM on the [course discussion forum](https://edstem.org/us/courses/77254/discussion) instead.**  Otherwise: <owenarden@ucsc.edu>
   - Office location: Engineering 2, Room 349A
-  - Office hours: By appointment
+  - Office hours: By appointment [on Zoom](https://book.morgen.so/owen/office-hours-zoom) or [in person](https://book.morgen.so/owen/office-hours-irl)
   - Pronouns: he/him/his (singular [they](https://apastyle.apa.org/style-grammar-guidelines/grammar/singular-they) is fine too!)
   
 ## A few essential details about the course
